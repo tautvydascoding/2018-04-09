@@ -1,4 +1,4 @@
-
+﻿
 =========================GIT============================
 
 
@@ -12,7 +12,7 @@ UŽDAVINYS
 4. naudojantis SourceTree arba gitBash console ikelti susikurta faila i serveri:
    git status
    git add --all
-   git commit -m "zinute: klases darvas git"
+   git commit -m "zinute: klases darbas git"
    git pull
    git push  
 
@@ -20,7 +20,7 @@ UŽDAVINYS
  UŽDAVINYS
 1. Sukurti ‘index.html’ bei ‘contacts.html’ failus, kuriuose būtų antraštė bei paragrafas teksto 
 2. ‘index.html’ faile ant teksto uzdeti nuorodą "<a ..." , kuri nurodytų į šį puslapį ‘contacts.html’.
-3. ‘contacts.html’ faile ideti paveikliuka <"<img ..." 
+3. ‘contacts.html’ faile ideti paveikliuka "<img ..." 
 4. ant paveikliuko uzdeti nuorodą "<a ..." , kuri nurodytų į šį puslapį ‘index.html’.
 
 
