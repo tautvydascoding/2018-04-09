@@ -17,7 +17,7 @@ UŽDAVINYS
    git push  
 
 =========================HTML===========================
- UŽDAVINYS
+ UŽDAVINYS 1
 1. Sukurti ‘index.html’ bei ‘contacts.html’ failus, kuriuose būtų antraštė bei paragrafas teksto 
 2. ‘index.html’ faile ant teksto uzdeti nuorodą "<a ..." , kuri nurodytų į šį puslapį ‘contacts.html’.
 3. ‘contacts.html’ faile ideti paveikliuka "<img ..." 
@@ -25,7 +25,7 @@ UŽDAVINYS
 
 
 
- UŽDAVINYS
+ UŽDAVINYS 2
  0. susikurti faila ‘index.html’ 
 1. Pridėti antraštę “Hello world”
 2. Pridėti paragrafą teksto, kurio viduje vienas žodis būtų ‘italic’
@@ -35,7 +35,7 @@ UŽDAVINYS
 6. Nurodyti formos siuntimą per GET metodą į ‘http:// www.google.com/search'
 
 
-UŽDAVINYS
+UŽDAVINYS 3
 1. Sukurti 4 skirtingus HTML puslapius    ‘index.html’, ‘gallery.html’,‘about.html’,‘contacts.html’
 2. Pridėti po paragrafą teksto kieviename
 3. Sukuriame navigacijos/menu sąrašą/punktus su nuorodomis į kitus puslapius
