@@ -1,4 +1,4 @@
-Parsisiusti: GoogleChrome
+﻿Parsisiusti: GoogleChrome
 
 Parsisiusti: Atom
 Isirasyti iskiepius: Atom -> FIle ->settings ->install
@@ -28,8 +28,12 @@ log - java script logo isvedimui
 ctrl + shift + D   - copy - paste visa eilute
 
 ========== Setting ==========
-Plugins -> auto-save -> ON
-Settings -> Editor -> SotWrap  // visas kodas kuris netips  atvaiduoti ekrane, bus nukeltas i kita eilute
+Plugins -> autosave -> ON
+Settings -> Editor -> SoftWrap  // visas kodas kuris netips  atvaiduoti ekrane, bus nukeltas i kita eilute
+
+
+Images:
+GIMP, KRITA, online photoshop
  
 
  Goto-definition   - PHP f-ju atidarymui
