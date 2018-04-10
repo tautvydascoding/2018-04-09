@@ -1,0 +1,23 @@
+h1 {
+  color: orange;
+  font-size: 50px;
+}
+h2 {
+  background-color: pink;
+}
+h3 {
+  color: black;
+}
+/* mokomes class */
+.raudonas {
+  color:red;
+}
+.plotis-50 {
+  width: 50%;
+}
+.fonas-zalias {
+  background-color: green;
+}
+#firmos-sukis {
+    font-size: 90px;
+}
