@@ -1,0 +1,28 @@
+h1 {
+  color: red;
+  font-size: 100px;
+}
+
+h2 {
+  background-color: pink;
+}
+
+/* class pavyzdys */
+
+.raudona {
+  color: red;
+}
+
+.plotis-50 {
+  width: 50%;
+}
+
+.fonas-zalias {
+  background-color: green;
+}
+
+/* id pavyzdys */
+
+#firmos-sukis {
+  font-size: 90px;
+}
