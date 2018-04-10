@@ -1,0 +1,24 @@
+h1 {
+  color: red;
+}
+
+p {
+  background-color: blue;width: 50%;
+}
+
+
+.failiukas {
+  color: green;
+}
+
+#pragaras {
+  font-size: 90px;
+}
+
+h4 {
+  background-color: pink;
+}
+
+div h4 {
+  background-color: yellow;width: 30%;
+}
