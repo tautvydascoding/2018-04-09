@@ -61,11 +61,17 @@ h2 {
 
 
   .straipsnis1, .straipsnis2 {
-    width: 70%;
+    width: 80%;
     margin-top: 20px;
   }
 
   .preke3 {
-    width: 70%;
+    width: 80%;
     margin-top: 20px;
+  }
+
+
+  .straipsnis1, .straipsnis2, .preke3 {
+    margin-left: 10%;
+    margin-right: 10%;
   }

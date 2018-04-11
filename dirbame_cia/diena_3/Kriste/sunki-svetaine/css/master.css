@@ -28,6 +28,7 @@ nav li {
   text-align: center;
   text-transform: capitalize;
   font-size: 35px;
+  font-family: sans-serif;
 }
 
 nav {
@@ -112,5 +113,28 @@ h1 {
   color: white;
 }
 
+main article {
+  padding-left: 5%;
+  padding-right: 5%;
+}
 
+h1, h2, h4 {
+  font-style: italic;
+  font-family: fantasy;
+}
+
+aside ul {
+  list-style-position: inside;
+  text-align: right;
+  padding-right: 25%;
+}
+
+main p::first-line {
+  background-color: rgb(133, 192, 217);
+  text-decoration: underline;
+}
+
+main p {
+  text-indent: 5%;
+}
 /* main ir aside dalis pasibaigia */
