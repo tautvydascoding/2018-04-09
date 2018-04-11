@@ -1,0 +1,23 @@
+h1 {
+  color: orange;
+}
+
+h2 {
+  color: blue;
+}
+
+h2 {
+  color: green;
+}
+
+/* lygiuju atveju - zemiau esantis kodas liks paskutinis ivykdytas, t.y. bus zalias */
+
+div h2 {
+  color: pink;
+}
+
+/* butinas tarpas tarp elementu!! */
+
+section div h2 {
+  color: red;
+}
