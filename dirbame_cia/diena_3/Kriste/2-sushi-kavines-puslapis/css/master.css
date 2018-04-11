@@ -1,0 +1,70 @@
+h1 {
+  text-align: center;
+}
+
+article  {
+  background-color: #f1f1f1;
+    /* f1 sviesesne pilka, kitos tamsesne. IS KUR ZINOT? */
+    /* background-color: grey;  */
+    /* background-color: #a1a1a1; */
+
+/* Dedame straipsniukus i viena eilute su float codu*/
+
+  border-style: solid;
+  border-color: black;
+  width: 30%;
+  float: left;
+  margin-left: 2.5%;
+  position: relative;
+}
+
+/* Dabar isjungsime float coda.
+Pries tai susikureme html faile div klase -niekini elementa. */
+  .isjungiame-float {
+    clear: both;
+  }
+
+p {
+  padding: 5%;
+}
+
+h2 {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  /* top, bottom, left, right - veikia TIK su Position: absolute ar relative*/
+
+  margin: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  border-bottom: solid;
+  border-left: solid;
+  border-color: black;
+
+  background-color: pink;
+  /* uzdedam laikinai, kol paziuresim kaip veikia sluoksniai (layer'iai), nes straipsniu pavadinimus su position comanda nusiunteme i pacio puslapio desines puse. o ne straipsnio viduje :) */
+}
+
+  .preke1 {
+    background-color: pink;
+  }
+
+  .preke2 {
+    background-color: red;
+    color: white;
+  }
+
+  .preke3 h2 {
+    background-color: blue;
+  }
+
+
+  .straipsnis1, .straipsnis2 {
+    width: 45%
+  }
+
+  .preke3 {
+    width: 93.1%;
+    margin-top: 20px;
+  }
