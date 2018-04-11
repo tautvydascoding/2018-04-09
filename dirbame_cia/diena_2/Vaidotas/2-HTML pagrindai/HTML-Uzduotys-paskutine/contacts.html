@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contacts</title>
+</head>
+
+<body>
+
+  <h1>Contacts</h1>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+<!--meniu su linkais  -->
+  <ul>
+    <li><a href="Index.html">Index</a></li>
+    <li><a href="Gallery.html">Gallery</a></li>
+    <li><a href="About.html">About</a></li>
+    <li><a href="Contacts.html">Contacts</a></li>
+  </ul>
+  <!-- linkas i google maps -->
+  <a href="https://maps.google.com" target="_blank"> Google map</a>
+  <!-- mapas su api -->
+  <div id="map" style="width:400px;height:300px;"></div>
+
+  <script>
+    function myMap() {
+      var mapCanvas = document.getElementById("map");
+      var mapOptions = {
+        center: new google.maps.LatLng(54.93, 23.89),
+        zoom: 10
+      };
+      var map = new google.maps.Map(mapCanvas, mapOptions);
+    }
+  </script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3XrqHIcKSfZ-zr8R8HaL-a-A7PtsQiGQ&callback=myMap"></script>
+
+  <!-- google mapsai embeddinti -->
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d681.4405244653399!2d23.891005220137608!3d54.936551930853696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e71f312eda72b7%3A0x4c2cdb5ea30bc005!2sSkanu+Skanu!5e0!3m2!1sen!2slt!4v1523357841262"
+    width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+</body>
+
+</html>
