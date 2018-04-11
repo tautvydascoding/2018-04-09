@@ -1,0 +1,13 @@
+
+div h2 {
+  color:pink;
+}
+h1 {
+  color:orange;
+}
+h2 {
+  color:green;
+}
+section div h2 {
+  color:red;
+}
