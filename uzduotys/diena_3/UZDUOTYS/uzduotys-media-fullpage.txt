@@ -1,0 +1,35 @@
+ 
+Psikartojimui:
+1) sukurti 4 blokus <article> 
+2) i juos ideti teksto 
+3) visus 4-riu bloku fona pakeisti, ir  visus isdelioti i viena eilute
+1) sukurti bloka <section> ir jo viduje 4 mytukus <button>
+2) section - fona pakeisti, ir auksti i 800px
+3) visus mygtukus isdelioti skirtingose “section” bloko vietose (viena virsuje, kita desineje, kaireje, apacioje)
+————————————————
+
+
+Ivykdyti uzduotis is .pdf failo
+
+ 
+ “10 MEDIA QUERIES” - pakoreguoti 6-tos zuduoties kavinę 
+
+
+reikalavimai:
+sukurti prisitaikanti dizaina naudojant: CSS @media
+aprasyti atskirus dizainus: 
+viena telefonui  nuo 320 px
+viena plancetei  nuo 768 px
+
+
+4 -psl.  “Header” svetaine
+Sukurti identiska puslapi
+
+Reikalavimai:
+Visoms antrastems panaudoti spec. font’ą parsisiųstą iš www.fonts.google.com (nesvarbu kokį)
+Meniu punktus kurti naudojant html “li” elementus
+Menu sunktus sudeti i HTML 5 “nav” elementa, 
+Search ir mygtuka - sudeti į savo sugalvota html elementa ( pvz:  <div id=‘search’ > )
+Content ir sidebare dalis i viena eilute sudeti pasinaudojus: “float” vakarykste komanda
+Straipsnisu (3x) ideti i atskirus HTML5 elementus (article)
+Footer copy rights simbolį išvesti pasigooglinus “html symbols codes”
