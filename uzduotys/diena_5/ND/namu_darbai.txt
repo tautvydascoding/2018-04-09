@@ -1,6 +1,6 @@
-1) pasiziureti video apie javascript (kita savaite tai mokinsimes)
+1) pasiziureti video apie javascript (penktadieni tai     mokinsimes)
 
-2) suzaisti CSS Frog zaidima
+2) suzaisti CSS Frog zaidima (googel it)
 
 3) Naudojantis Bootstrap (vėl) suprogramuoti layoutus 2.gif, 5.gif, ….
 
