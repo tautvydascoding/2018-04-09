@@ -1,0 +1,55 @@
+body {
+  font-family: cursive;
+  font-size: 17px;
+  font-style: normal;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.blue {
+  color: blue;
+}
+
+.orange {
+  color: orange;
+}
+
+.pink {
+  color: pink;
+}
+
+.redbg {
+  background-color: #CC1122;
+}
+
+.greenbg {
+  background-color: #11CC11;
+}
+
+.bluebg {
+  background-color: #2211CC;
+}
+
+.orangebg {
+  background-color: #f0940a;
+}
+
+.pinkbg {
+  background-color: #fa20f1;
+}
+
+article {
+  border: solid 5px #111111;
+  margin-bottom: 25px;
+  padding: 10px
+}
+
+.last {
+  margin-bottom: 0;
+}
