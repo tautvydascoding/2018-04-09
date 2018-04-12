@@ -21,3 +21,7 @@ h3 {
 #firmos-sukis {
     font-size: 90px;
 }
+/* pakeitimas tik 1-cia */
+p.fonas-blue {
+    background-color: blue;
+}
