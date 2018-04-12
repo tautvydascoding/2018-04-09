@@ -1,10 +1,13 @@
+
+
+
+
 * {
     /* remeliu isskaiciavimas i ploti */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 /* -------------- */
 h1 {
     color: orange;
@@ -26,3 +29,29 @@ p {
     margin-right: 4%;
     margin-left: 2%;
 }
+
+
+/* ------for Tablet------- */
+/*  nuo 0 iki 768px */
+@media (max-width:  768px  ) {
+    p {
+        width: 92%;
+    }
+    .antras {
+        margin-top: 4%;
+        margin-left: 4%;
+    }
+}
+/* --------for Mobile ------- */
+@media (max-width:  425px  ) {
+    p:not(.pirmas) {
+        display: none;
+    }
+
+    /* arba */
+    .antras {
+        display: none;
+    }
+}
+
+/*  */
