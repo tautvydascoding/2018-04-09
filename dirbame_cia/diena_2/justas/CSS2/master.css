@@ -7,3 +7,6 @@ section h2 {
 div h2 {
   color:pink;
 }
+section div h2 {
+  color:red;
+}

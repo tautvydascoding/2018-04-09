@@ -1,0 +1,87 @@
+html {
+  background-color: #c1c1c1;
+}
+
+body {
+  background-color: #c1c1c1;
+  display: block;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* meniu begin */
+.menu-juosta {
+  background-color: pink;
+  min-height: 80px;
+}
+/* eilute isdeliojimas meniu */
+nav li {
+  display:inline-block;
+  width: 24.5%;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 35px;
+}
+nav {
+  width: 60%;
+  float:left;
+  margin-top: 22px;
+}
+
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+
+/* end meniu */
+
+
+
+/* paieska */
+
+.paieska {
+  width: 40%;
+  float: left;
+  margin-top: 22px;
+}
+
+.paieska input {
+  width:70%;
+  height: 35px;
+  padding-left: 20px;
+}
+.paieska button {
+  background-color: black;
+  color: white;
+  border:none;
+  padding: 12px 36px;
+}
+/* end paieska */
+.wrapper {
+  margin-top: 20px;
+  /*  nukerta turini su puslapiu overflow*/
+  overflow: hidden;
+}
+main {
+  background-color: white;
+  /* minimalus aukstis reikalingas butinai */
+  min-height: 300px;
+  width: 70%;
+  float: left;
+}
+aside {
+  background-color: pink;
+  width: 28%;
+  float:left;
+  margin-left: 2%;
+  /* automatinis aukscio apskaiciavimas */
+  /* ir butinai ant tevinio elemento uzdeti "overflow: hidden;" */
+  margin-bottom: -9999px;
+  padding-bottom: 9999px;
+}
+
+.isjungiau-float {
+  clear:both;
+}

@@ -1,0 +1,39 @@
+h1 {
+  color:red;
+  text-align: center;
+}
+article {
+  background-color: #a1a1a1;
+  width: 30%;
+  /* dedame i viena eilute */
+  float:left;
+  margin-left:1.5%;
+  position: relative;
+}
+.isjungiam-float {
+  clear:both;
+}
+p {
+  padding: 5%''
+
+}
+h2 {
+  position:absolute;
+  /* top,left,...veikia tik su position absolute/relative */
+  top: 0px;
+  right: 0px;
+  margin:0;
+  background-color: pink;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.preke-1 h2 {
+  background-color: pink;
+  z-index: 4;
+}
+.preke-2 h2 {
+  background-color: red;
+}
+.preke-3 h2 {
+  background-color: blue;
+}
