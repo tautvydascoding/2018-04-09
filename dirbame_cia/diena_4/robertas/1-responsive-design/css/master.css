@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  background-color: #c1c1c1;
+  border: solid 1px red;
+  float: left;
+  width: 45%;
+}
+
+.first-text {
+  margin-left: 4%;
+  margin-right: 1%;
+}
+
+.second-text {
+  margin-left: 1%;
+  margin-right: 4%;
+}
+
+/* ------for Tablets------- */
+
+/* nuo 0 iki 769px */
+
+@media (max-width: 768px) {
+  p {
+    width: 92%;
+  }
+
+  .second-text {
+    margin-left: 4%;
+    margin-top: 4%;
+  }
+}
+
+/* ---------for Mobile----------- */
+
+@media (max-width: 425px) {
+  p:not(.first-text){
+    display: none;
+  }
+}
+
+/*---My classes----*/
+
+.clear-both {
+  clear: both;
+}
