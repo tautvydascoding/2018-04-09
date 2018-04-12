@@ -1,0 +1,140 @@
+html {
+  background-color: #a1a1a1;
+    /* panaudojau sviesesne pilka, negu buciau tiesiog uzrasius grey */
+}
+
+body {
+  display: block;
+
+  /* elemento centravimas. BUTINAS plotis, nes kitaip nebusi centre, nes html'e ir taip viskas uzima visa ploti, tai tu ar taip ar taip visada centre */
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* -------MENU dizainas------- */
+.meniu-juosta {
+  background-color: pink;
+  height: 80px;
+}
+
+
+/* Dabar naudosime display inline comanda, o ne float - abu variantai -ok */
+nav li {
+  display: inline-block;
+  /* geriausia naudoti ne paprasta inline, o iskart inline-block. naudojant paprasta, gali buti bug'u. Block yra stipresnis ir sublokuoja */
+  width: 24.5%;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 35px;
+  font-family: sans-serif;
+}
+
+nav {
+  width: 60%;
+  float: left;
+  margin-top: 22px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  /* jeigu kazkur buti dar navigacija (nav) , tada aukstesni teva imtume, siuo atveju .meniu-juosta arba dar auksciau "header" */
+}
+
+/* -------!end MENU dizainas------- */
+
+/* PAIESKOS dizainas---- */
+
+#paieska input {
+  width: 70%;
+  height: 35px;
+  padding-left: 20px;
+}
+
+#paieska button {
+  width: 20%;
+  background-color: black;
+  color: white;
+  border: none;
+  /* arba border: 0px;  - ta prasme, kad tu sumazini remele iki nulio ir jo tada nesimato, nes jis lygus nuliui*/
+  padding: 12px 36px;
+}
+
+#paieska {
+  width: 40%;
+  float: left;
+  margin-top: 22px;
+}
+
+/* end! PAIESKOS dizainas ---- */
+
+
+
+/* main ir aside dalis prasideda */
+
+main {
+  background-color: white;
+  min-height: 300px;
+  width: 70%;
+  float: left;
+}
+
+
+aside {
+  background-color: blue;
+  width: 28%;
+  float: left;
+  /* bet galima ir pvz rasyti float: right, nes dabartiniu atveju kai du blokai tai absoluciai tas pats */
+  margin-left: 2%;
+  margin-bottom: -9999px;
+  padding-bottom: 9999px;
+  /* deti ant to elemento, kuriam norime apskaiciuoti auksti. Taigi, dvi auksciau esancios komandos automatiskai apskaiciuoja auksti ir dar reikia prie ju bendro tecio reikia komandos */
+}
+
+/* labai svarbu nepamirsti isjungti float, kai jau panaudosi ir toliau nebereikes */
+.isjungiu-float {
+  clear: both;
+}
+
+.wrapper {
+  margin-top: 20px;
+  overflow: hidden;
+  /* sita komanda uzdedame butinai prie tu elementu bendro tecio. tai yra prie tu dvieju anksciau uzdetu padding ir margin prie to elemento, kurio auksti norejome apsakaisiuoti- nupjauna apacia pagal pirmojo elemento auksti. nes tetis kazkodel ziuri visada i pirma vaika ir pagal ji nupjauna. */
+}
+
+h2 {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+main article {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+h1, h2, h4 {
+  font-style: italic;
+  font-family: fantasy;
+}
+
+aside ul {
+  list-style-position: inside;
+  text-align: right;
+  padding-right: 25%;
+}
+
+main p::first-line {
+  background-color: rgb(133, 192, 217);
+  text-decoration: underline;
+}
+
+main p {
+  text-indent: 5%;
+}
+/* main ir aside dalis pasibaigia */
