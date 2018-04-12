@@ -1,0 +1,59 @@
+h1 {
+font-family:"Comic Sans MS";
+text-align: center;
+margin-top: 30px;
+margin-bottom: 60px;
+}
+
+article{
+  background-color: #b2b2b2;
+  width:30%;
+    /* dedame i viena eilute naudojant float */
+  float:left;
+  margin-left: 2.45%;
+  position: relative;
+  border-style: solid;
+  }
+
+
+p{
+  /* paragrafo paddingo dejimas */
+  padding:5%;
+  margin-top: 15px;
+  font-family:"Comic Sans MS";
+  font-weight: 400;
+
+}
+
+h2{
+  font-family:"Comic Sans MS";
+  position: absolute;
+  /* top, left,... veikia TIK su position:abolute; ar position:relative; */
+  top: 0px;
+  right: 0px;
+  margin: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-left: solid;
+  border-bottom: solid;
+  border-color: black;
+}
+
+
+.preke-1 h2{
+  background-color: #f18973;
+}
+
+.preke-2 h2{
+  background-color: #c94c4c;
+  color: white;
+}
+
+.preke-3 h2{
+  background-color: #ffef96;
+}
+
+/* reikalauja div po floatinto bloko */
+.isjungiu-float{
+  clear:both;
+}

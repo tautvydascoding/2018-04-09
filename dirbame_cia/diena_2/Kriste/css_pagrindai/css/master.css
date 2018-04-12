@@ -1,0 +1,25 @@
+h1 {
+  color: orange;
+}
+
+h2 {
+  background-color: pink;
+}
+
+.raudona {
+  color: red;
+}
+
+.plotis-50 {
+  width: 50%;
+}
+
+.fonas-zalias {
+  background-color: green;
+}
+
+#firmos-sukis {
+  font-size: 90px;
+}
+
+/* komentarai css darosi cmd+/ */

@@ -1,3 +1,35 @@
 h1 {
     color: orange;
-}  
+}
+
+h2 {
+    color: blue;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 900;
+}
+/* lygiuju atveju zemesnis elementas visada suveiks */
+div  h2 {
+    color: pink;
+}
+h2 {
+    color: green;
+}
+section div h2 {
+    color: red;
+}
+/* pakeisime tik 3-cia */
+p  .fonas-blue {
+    background-color: blue;
+}
+/* pakeisime tik 1-cia */
+p.fonas-blue {
+    background-color: orange;
+}
+
+
+/*  */

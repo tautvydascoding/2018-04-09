@@ -1,0 +1,48 @@
+h1 {
+  color: red;
+}
+
+p {
+  background-color: blue;width: 50%;
+}
+
+
+.failiukas {
+  color: green;
+}
+
+#pragaras {
+  font-size: 90px;
+}
+
+h4 {
+  background-color: pink;
+}
+
+div h4 {
+  background-color: yellow;width: 30%;
+}
+
+/* per kableli galime isvardinti kiek norime elementu ir jiems visiems pakeisti stiliu */
+h1, h2, p {
+  font-weight: bold; color: green; background-color: yellow;
+}
+
+
+
+
+
+/* CSS selektoriai */
+
+p .fonas-blue {
+  background-color: blue;
+}
+
+/* pakeis tekstas3 */
+
+
+p.fonas-blue {
+  background-color: pink;
+}
+
+/* pakeis tekstas1 */

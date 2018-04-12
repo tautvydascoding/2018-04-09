@@ -1,0 +1,45 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+article {
+    background-color: #a1a1a1;
+    /* background-color: #f1f1f1; */
+
+    /* dedame i viena eilute */
+    width: 30%;
+    float: left;
+    margin-left: 2.5%;
+
+    position: relative;
+}
+.isjungiam-float {
+    clear: both;
+}
+p  {
+    padding: 5%;
+}
+h2 {
+    position: absolute;
+    /* top, left,... veikia TIK
+    su position: absolute/reletive */
+    top: 0;
+    right: 0px;
+
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.preke-1 h2 {
+    background-color: pink;
+    z-index: 3;
+}
+.preke-2 h2 {
+    background-color: red;
+    z-index: 4;
+}
+.preke-3 h2{
+    background-color: blue;
+}
+
+/*  */

@@ -1,0 +1,37 @@
+
+  h1{
+    color:orange;
+    font-size:40px;
+    text-align: center;
+    font-family: fantasy;
+    border-color: black;
+    border-style: groove;
+    border-radius: 100px;
+    width: 50%;
+    background-position: center;
+
+    }
+
+h2{
+  background-color: pink;
+  }
+
+/* klases taisykles */
+  .raudonas{
+  color:red;
+  }
+
+  .plotis-50{
+    width: 50%;
+  }
+
+  .fonas-zalias{
+    background-color: green;
+  }
+/* ID, gali buti tik vienas faile */
+  #firmos-sukis{
+    font-size: 90px;
+
+
+
+  }
