@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.page-heading {
+  text-align: center;
+}
+
+.plotis-30 {
+  width: 30%;
+}
+
+.plotis-50 {
+  width: 50%;
+}
+
+.plotis-100 {
+  width: 100%;
+}
+
+.fonas-blue {
+  background-color: #31d3fc;
+}
+
+.fonas-orange {
+  background-color: orange;
+}
+
+.fonas-green {
+  background-color: #00cc00;
+}
+
+.float-left {
+  float: left;
+}
+
+.margin-x {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+article {
+  margin-bottom: 1%;
+}
+
+.centered-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+/*---My classes----*/
+
+.clear-both {
+  clear: both;
+}

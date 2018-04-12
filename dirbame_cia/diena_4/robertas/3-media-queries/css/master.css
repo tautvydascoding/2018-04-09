@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  background-color: #AAAAAA;
+  float: left;
+  position: relative;
+  margin-left: 2.5%;
+  width: 30%;
+}
+
+p {
+  padding: 5%;
+}
+
+h2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.main-heading {
+  text-align: center;
+}
+
+.preke-1 h2 {
+  background-color: pink;
+}
+
+.preke-2 h2 {
+  background-color: red;
+}
+
+.preke-3 h2 {
+  background-color: yellow;
+}
+
+/*---My classes----*/
+
+.clear-both {
+  clear: both;
+}

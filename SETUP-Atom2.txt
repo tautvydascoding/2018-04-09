@@ -14,6 +14,8 @@ beautify       // ivykdo ctrl + ALT + B
 color-picker   // ijungimas Alt + C
 jQuery-snippets
 jquery
+atom-bootstrap4
+v-bootstrap4
 
 =========short-cuts=============:
 p, a, button, header, footer, section … - HTML 5 auto elementu kurimas
