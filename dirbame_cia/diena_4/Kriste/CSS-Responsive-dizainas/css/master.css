@@ -1,0 +1,83 @@
+h1 {
+  color: rgb(228, 125, 3);
+  text-align: center;
+}
+
+article {
+  width: 45%;
+  float: left;
+  border-style: solid;
+  border-color: rgb(183, 5, 219);
+  background-color: rgb(174, 241, 137);
+  box-sizing: border-box;
+  /* si komanda su box sizing padaro taip, kad remelis butu iskaiciuotas i bendra article ploti.
+  galima padaryti iskart, kad visiems remeliams butu iskart taikoma tokia salyga su simboliu * - (*) reiskia all, t.y.
+  * {
+    box-sizing: border-box;
+  }
+  jeigu imame kita, t.y. Content box - tai remelius prideda dar papildomai.
+  komentaro pabaida.*/
+
+}
+
+p {
+  color: rgb(19, 64, 159);
+  text-indent: 10%;
+  font-style: italic;
+}
+
+.pirmas {
+  margin-left: 4%;
+}
+
+.antras {
+  margin-left: 2%;
+  margin-right: 4%;
+}
+
+.isjungiu-float {
+  clear: both;
+}
+
+
+
+/* !-- for Tablet -->
+
+<!-- cia reiskia nuo 0 iki 768 (maksimalus plotis) --> */
+
+@media (max-width: 768px) {
+  article {
+    width: 92%;
+  }
+  .pirmas {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+  }
+  .antras {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+}
+/* Baigiau for Tablet */
+
+
+/* for Mobile */
+/* <!-- cia reiskia nuo 0 iki 425 (maksimalus plotis) --> */
+@media (max-width: 425px) {
+  article {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .antras {
+    display: none;
+  }
+  /* p:not(.pirmas) {
+    display: none;
+  }
+  /* virsuje uzkomentintas antras galimas budas, kaip padaryti, kad tau ant telefono rodytu ekrane tip pirma straipsni */
+}
+
+/* baigiau for Mobile */
