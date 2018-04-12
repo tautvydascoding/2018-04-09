@@ -1,0 +1,97 @@
+html{
+  background-color: #c1c1c1;
+}
+
+body{
+    width: 1100px;
+    display: block;
+    /* elemento centravimos */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  }
+
+/* meniu-juosta */
+.meniu-juosta {
+  background-color: #ff80ff;
+  min-height: 80px;
+
+}
+
+nav ul li{
+  display: inline-block;
+  width: 24.5%;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 35px;
+}
+
+nav{
+  /* background-color: yellow; */
+  width: 60%;
+  float: left;
+  margin-top: 22px;
+}
+
+nav ul{
+  padding: 0;
+  margin: 0;
+}
+/* meniu pabaiga */
+
+/* paieska */
+.paieska{
+  background-color: green;
+  width: 40%;
+  float: left;
+  margin-top: 22px;
+}
+.paieska input{
+    width: 70%;
+    height: 35px;
+    padding-left: 15px;
+}
+
+.paieska button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding:12px 36px;
+
+}
+/* main body */
+main {
+  background-color: white;
+  min-height: 300px;
+  width: 70%;
+  float:left;
+}
+
+aside {
+  background-color: #ff80ff;
+  width: 28%;
+  float:left;
+  margin-left: 2%;
+  /* automatinis aukscio isskaiciavimas */
+  margin-bottom:-9999px;
+  padding-bottom: 9999px;
+  }
+
+
+/* paieskos pabaiga */
+
+.wrapper{
+  margin-top: 20px;
+  overflow: hidden;
+
+}
+
+.isjungiu-float{
+  clear:both;
+}
