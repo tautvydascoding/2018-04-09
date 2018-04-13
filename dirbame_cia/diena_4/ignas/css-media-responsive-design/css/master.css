@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+
+h1 {
+    color: black;
+}
+p {
+  width: 45%;
+  float: left;
+  background-color: grey;
+  border: solid 1px red;
+}
+.pirmas {
+  margin-left: 4%;
+}
+.antras {
+  margin-left: 2%;
+  margin-right: 4%;
+}
+
+/* media for tablets */
+
+@media (max-width: 768px) {
+  /* nuo 0 iki 768px */
+  p {
+    width: 92%;
+    margin-left: 4%;
+  }
+  .antras {
+    margin-left: 4%;
+    margin-top: 4%;
+  }
+}
+
+/* media for mobile */
+
+@media (max-width: 425px) {
+  p:not(.pirmas) {
+    display: none;
+    /* arba */
+    /* .antras {
+      display: none;
+      } */
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.isjungiu-float {
+  clear: both;
+}

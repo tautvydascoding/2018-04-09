@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+}
+
+.plotis-30 {
+  width: 30%;
+  margin-left: 2.5%;
+}
+.plotis-50 {
+  width: 46.25%;
+  margin-left: 2.5%;
+}
+.plotis-50 {
+  width: 46.25%;
+}
+.plotis-100 {
+  width: 95%;
+  margin-left: 2.5%;
+}
+.fonas-blue {
+  background-color: blue;
+}
+.fonas-orange {
+  background-color: orange;
+}
+.fonas-green {
+  background-color: green;
+}
+.ijungiu-float {
+  float: left;
+}
+.isjungiu-float {
+  clear: both;
+}
+/* lygiavimas */

@@ -1,0 +1,9 @@
+* {
+  /* remeliu iskaiciavimas i ploti */
+  box-sizing: border-box;
+}
+
+.isjungiu-float {
+  /* isjungia float */
+  clear: both;
+}
