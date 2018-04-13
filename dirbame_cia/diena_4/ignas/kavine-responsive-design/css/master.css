@@ -1,0 +1,67 @@
+h1 {
+    color: #1D1F21;
+    text-align: center;
+}
+
+/* background colors pradzia */
+
+.fonas-ruzavas {
+  background-color: #D59898;
+}
+.fonas-raudonas {
+  background-color: #C14543;
+}
+.fonas-geltonas {
+  background-color: #E5D198;
+}
+
+/* background colors pabaiga */
+
+
+/* positions pradzia */
+
+article {
+  width: 30%;
+  margin-left: 2.5%;
+  float: left;
+  border: solid 2px;
+  background-color: #999999;
+}
+h2 {
+  width: 25%;
+  border: solid 2px;
+  text-align: center;
+  margin-top: 0;
+  float: right;
+  border-top: 0;
+  border-right: 0;
+}
+p {
+  padding: 30px 10px 10px;
+}
+
+/* positions pabaiga */
+
+
+/* media pradzia */
+
+
+@media (max-width: 768px) {
+  .pirmas, .antras {
+    width: 46.35%;
+    margin-left: 2.25%;
+    float: left;
+  }
+  .trecias {
+    width: 95.5%;
+    margin-left: 2.25%;
+    margin-top: 2.25%;
+  }
+}
+
+@media (max-width: 425px) {
+  article {
+    width: 95%;
+    margin-left: 5%;
+  }
+}
