@@ -1,0 +1,43 @@
+
+
+html {
+  background-color: grey;
+}
+h1 {
+  text-align: center;
+}
+header {
+  background-color: white;
+}
+.menu-juosta {
+  height: 80px;
+  width: 100%;
+}
+.paieskos-laukelis {
+  width: 35%;
+  float: left;
+  margin-top: 2.3%;
+}
+nav li {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  margin-top: 3.3%;
+  font-size: 150%;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  width: 65%;
+  float: left;
+}
+input {
+  height: 25px;
+}
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  height: 25px;
+  padding: 0 10px;
+}
