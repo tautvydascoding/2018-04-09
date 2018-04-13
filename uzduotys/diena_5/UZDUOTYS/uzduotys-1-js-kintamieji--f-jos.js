@@ -3,7 +3,7 @@
 // vardas, pavarde, amzius, atlyginimas
 
 // teo:
-//  typeof( k ); f-ja kuri isveda kintamojo tipa
+//  typeof( vardas ); f-ja kuri isveda kintamojo tipa
 
 
 //  2 UZDUOTIS
