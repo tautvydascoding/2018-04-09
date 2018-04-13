@@ -1,0 +1,70 @@
+*{
+  box-sizing:border-box;
+}
+
+h1 {
+    color: orange;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-weight:bolder;
+  /* font-size: 30px; */
+}
+
+article{
+  border: solid black ;
+}
+p {
+  text-align: justify;
+  padding: 5px 5px 5px 5px;
+}
+
+.marginai-reklamai{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 2.5%;
+  margin-right: 2%;
+}
+
+.margin-left-2{
+  margin-left: 2.5%;
+}
+.margin-right-2{
+  margin-right: 2.5%;
+}
+
+
+.plotis-30{
+  width: 30%;
+}
+.plotis-50{
+  width: 47%;
+}
+.plotis-100{
+  width: 95%;
+}
+
+.fonas-blue{
+  background-color: #9999ff;
+}
+.fonas-orange{
+  background-color: #ff8533;
+}
+.fonas-green{
+  background-color: #5cd65c;
+}
+
+.ijungiu-float{
+    float: left;
+    /* arba  */
+    /* display:inline-block; */
+}
+.ijungiu-float-desine{
+  float:right;
+}
+.isjungiu-float{
+  clear: both;
+}

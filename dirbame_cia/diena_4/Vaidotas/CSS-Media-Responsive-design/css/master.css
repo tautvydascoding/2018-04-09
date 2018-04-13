@@ -1,0 +1,60 @@
+h1 {
+    color: orange;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+/* p{
+  width: 45%;
+  background-color: #c1c1c1;
+  float: left;
+  } */
+
+  p{
+    width: 45%;
+    border-style: dashed;
+    background-color: #c1c1c1;
+    float: left;
+  }
+  .pirmas{
+    margin-left: 4%;
+  }
+
+  .antras{
+    margin-left: 2%;
+    margin-right: 4%;
+  }
+
+
+@media (max-width:425px){
+  p{
+    width: 96%;
+    border-style: groove;
+    margin-left: 2%;
+    margin-right: 2%;
+    }
+  /* .antras{
+    display: none;
+  } */
+    p:not(.pirmas){
+      display: none;
+    }
+}
+
+
+@media (max-width:768px) {
+  p{
+    border-style:double;
+    width: 92%;
+    }
+  .antras{
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+}
+
+.isjungiu-float{
+  clear:both;
+}

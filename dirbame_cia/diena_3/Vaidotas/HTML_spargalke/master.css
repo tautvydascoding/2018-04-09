@@ -10,12 +10,31 @@ body{
     margin-right: auto;
 }
 
+p{
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 20px;
+  page-break-after: auto;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Rammetto One', cursive;
+}
+
 h1{
   color: white;
   font-size: 45px;
   text-align: center;
   text-shadow: 2px 2px 4px #000000;
   }
+
+h2{
+  font-size: 25px;
+  text-align: center;
+
+}
 
 /* meniu-juosta */
 .meniu-juosta {
