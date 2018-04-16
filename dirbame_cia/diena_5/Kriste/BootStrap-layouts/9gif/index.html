@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BootStrap Layouts</title>
+
+
+    <!-- cia mes nurodome visus failus, kuriuos naudojame. Cia zemiau idesiu link'a, kad padarytu CSS normalize. Imu faila is interneto siandien. Bet pavojinga, nes jei internete jo neliks, tai bus BLOGAI!! -->
+
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
+
+    <!-- sita komanda svarbu ideti tam kad Chrome galetu apsimeesti kitais device, t.y. parodyti kaip musu ekranas atrodys and mobile, tablet ir t.t. - MUMS testuojant LABAI sitas yra svarbus dalykas -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- dedame Bootstrap nuoroda is interneto -->
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> -->
+
+<!-- bet as dabar parsisiunciau i kompa bootstrap failus, todel darysiu link su kompo failu -->
+
+
+<link rel="stylesheet" href="libs/bootstrap-4/css/bootstrap.css">
+
+
+    <!-- SVARBU!!!
+    Mano css failas yra VISADA zemiausias. Nes skaitoma nuo virsaus i apacia.
+    Nes mes norime, kad musu kodas butu naudojamas kaip galutinis tiems elementams, kurie kituose failuose gali atrodyti visai kitaip nei kad as noriu.!!!!
+    !!!!!!! -->
+
+    <link rel="stylesheet" href="css/master.css">
+
+
+    <!-- zemiau uz musu css faila eina Javascriptai!!!!!!!!!!! -->
+
+  </head>
+  <body>
+
+<!-- start 1 conteineris -->
+
+<div class="container-fluid">
+<!-- visas puslapis tapo siauresnis iskart, vien del to, kad uzdejome "container" .
+Bet jei padareme "container-fluid", tai per visa ekrana-->
+
+<!-- start 1 eilute -->
+<header class="row">
+  <div class="col-md-12 bg-secondary aukstis-200"> Header </div>
+</header>
+  <!-- end 1 eilute-->
+
+
+<!-- start 2 eilute -->
+<div class="row">
+
+  <!-- start 1 stulpelis -->
+    <div class="col-md-3">
+
+      <nav class="row aukstis-200">
+        <div class="col-md bg-success"> Nav </div>
+      </nav>
+
+      <div class="row aukstis-200">
+        <div class="col-md bg-info"> Ads </div>
+      </div>
+
+    </div>
+  <!-- end 1 stulpelis -->
+
+
+  <!-- start 2 stulpelis -->
+    <div class="col-md-9">
+
+      <article class="row aukstis-300">
+        <div class="col-md bg-danger"> Article </div>
+      </article>
+
+      <footer class="row aukstis-100">
+        <div class="col-md bg-secondary"> Footer </div>
+      </footer>
+
+    </div>
+  <!-- end 2 stulpelis -->
+
+
+</div>
+<!-- end 2 eilute-->
+
+
+</div>
+<!-- uzdaro 1 container -->
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
