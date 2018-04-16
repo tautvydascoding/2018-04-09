@@ -134,7 +134,7 @@ main p::first-line {
   text-decoration: underline;
 }
 
-main p {
+main p: {
   text-indent: 5%;
 }
 /* main ir aside dalis pasibaigia */
