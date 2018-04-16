@@ -1,0 +1,49 @@
+* {
+  /* remeliu isskaiciavimas i ploti */
+  box-sizing: border-box;
+
+}
+ h1 {
+   color: orange;
+ }
+ p {
+   width:45%;
+   background-color: #c1c1c1;
+   float: left;
+   border: solid 1px red;
+
+ }
+  .pirmas {
+    margin-left: 4%;
+  }
+  .antras {
+margin-right: 4%;
+margin-left: 2%;
+  }
+  .isjungiu-float {
+    clear: both;
+  }
+
+/* for tablet */
+/* nuo 0 iki 768px */
+
+@media (min-width: 768px) {
+ p {
+   width: 92%;
+ }
+ .antras {
+   margin-left: 4%;
+   margin-left: 4%;
+ }
+}
+/* for mobile */
+@media (max-width: 425px) {
+  p:not(.pirmas) {
+    display: none;
+  }
+
+/* arba */
+.antras {
+  display: none;
+}
+}
