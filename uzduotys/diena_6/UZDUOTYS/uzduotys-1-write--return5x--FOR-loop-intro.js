@@ -82,12 +82,12 @@
 
 // 1 UZDUOTIS
 // naudojant FOR cikla, atspausdinti  "#" tiek, kad gautusi trikampio vaizdas
-#
-##
-###
-####
-#####
-######
+// #
+// ##
+// ###
+// ####
+// #####
+// ######
 
 //=========== =KOMANDINE (3-4h) Bootstrap && GIT=================
 // ant lentos

@@ -23,7 +23,28 @@ console.log(  gretute );
 // sukurti kintamaji "vardas" Tomas
 // patikrinti ar veikia f-ja
 
+function getVardas() {
+    var name = 'Tomas';
+    return name;
+}
+var y = getVardas();
+console.log(   "mano vardas:  ", y  );
+// ARBA
+// console.log(    getVardas()     ); // 'tomas'
+
 // 3 UZDUOTIS
 // parasyti f-ja "getVardasPavarde()", kuri turi "return" zodeli ir grazina varda ir pavarde i iskveitimo vieta.
 // sukurti kintamaji   "pavarde" Tomauskas, vardas - Antanas
 // patikrinti ar veikia f-ja
+function getVardasPavarde() {
+    var pavarde = 'Tomauskas';
+    var vardas = 'Antanas';
+    var tekstas = vardas + " " + pavarde;
+    return tekstas;
+}
+
+// console.log(  getVardasPavarde()  );
+// ARBA
+
+var z = getVardasPavarde() ;
+console.log(  z );
