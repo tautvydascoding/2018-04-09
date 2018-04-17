@@ -1,4 +1,7 @@
 // =================if  teorija====================
+// if ( true ) {
+//     console.log("labas");
+// }
 
 // if (salyga) {
 //     // jei true
