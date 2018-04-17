@@ -1,3 +1,6 @@
+console.log( "labas as cia" );
+
+
 //==============TEORIJA ++ / -- ==========
     // var x = 10;
     // x = x + 1;  // x = 11
@@ -10,10 +13,22 @@
 // 1 UZDUOTIS
 // isvesti 50 kartu zodi "Azuolas" i konsole  (! bandant tai padaryti, atsiras skaicius 50)
 
+for (var i = 0; i < 50; i++) {
+    console.log( "Azuolas ", i );
+}
+
 // 1.1 UZDUOTIS
-    // isvesti i ekrana "<h3> Azuolas </h3>" su document.write arba innerHTML
+document.write( "<h3> mano tekstas </h3> ");
+
+// querySelector - iesko elemnto/class/id     HTML faile
+var x = document.querySelector('article');
+// console.log( x );  // tekstas
+x.innerHTML += "<h2> Pakeistas tekstas su js </h2>";
+
+
 // 1.2 UZDUOTIS
 // isvesti 50 kartu zodi "<h2> Azuolas</h2> " i <article> elementa su  innerHTML pagalba
+
 
 // 2.1 UZDUOTIS
 // sukurti f-ja "printX(xx)" i browser langa (panaudojanti document.write arba innerHTML)
