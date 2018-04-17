@@ -1,0 +1,52 @@
+.height-100px {
+  height: 100px;
+}
+
+.height-200px {
+  height: 200px;
+}
+
+.height-600px {
+  height: 600px;
+}
+
+.height-800px {
+  height: 800px;
+}
+
+.height-1000px {
+  height: 1000px;
+}
+
+.margin-top {
+  margin-top: 10px;
+}
+
+.margin-bottom {
+  margin-bottom: 10px;
+}
+
+.margin-left {
+  margin-left: 10px;
+}
+
+.margin-right {
+  margin-right: 10px;
+}
+
+/* @media (min-width: 427px) {
+  .auto-height-parent {
+    overflow: hidden;
+  }
+  .auto-height {
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+  }
+} */
+
+@media (max-width: 767.9px) {
+  .remove-mobile-margin-x {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
