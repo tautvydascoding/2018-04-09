@@ -40,3 +40,15 @@ h1 {
 }
 .g_h1{
   text-align: center;
+}
+
+.i_article-p {
+  width: 30%;
+}
+
+.i_ad{
+  background-image: url("../img/didele_reklama1.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 20rem;
+}
