@@ -7,13 +7,9 @@
 
 /* -------------- */
 h1 {
-    color: black;
+    color: orange;
 }
 
-.g_h1{
-  text-align: center;
-
-}
 .aukstis-100 {
     height: 100px;
 }
@@ -29,15 +25,6 @@ h1 {
 .aukstis-500 {
     height: 500px;
 }
-
-.isjungiu-float{
-  clear:both;
-}
-
-.float-kaire{
-  float:left;
-}
-
-.float-desine{
-  float:right;
+.Reklama{
+  width: 100px;
 }

@@ -1,0 +1,36 @@
+.k-aukstis-100 {
+  height: 100px;
+  position: relative;
+}
+
+.k-meniu {
+  color: white;
+}
+
+#logo {
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0;
+}
+
+.k-aukstis-300 {
+  height: 300px;
+}
+
+.k-aukstis-150 {
+  height: 150px;
+  background-image: url("../1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+}
+
+.k-h1 {
+  text-align: center;
+}
+
+.k-body {
+  background-color: red;
+}

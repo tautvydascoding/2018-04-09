@@ -1,17 +1,12 @@
+
+
 * {
-    /* remeliu isskaiciavimas i ploti */
+     /* remeliu isskaiciavimas i ploti */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
 
-/* -------------- */
-h1 {
-    color: black;
-}
-
-.g_h1{
-  text-align: center;
+/* aukscio ir plocio nustatymai */
 
 }
 .aukstis-100 {
@@ -29,15 +24,19 @@ h1 {
 .aukstis-500 {
     height: 500px;
 }
+.plotis-100 {
+  width: 100%;
+}
+.mp0 {
+  margin: 0;
+  pading: 0;
 
-.isjungiu-float{
-  clear:both;
+/* spalvu nustatymai */
+
+
+}
+.fablack {
+  color: black;
 }
 
-.float-kaire{
-  float:left;
-}
-
-.float-desine{
-  float:right;
-}
+/* shaped kontaktai */
