@@ -7,10 +7,8 @@
 
 /* -------------- */
 h1 {
-    color: orange;
+    color: black;
 }
-
-.i_h1{
 
 }
 .aukstis-100 {
@@ -27,4 +25,30 @@ h1 {
 }
 .aukstis-500 {
     height: 500px;
+}
+
+.isjungiu-float{
+  clear:both;
+}
+
+.float-kaire{
+  float:left;
+}
+
+.float-desine{
+  float:right;
+}
+.g_h1{
+  text-align: center;
+}
+
+.i_article-p {
+  width: 30%;
+}
+
+.i_ad{
+  background-image: url("../img/didele_reklama1.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 20rem;
 }
