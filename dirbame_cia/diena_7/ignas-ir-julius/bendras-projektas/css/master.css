@@ -30,6 +30,10 @@
     height: 500px;
 }
 
+.Reklama{
+  width: 100px;
+}
+
 body, html {
     height: 100%;
 }
@@ -44,4 +48,5 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
