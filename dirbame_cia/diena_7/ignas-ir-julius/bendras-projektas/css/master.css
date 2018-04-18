@@ -6,8 +6,12 @@
 }
 
 /* -------------- */
-h1 {
-    color: orange;
+.menu-aukstis {
+  font-size: 40px;
+}
+
+.paragrafai {
+  min-height: 600px;
 }
 
 .aukstis-100 {
@@ -25,6 +29,24 @@ h1 {
 .aukstis-500 {
     height: 500px;
 }
+
 .Reklama{
   width: 100px;
+}
+
+body, html {
+    height: 100%;
+}
+.bg {
+    /* The image used */
+    background-image: url("header.jpg");
+
+    /* Half height */
+    height: 50%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
