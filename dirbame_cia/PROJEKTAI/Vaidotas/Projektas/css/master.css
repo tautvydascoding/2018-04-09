@@ -7,9 +7,12 @@ h1 {
 
 .nav-link{
   border: solid 1px ;
-  font-style:
-  background-color: #dddddd;
 }
+
+.back{
+  background-color: #e6e6e6;
+}
+
 footer{
   border-top: solid  #dddddd 2px;
   background-color: #e6e6e6;
@@ -21,7 +24,7 @@ footer{
     height: 25%;
 }
 body{
-  background-image: url("Images/portrait-image.jpg");
+  background-image: ("Images/portrait-image.jpg");
 
 }
 
