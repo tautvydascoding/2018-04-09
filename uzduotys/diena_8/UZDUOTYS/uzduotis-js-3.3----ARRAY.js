@@ -1,6 +1,6 @@
 // ========js best practice & common mistakes (~2h)
 
-// -------- --Array / Masyvai  TEORIJA (~2h)--------------------
+// -------- --Array / Masyvai  TEORIJA (~2h)----------
 	// UZDUOTIS
 	var prekiautojai = []; // empty array
 
@@ -10,13 +10,13 @@
 	prekiautojai[2] = "Lidl";
 	prekiautojai[3] = "Rimi";
 	prekiautojai[50] = "Cia Market";
-	
+
 	// A) pervadinti pirma stalciu
 	prekiautojai[1] = "Barbora";
-	
+
 	// B) sukeisti antro ir trecio stalciu reiksmes vietomis.
-	// !negalima rasyti rankomis String (nes duomenys kinta, ir jus nezinote koki duomenys bus po savaites) 
-	 
+	// !negalima rasyti rankomis String (nes duomenys kinta, ir jus nezinote koki duomenys bus po savaites)
+
 	// C) padaryti B) uzdaviniui f-ja sukeistiMasyvo2elementus(x, y)
 
 // -------- --Array / Masyvai  TEORIJA (~2h)--------------------

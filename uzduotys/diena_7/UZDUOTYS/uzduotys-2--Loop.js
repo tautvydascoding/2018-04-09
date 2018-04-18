@@ -26,8 +26,11 @@
 // skirtingius paveikslelius
 
 // 4 UZDUOTIS
-// A) sukurti f-jas piestiEilute(x); spausdintiStulpeli(x);
+// A) sukurti f-jas piestiEilute(ilgis); spausdintiStulpeli(ausktis);
+//      "x" - skaicius, kuris nurodo kokio ilgumo eilute/stulpeli piesti
 // B) nupiesti tuscia lentele paleidiznat f-jas (  antrastine eilute "vardas |  pavarde | amzius" - teks isvesti be f-jos)
+
+
 
 // ----------------------------
 // vardas |  pavarde | amzius
