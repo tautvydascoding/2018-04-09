@@ -3,3 +3,10 @@ Front_end:
 Google chrome iskeipis: color picker eyedropper
 
 Back_end:
+
+
+
+Knygos:
+Clean Code
+the art of readable code
+refactoring to patterns - rimtesne

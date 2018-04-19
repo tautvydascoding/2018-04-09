@@ -1,7 +1,7 @@
-Tartpinis testas 5% (html, css) 
+﻿ANTRADIENIS----Tartpinis testas 5% (html, css) 
 Tarpinis atsiskaitymas 20% (programavimo pagrindai: Ciklai, f-jos)
 Tarpinis atsiskaitymas 10% (js, jquery)
-Tarpinis atsiskaitymas 5% (js scopes: local ir global varible skirtumai)
+ANTRADIENIS----Tarpinis atsiskaitymas 5% (js scopes: local ir global varible skirtumai)
 Galutinis testas 10%  (php, OOP- objektinis programavimas)
 Baigiamasis 50%
 
