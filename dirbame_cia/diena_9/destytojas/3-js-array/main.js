@@ -83,13 +83,62 @@ if (arRadau == false) {
 
 
 // 2 UZDUOTIS (f-ja iekom stalciaus)
-// parasyti funkcija, kuriai davus iekoma zodi , ji suranda jo vieta masyve (stalciaus numeri) ir si   numeri grazina
+// parasyti funkcija, kuriai davus iekoma zodi , ji suranda jo vieta masyve
+// (stalciaus numeri) ir si   numeri grazina
 // eg: getStalciausNumeris( ieskomasTekstas)
+
+function  getStalciausNumeris( ieskomasTekstas) {
+    for(var i=0; i < names.length ;  i++  ) {
+        if (  ieskomasTekstas ==  names[i]   ) {
+            return i;  // nutraukia funkcija (FOR/While cikla irgi)
+        }
+    }
+    return -1;  // null
+}
+
+var nr = getStalciausNumeris('Rico-----');
+console.log( "Ieskomo vardo numeris:",   nr  );
 
 // uzduots:----------------------------
 // 3) rasti pavarde masyve esancio  zmogaus vardu "Freida" (pirmojo)
+var numeris = names.indexOf( "Freida");
+console.log(    lastNames[numeris]   );
+
+var numeris2 = getStalciausNumeris('Freida');
+console.log(    lastNames[numeris2]   );
+
+for (var i = 0; i < names.length; i++) {
+    if (names[i] == 'Freida') {
+        nr = i;
+        break;
+    }
+}
+console.log(    lastNames[  nr  ]   );
+//
+
 // 4) rasti visu zmoniu vardu "Rico" pavardes
+//      ir jas susideti i atskira masyva
+var rastosPavardes = [];
+for (var i = 0; i < names.length; i++) {
+    // jeigu radau 'Rico'
+    if (      names[i]  == 'Rico'  ) {
+        rastosPavardes.push(   lastNames[i]   );   // ideda i gala
+    }
+}
+// pasitikrinimas
+console.log(  "Visos Rico pavardes:", rastosPavardes  );
+
 // 5) Turime masyva su zmoniu nr.  ieskomiZmones = [2, 16, 17, 18, 19, 25];  isvesti ju pavardes ir vardus
+// turime: numerius
+// truksta: vardu
+
+ieskomiZmones = [2, 16, 17, 18, 19, 25];
+
+for (var i = 0; i < ieskomiZmones.length   ; i++) {
+    var nr = ieskomiZmones[i];
+    console.log("Vardas:" ,  names[ nr  ]  );
+    console.log("Pavarde:",  lastNames[ nr  ]  );
+}
 
 // var a = Math.random(); // 0 - 1
 // if ( a <= 0.1) {

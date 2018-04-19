@@ -51,6 +51,7 @@ if ( arPasikeite ) {
 // uzduots:----------------------------
 // 3) rasti pavarde masyve esancio  zmogaus vardu "Freida" (pirmojo)
 // 4) rasti visu zmoniu vardu "Rico" pavardes
+//      ir jas susideti i atskira masyva
 // 5) Turime masyva su zmoniu nr.  ieskomiZmones = [2, 16, 17, 18, 19, 25];  isvesti ju pavardes ir vardus
 
 // var a = Math.random(); // 0 - 1
