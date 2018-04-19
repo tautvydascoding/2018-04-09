@@ -116,9 +116,22 @@ if ( klientas == vardas1 ) {
 // sukurti kintamuosius "arPrisijunges" (prie puslapio) "vartotojoTipas" (moderator, admin, subscriber), "userName"
 // parasyti koda, kuris patikris ar prisijunges vartotojas - sekmes atveju - pasisveikins su jo vardu. Jeigu vartotojas adminas isves ir paveiksliuka i ekrana, jeigu subscriber - isves kitoji paveiksliuka
 
-var arPrisijunges
-    vartotojoTipas
-    userName
+var arPrisijunges = true;
+    vartotojoTipas = 'admin';
+    userName = 'Tomas';
+
+    if (arPrisijunges) {
+      //document.querySelector('h1') - suranda HTML faile 'h1' elementa
+      //.innerHTML - pakeiciam surasto elemento vidu
+      document.querySelector('h1').innerHTML = "labas " + userName;
+        if (vartotojoTipas == 'admin') {
+          document.querySelector('h1').innerHTML += '<button class="btn"> log out </button>';
+          console.log('labas admine');
+        } else {
+          document.querySelector('h1').innerHTML += '<br>Buk aktyvus ir ismoksi';
+        }
+    }
+
 
 
 
