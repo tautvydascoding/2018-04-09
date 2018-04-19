@@ -256,11 +256,12 @@ var userName = "Antanas Antanaitis";
 
 if ( arPrisijunges == "taip" ) {
   console.log("Sveiki prisijunge,", userName, "!");
-}
 
-if (vartotojoTipas == "moderator") {
-  console.log("vienoks paveiksliukas");
-}
-else if (vartotojoTipas == "subscriber") {
-  console.log("parodo kitoki paveiksliuka");
+  if (vartotojoTipas == "moderator") {
+    console.log("vienoks paveiksliukas");
+  }
+  else if (vartotojoTipas == "subscriber") {
+    console.log("parodo kitoki paveiksliuka");
+  }
+  
 }
