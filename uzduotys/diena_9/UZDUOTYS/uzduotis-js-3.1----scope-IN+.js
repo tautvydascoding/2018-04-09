@@ -30,10 +30,10 @@
 //console.log("y", y);  // error - 1)   nes sukurtas f-jos viduje 2) sukurtas su "var"
 
 //------
- // UZDUOTIS
- // A) sukurti kintamaji var kakis = "juodas"
+ // UZDUOTIS // UZDUOTIS
+ // A) sukurti kintamaji var katinas = "juodas"
  // B) sukurti f-ja
- // C) sukurti f-jos viduje kintamaji var kakis = "baltas"
+ // C) sukurti f-jos viduje kintamaji var katinas = "baltas"
  // D) atspauzdinti abu f-jos viduje
  // E) atspauzdinti  uz f-jos
 
