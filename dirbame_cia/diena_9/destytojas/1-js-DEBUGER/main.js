@@ -8,7 +8,7 @@ var masyvas = [5, 10, 1, 6, 89, 100, 55, 20, 30];
 
 //masyvas.length - skaicius kiek masyve yra stalciu
 for (var i = 0; i < masyvas.length; i++) {
-    if ( masyvas[i] === 55  ) {
+    if ( masyvas[i] === 1  ) {
         console.log(" Radau. Stalciuje: ", i  );
     }
 }
