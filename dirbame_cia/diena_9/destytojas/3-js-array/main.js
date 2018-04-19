@@ -63,13 +63,24 @@ var lastNames = ["Mcdowell", "Gates", "Mccall", "Cisneros", "Hancock", "Gaines",
 // 1B) papildyti ^: jeigu tokio vardo neranda,
 //      isvesti VIENĄ pranesima "Nepavyko rasti...Bandykite kita zodi"
 
-var ieskomasis = "Ricokokoko---";
+var ieskomasis = "Piper";
+var arRadau = false;
 for(var i=0; i < names.length ;  i++  ) {
     if (  ieskomasis ==  names[i]   ) {
-        console.log( ieskomasis, " numeris yra: ", i);
+        arRadau = true;
         break;  // nutraukia FOR/While cikla
     }
 }
+// tikrinu ar netiesa?
+// if (  !arRadau  ) {     //  !arRadau =>  arRadau == false
+
+// tikrinu ar tiesa?
+if (arRadau == false) {
+    console.log(  ieskomasis, " Nepavyko rasti...Bandykite kita zodi");
+} else {
+    console.log( ieskomasis, " numeris yra: ", i);
+}
+
 
 // 2 UZDUOTIS (f-ja iekom stalciaus)
 // parasyti funkcija, kuriai davus iekoma zodi , ji suranda jo vieta masyve (stalciaus numeri) ir si   numeri grazina
