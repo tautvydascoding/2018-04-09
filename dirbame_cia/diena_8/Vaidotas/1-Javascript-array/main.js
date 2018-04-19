@@ -71,7 +71,54 @@ console.log(names);
 
 // =========================================================
 // uzduotis  Array
-keiautojas = ["Tomas", "Pietkus", 25, "VDU - inzinerija"];
+keliautojas = ["Tomas", "Pietkus", 25, "VDU - inzinerija"];
+
+var tekstas = keliautojas.toString(); // sujungia viska i stringa
+var tekstas2 = keliautojas.join(", "); // sujungia masyva su skirtuku
+console.log(tekstas);
+console.log(tekstas2);
+
+keliautojas.push("palapine"); // idejimas i masyvo gala
+console.log(keliautojas);
+keliautojas.push("bananas"); // idejimas i masyvo gala
+
+console.log("idejau banana: " + keliautojas);
+
+keliautojas.pop();// isima paskutini itema
+
+console.log("isemiau banana: " + keliautojas);
+
+keliautojas.unshift("knyga"); // idejimas i masyvo pradzia
+console.log("i pirma vieta ikisau knyga: " + keliautojas);
+
+keliautojas.shift(); // istrina is masyvo priekio.
+console.log("viska istryniau is priekio: "+keliautojas);
+
+delete keliautojas[1]; // nekeicia masyvo strukturos, tik istrina stalciaus turini
+
+console.log(keliautojas);
+
+
+var nr = keliautojas.indexOf("palapine"); // suranda masyvo stalciaus numeri
+
+console.log("Palapines stalciaus numeris: "+nr);
+
+var kopija = keliautojas.slice(0,3); // nuo pirmo iskaitant iki 3 neiskaitant
+var kopija2 = keliautojas.slice(2);//nuo 2 iki galo
+
+console.log("kopija: ", kopija); // masyvo dalies kopija
+
+var susijusiKopija = keliautojas;
+
+console.log("susijusiKopija", susijusiKopija);
+console.log("originalas", keliautojas);
+
+susijusiKopija.shift(); //istrina is priekio
+susijusiKopija.shift(); //
+
+console.log("susijusiKopija", susijusiKopija);
+console.log("originalas", keliautojas);
+
 
 // 1. i masyvo gala ideti elmenta "butelis vandens"
 // 2. i masyvo pradzia ideti elmenta "ziebtuvelis"

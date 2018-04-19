@@ -1,10 +1,4 @@
 
-
-/* -------------- */
-h1 {
-    color: orange;
-}
-
 .nav-link{
   border: solid 1px ;
 }
@@ -14,8 +8,8 @@ h1 {
 }
 
 footer{
-  margin-top: 50px;
-  border-top: solid  #dddddd 2px;
+  margin-top: 500px;
+  border-top: solid  #dddddd 5px;
   background-color: #e6e6e6;
   position: sticky;
   bottom: 0px;
@@ -24,16 +18,32 @@ footer{
 .aukstis-25{
     height: 25%;
 }
-body{
-  background-image: ("Images/portrait-image.jpg");
+.ilgio_apgaule{
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+}
+.slapukas_ant_tevo{
+overflow:hidden;
+}
 
+.card{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+}
+
+.veik{
+  background-image:url("C:/Users/Pienius/Documents/KaunasCoding/dirbame_cia/PROJEKTAI/Vaidotas/Projektas/Images/wool.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 20rem;
 }
 
 body{
   position: relative;
 }
 .centruotas_logo{
-  max-width: 100px;
+  width: 100px;
   margin-bottom: -50%;
 
 
@@ -41,7 +51,7 @@ body{
 }
 
 a:link {
-   color: red;
+   color: #e6e6e6;
 }
 a:hover {
    color: #474444;
