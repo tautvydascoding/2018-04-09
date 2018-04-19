@@ -1,3 +1,6 @@
+console.log( "labas as cia" );
+
+
 console.log("labas");
 
 // =================taisyklingas Array copy  =================
@@ -17,32 +20,56 @@ var names = ["Enriqueta", "Sybil", "Piper", "Anh", "Carmelo", "Regan", "Synthia"
 
 var lastNames = ["Mcdowell", "Gates", "Mccall", "Cisneros", "Hancock", "Gaines", "Juarez", "Nolan", "Barajas", "Ware", "Orr", "Bell", "Donovan", "Rojas", "Stevenson", "Long", "Hays", "Gibson", "Meyer", "Sims", "Mcintosh", "Craig", "Haney", "Cunningham", "Hunt", "Montgomery", "Spears", "Cooke", "Gregory", "Mcknight", "Fernandez", "Hendrix", "Patton", "Bond", "Skinner", "Randolph", "Montes", "Guerra", "Bowen", "Potts", "Dyer", "Riley", "Rodgers", "Schroeder", "Ferguson", "Garrett", "Rush", "Moon", "Whitney", "Mcdaniel"];
 
-// 0 UZDUOTIS  - IVADAS i sekancius uzdavinius
-//   patikrinti ar 'atlyginimas' padidejo (YRA VIRS 500) ir panaudoti kintamaji 'arPasikeite'.
-// Rementis 'arPasikeite' kintamuoju, isvesti pranesima:
-//      " atlyginimas pasikeite"  arba 'atlyginimas NEPASIKEITE'
+    // 0 UZDUOTIS  -
+    // A) patikrinti ar 'atlyginimas' padidejo ir panaudoti kintamaji 'arPasikeite'.
+    // rementis siuo kintamuoju, isvesti pranesima -" atlyginimas pasikeite"
+    //  arba 'atlyginimas toks pats'
+    // atlyginimas += 100;  // atlyginimas = atlyginimas + 100;
+
+    var atlyginimas = 500;
+    var arPasikeite = false;
+
+    if ( atlyginimas > 500) {
+        arPasikeite = true;
+    } else {
+        arPasikeite = false;
+    }
+
+    // ar tiesa?    - arPasikeite yra TRUE?
+    if ( arPasikeite ) {
+            console.log(" Altylinimas padidejo");
+    } else {
+            console.log(" Altylinimas nesikeite ");
+    }
 
 
-var atlyginimas = 500;
-var arPasikeite = false;
+// 1A) surasti vardu masyve, kelintas zmogus yra "Rico"
+//      (surasti pirmaji; sunkes- surasti visus riko)
 
-if ( atlyginimas > 500) {
+    var ieskomasis = "Rico";
+    for(var i=0; i < names.length ;  i++  ) {
+        if (  ieskomasis ==  names[i]   ) {
+            console.log( ieskomasis, " numeris yra: ", i);
+            break;  // nutraukia FOR/While cikla
+        }
+    }
 
-} else {
+    // for (var i = 0; i < array.length; i++) {
+    //     for (var i = 0; i < array.length; i++) {
+    //         break;
+    //     }
+    // }
 
+// 1B) papildyti ^: jeigu tokio vardo neranda,
+//      isvesti VIENĄ pranesima "Nepavyko rasti...Bandykite kita zodi"
+
+var ieskomasis = "Ricokokoko---";
+for(var i=0; i < names.length ;  i++  ) {
+    if (  ieskomasis ==  names[i]   ) {
+        console.log( ieskomasis, " numeris yra: ", i);
+        break;  // nutraukia FOR/While cikla
+    }
 }
-
-// ar tiesa?    - arPasikeite yra TRUE?
-if ( arPasikeite ) {
-        console.log(" Altylinimas padidejo");
-} else {
-        console.log(" Altylinimas nesikeite ");
-}
-
-
-// 1A) surasti vardu masyve, kelintas zmogus yra "Rico" (surasti pirmaji; sunkes- surasti visus riko)
-// 1B) papildyti ^: jeigu tokio vardo neranda, isvesti VIENĄ pranesima "Nepavyko rasti...Bandykite kita zodi"
-
 
 // 2 UZDUOTIS (f-ja iekom stalciaus)
 // parasyti funkcija, kuriai davus iekoma zodi , ji suranda jo vieta masyve (stalciaus numeri) ir si   numeri grazina
