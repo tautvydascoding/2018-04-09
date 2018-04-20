@@ -41,6 +41,7 @@ $( "h1" ).css().add( "h2" ).css( "background", "yellow" );
 // paveiks paskutini is li elementu
 $( "li" ).last().css( "background", "yellow" );
 // $( "li:last" ).addClass( "selected highlight" );
+
 $( "p:even" )
 //$( "p:eq(1)" ); // pirmas
 
