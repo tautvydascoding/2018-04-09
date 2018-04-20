@@ -15,8 +15,8 @@ $( "article > p" ).css( "border", "1px solid gray" );
 // arba
 
 var myCSS = {
-    border: "1px solid gray",
-    color: "red"
+    "border": "1px solid gray",
+    "color": "red"
 };
 $( "article > p" ).css( myCSS );
 
@@ -58,8 +58,8 @@ $( "header" ).css( "color", "red" ).find( "h1" ).css( "color", "green" );  // no
 // note: $("input[type='email']").attr('value') // will return value from DOM/HTML.
 
 // brolius ir seses Isskyrus h2 pati
- 
- 
+
+
 
 $("body h2").siblings().css({"color": "red", "border": "2px solid red"});
 h2 brolius kurie yra "p", bet nera h2 ar kiti
@@ -67,4 +67,4 @@ $("h2").siblings("p").css({"color": "orange", "border": "2px solid red"});
 sekanti brolini elementa
 $("h2").next().css({"color": "red", "border": "2px solid red"});
 $("h2").nextAll();
-$("h2").nextUntil("h6"); // !!! tik su elementais, su class neveiks 
+$("h2").nextUntil("h6"); // !!! tik su elementais, su class neveiks

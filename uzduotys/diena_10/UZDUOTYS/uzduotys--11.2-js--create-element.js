@@ -15,7 +15,7 @@
 
 // 4. headeri idesime po H1
 //        tetis                kaIdeti  PriesKa
-// document.body.insertAfter(  manoAside, manoH1 );
+// document.body.insertBefore(  manoAside, manoH1 );
 
 
 
