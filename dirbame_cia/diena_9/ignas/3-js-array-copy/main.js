@@ -36,16 +36,25 @@ var lastNames = ["Mcdowell", "Gates", "Mccall", "Cisneros", "Hancock", "Gaines",
 
 
 // 1A) surasti vardu masyve, kelintas zmogus yra "Rico" (surasti pirmaji; sunkes- surasti visus riko)
-var ieskomas = "Rico";
-for (var i = 0; i < names.length; i++) {
-  if (names[i] === ieskomas) {
-    console.log(ieskomas, i);
-    // break; //isjungia viena cikla {}
+var ieskomasis = "Piper";
+var arRadau = false;
+for(var i=0; i < names.length ;  i++  ) {
+    if (  ieskomasis ==  names[i]   ) {
+        arRadau = true;
+        break;  // nutraukia FOR/While cikla
+    }
 }
+// tikrinu ar netiesa?
+// if (  !arRadau  ) {     //  !arRadau =>  arRadau == false
+
+// tikrinu ar tiesa?
+if (arRadau == false) {
+    console.log(  ieskomasis, " Nepavyko rasti...Bandykite kita zodi");
+} else {
+    console.log( ieskomasis, " numeris yra: ", i);
 }
 
-// else {
-//   console.log("Nepavyko rasti...Bandykite kita zodi");
+
 //
 // }
 // 1B) papildyti ^: jeigu tokio vardo neranda, isvesti VIENĄ pranesima "Nepavyko rasti...Bandykite kita zodi"
@@ -55,10 +64,46 @@ for (var i = 0; i < names.length; i++) {
 // parasyti funkcija, kuriai davus iekoma zodi , ji suranda jo vieta masyve (stalciaus numeri) ir si   numeri grazina
 // eg: getStalciausNumeris( ieskomasTekstas)
 
+
+
 // uzduots:----------------------------
 // 3) rasti pavarde masyve esancio  zmogaus vardu "Freida" (pirmojo)
-// 4) rasti visu zmoniu vardu "Rico" pavardes
+
+
+// var numeris = name.indexOf("Freida");
+// console.log( lastNames[numeris] );
+
+
+var ieskomasVardas = 'Rico';
+
+for(var i = 0; i < names.length; i++) {
+  if(names[i] == ieskomasVardas) {
+    console.log(lastNames[i]);
+  }
+}
+
+// 4) rasti visu zmoniu vardu "Rico" pavardes ir susideti i atskira masyva
+var rastosPavardes = [];
+  for (var i = 0; i < names.length; i++) {
+    if (names[i] == ieskomasVardas ) {
+      rastosPavardes.push( lastNames[i] );
+      console.log('Rico Pavardes yra: ', rastosPavardes);
+    }
+  }
+
+
 // 5) Turime masyva su zmoniu nr.  ieskomiZmones = [2, 16, 17, 18, 19, 25];  isvesti ju pavardes ir vardus
+//turime: numerius
+//truksta: vardu ir pavardziu
+
+var ieskomiZmones = [2, 16, 17, 18, 19, 25];
+
+  for (var i = 0; i < ieskomiZmones.length; i++) {
+      var nr = ieskomiZmones[i];
+      console.log('vardas: ', names[nr] + ' pavarde: ', lastNames[nr]);
+
+}
+
 
 // var a = Math.random(); // 0 - 1
 // if ( a <= 0.1) {
