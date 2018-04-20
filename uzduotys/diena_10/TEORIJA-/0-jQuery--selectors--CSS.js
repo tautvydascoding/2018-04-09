@@ -55,7 +55,7 @@ $( "p:even" )
 $( "header" ).css( "color", "red" ).find( "h1" ).css( "color", "green" );  // note: find(...) - iesko elemento viduje selected item
 
 // form'os lauku select'as
-// $( "input[type='email']").val("Username");    // will return the current real value of a text field, for example if the user typed something there after a page load.
+$( "input[type='email']").val("Username");    // will return the current real value of a text field, for example if the user typed something there after a page load.
 // note: $("input[type='email']").attr('value') // will return value from DOM/HTML.
 
 // brolius ir seses Isskyrus h2 pati

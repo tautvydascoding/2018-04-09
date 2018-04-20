@@ -15,35 +15,11 @@
     <body>
             <h1> Isijunk console </h1>
 
-            <header>
-                <h1>  1 tekstas </h1>
-                <h2>  2 tekstas </h2>
-
-                <h3>  3 tekstas </h3>
-                <h3>  3 tekstas </h3>
-                <h3>  3 tekstas </h3>
-
-                <h4>  4 tekstas </h4>
-            </header>
-
-       <button type="button" class="keiciu" >  aaa  </button>
-
-            <footer>
-                <h1>  1 tekstas </h1>
-                <h2>  2 tekstas </h2>
-
-                <h3>  3 tekstas </h3>
-                <h3>  3 tekstas </h3>
-                <h3>  3 tekstas </h3>
-
-                <h4>  4 tekstas </h4>
-            </footer>
-
-
-
-
-
-
+            <?php
+                echo "Labas 
+                echo "Labas
+                echo "Labas
+             ?>
 
        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
         <script src="libs/jquery-3.2.1.min.js">     </script>
