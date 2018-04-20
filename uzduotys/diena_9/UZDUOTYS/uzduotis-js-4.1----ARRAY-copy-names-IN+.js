@@ -5,6 +5,7 @@ console.log("labas");
 var arr1 = ['a', 'b', 'c'];  // Becomes arr1 = ['a', 'b', 'c']
 var arr2a = arr1.slice(0);   // Becomes arr2a = ['a', 'b', 'c'] - deep copy
 var arr2b = arr1.concat(  );   // Becomes arr2b = ['a', 'b', 'c'] - deep copy
+// for cikla naudojant
 // ================= ========= ======== ========
 
 
@@ -16,17 +17,27 @@ var names = ["Enriqueta", "Sybil", "Piper", "Anh", "Carmelo", "Regan", "Synthia"
 
 var lastNames = ["Mcdowell", "Gates", "Mccall", "Cisneros", "Hancock", "Gaines", "Juarez", "Nolan", "Barajas", "Ware", "Orr", "Bell", "Donovan", "Rojas", "Stevenson", "Long", "Hays", "Gibson", "Meyer", "Sims", "Mcintosh", "Craig", "Haney", "Cunningham", "Hunt", "Montgomery", "Spears", "Cooke", "Gregory", "Mcknight", "Fernandez", "Hendrix", "Patton", "Bond", "Skinner", "Randolph", "Montes", "Guerra", "Bowen", "Potts", "Dyer", "Riley", "Rodgers", "Schroeder", "Ferguson", "Garrett", "Rush", "Moon", "Whitney", "Mcdaniel"];
 
-// 0 UZDUOTIS ----
-    var atlyginimas = 500;
-    var arPasikeite = false;
-    // UZDUOTIS
-    // A) patikrinti ar 'atlyginimas' padidejo ir panaudoti kintamaji 'arPasikeite'.rementis siuo kintamuoju, isvesti pranesima -" atlyginimas pasikeite" arba 'atlyginimas toks pats'
-    atlyginimas += 100;  // atlyginimas = atlyginimas + 100;
-    if ( atlyginimas > 500) {
+// 0 UZDUOTIS  - IVADAS i sekancius uzdavinius
+//   patikrinti ar 'atlyginimas' padidejo (YRA VIRS 500) ir panaudoti kintamaji 'arPasikeite'.
+// Rementis 'arPasikeite' kintamuoju, isvesti pranesima:
+//      " atlyginimas pasikeite"  arba 'atlyginimas NEPASIKEITE'
 
-    } else {
 
-    }
+var atlyginimas = 500;
+var arPasikeite = false;
+
+if ( atlyginimas > 500) {
+
+} else {
+
+}
+
+// ar tiesa?    - arPasikeite yra TRUE?
+if ( arPasikeite ) {
+        console.log(" Altylinimas padidejo");
+} else {
+        console.log(" Altylinimas nesikeite ");
+}
 
 
 // 1A) surasti vardu masyve, kelintas zmogus yra "Rico" (surasti pirmaji; sunkes- surasti visus riko)
@@ -40,6 +51,7 @@ var lastNames = ["Mcdowell", "Gates", "Mccall", "Cisneros", "Hancock", "Gaines",
 // uzduots:----------------------------
 // 3) rasti pavarde masyve esancio  zmogaus vardu "Freida" (pirmojo)
 // 4) rasti visu zmoniu vardu "Rico" pavardes
+//      ir jas susideti i atskira masyva
 // 5) Turime masyva su zmoniu nr.  ieskomiZmones = [2, 16, 17, 18, 19, 25];  isvesti ju pavardes ir vardus
 
 // var a = Math.random(); // 0 - 1

@@ -108,6 +108,11 @@ var kopija2 = keliautojas.slice(2);//nuo 2 iki galo
 
 console.log("kopija: ", kopija); // masyvo dalies kopija
 
+var  tekstukas= "Tadas";
+tekstukas.slice(3);
+
+alert(tekstukas.length);
+
 var susijusiKopija = keliautojas;
 
 console.log("susijusiKopija", susijusiKopija);
