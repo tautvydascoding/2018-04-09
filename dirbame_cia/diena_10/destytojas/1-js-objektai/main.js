@@ -53,16 +53,36 @@ var zmogus;
 // 2) vaikas: klase, vardas
 // 3) priskirti tevo objekui (kintamajam) vaika
 
+var tetis = {
+    vardas: 'Petras',
+    pavarde:'Petrauskas',
+    vaikas: {}
+};
+
+var vaikas = {
+    varkas: 'Joniukas',
+    klase: 5
+};
+
+console.log( vaikas, tetis);
+
+// tetis.vaikas = vaikas;
+// console.log( vaikas, tetis);
+
 
 // 3 UZDUOTIS
 // sukurti  objekto "darbuotojas" construktoriu. Objektas darbuotojas: nr, vardas, pavarde, alga
 
 //============3=pvz: construktorius =====
-// function Car(nr, c, ms) {
-//     this.numberOfDoors = nr;
-//     this.color = c;
-//     this.maxSpeed = m;
-// }
-//
-// // objekto kurimas
-// var AudiTT = new Car('AAA000', "red", 280);
+function Car(nr, c, ms) {
+    this.numberOfDoors = nr;
+    this.color = c;
+    this.maxSpeed = ms;
+}
+
+// objekto kurimas
+var AudiTT = new Car(2, "red", 280);
+var Opel = new Car(5, "black", 180);
+var Ferrari = new Car(4, "red", 380);
+console.log(   AudiTT  );
+console.log(   Opel  );
