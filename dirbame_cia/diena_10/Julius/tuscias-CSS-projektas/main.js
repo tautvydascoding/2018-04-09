@@ -17,3 +17,32 @@ var mokinys = {
      miestas: ""
 }
 //---1.1---------//
+
+//-----------//
+
+var tetis = {
+  vardas : 'Petras',
+  pavarde: 'Petrauskas',
+  vaikas{}
+};
+
+var vaikas = {
+  vaikas: 'Joniukas',
+  klase: 5
+};
+
+console.log( vaikas, teti );
+
+//-------------------construktorius---------------//
+function Car (nr.c ms ) {
+  this.numberofDoors = nr
+  this.color = c;
+  this.maxSpeeg - ms
+}
+
+
+// objekto kurimas
+var AudiTT = new Car( 2, "red", 280 );
+var Opel = new Car ( 5, "black", 180);
+var Ferrari = new Car( 2, "red", 280 );
+console.log( AudiTT );
