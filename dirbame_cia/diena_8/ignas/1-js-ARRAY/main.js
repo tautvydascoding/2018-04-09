@@ -81,7 +81,7 @@ console.log("i masyvo pradzia idejimas", keliautojas);
 
 
 // 2. i masyvo pradzia ideti elmenta "ziebtuvelis"
-keliautojas.unshift("cola");
+keliautojas.unshift("cola"); 
 console.log("i masyvo pradzia idejimas", keliautojas);
 
 //priekinio elemento istrynimas
