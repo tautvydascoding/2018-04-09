@@ -60,7 +60,11 @@
                 $nuotraukos[5] = '6.jpg';
 
              ?>
-
+             <section>
+                 <?php   for ($i=0; $i < 6; $i++) :     ?>
+                            <img src='img/<?php   echo $nuotraukos[$i]  ?>' alt='nuotrauka' width="30%" />
+                <?php    endfor    ?>
+             </section>
 
        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
         <script src="libs/jquery-3.2.1.min.js">     </script>
