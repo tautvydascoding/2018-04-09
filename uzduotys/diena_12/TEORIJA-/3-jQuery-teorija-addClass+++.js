@@ -8,7 +8,7 @@ d.classList.add("otherclass");
 d.classList.remove("otherclass");
 d.classList.toggle('otherclass');
 
-//   -------jQuery-CLASS-----
+//   -------jQuery-CLASS------------------
 
 // addClass()     Adds one or more classes to the selected elements
 // addClass( [function( index, curentClass)] ) - // NOTE: receives the INDEX position of the element in the set and the existing class name(s) as ARGUMENTS. Within the function, this refers to the current element in the set
@@ -48,11 +48,11 @@ $("button").click(function(){
 //    return addedClass;
 // });
 
-//=================has Class==============
+//===============javascript budu==has Class==============
 if ( document.getElementById("MyElement").classList.contains('MyClass') ) {}
 if ( document.getElementById("MyElement").className.match(/(?:^|\s)MyClass(?!\S)/) ) {}
 
-// jQuery
+// -------------jQuery budu----------------
 if ( $('#MyElement').hasClass('MyClass') ) {}
 // arba
 $( 'p' ).is( ".blue, .red" );
