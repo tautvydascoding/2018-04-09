@@ -2,10 +2,9 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Darbai</title>
+        <title></title>
         <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
         <link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <!-- !!! mano CSS failas visada pats zemiausias -->
         <link rel="stylesheet" href="css/master.css">
@@ -14,13 +13,15 @@
 
 
     <body>
-
-<?php include('headeris.php') ?>
-
-
+            <h1><strong> Isijunk console</strong> </h1>
+            <input type="text" name="" value="suidysuf wowo">
 
 
 
+       <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+        <script src="libs/jquery-3.2.1.min.js">     </script>
+
+        <!-- !!!  mano js visada zemiau -->
         <script src="main.js">  </script>
     </body>
 </html>
