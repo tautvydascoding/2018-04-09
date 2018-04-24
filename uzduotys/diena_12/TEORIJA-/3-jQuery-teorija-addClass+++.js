@@ -17,14 +17,15 @@ d.classList.toggle('otherclass');
 // hasClass("protected")
 // is('.pretty.awesome')
 
-//$("h1").addClass("specialSell");
-//$( "p" ).removeClass( "myClass noClass" ).addClass( "yourClass" );
-
-// $("h1").toggleClass('change_me newClass');
+$("h1").addClass(" bg-info ");
+$( "p" ).removeClass( "myClass noClass" ).addClass( "yourClass" );
+$("h1").toggleClass('change_me newClass');
+$('h2').hasClass(" mt-2 "); // tikrinu ar 'h2' elementas turi klase 'mt-2'
+$('h2').is(' .mt-2');   // tikrinu ar 'h2' elementas turi klase 'mt-2'
 
 $("button").click(function(){
-   $("h1, h2, p").addClass("blue");  // you can select multiple elements, when adding classes
-   $("div").addClass("important");
+   $("h1, h2, p").addClass(" bg-info ");  // you can select multiple elements, when adding classes
+   $("div").addClass(" w-50 bg-info ");
 });
 
 
