@@ -39,10 +39,12 @@ overflow:hidden;
 
 body{
   position: relative;
-  background-image: url("C:/Users/Pienius/Documents/KaunasCoding/dirbame_cia/PROJEKTAI/Vaidotas/Projektas/Images/wool.jpg");
+  background-image: url("../Images/wool.jpg");
 }
+
 .centruotas_logo{
   margin-bottom: -50%;
+  width: 100px;
 }
 
 /* a.nav-link:link {
