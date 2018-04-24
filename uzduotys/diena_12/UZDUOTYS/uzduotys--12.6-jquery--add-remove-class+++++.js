@@ -8,10 +8,11 @@ console.log("Labas");
     <h1>  Tekstas </h1>
 </section>
 
-//1.2 patobulinti h1 -  ant h1 elemento uzdesime klases: " bg-info  mt-5 aukstis-200"
-<section>
-    <h1 class="bg-info mt-5 aukstis-200">  Tekstas </h1>
-</section>
+//1.2 patobulinti h1 -  ant h1 elemento uzdesime klases: " bg-info  mt-5 aukstis-200" (naudojant jQuery)
+
+// pvz:
+   <h1 class="bg-info mt-5 aukstis-200">  Tekstas </h1>
+
 
 // 1.3  nuo h1 pasalinti mt-5 klase
 // 1.4  paleisti komanda   toggleClass( 'aukstis-200')  -
