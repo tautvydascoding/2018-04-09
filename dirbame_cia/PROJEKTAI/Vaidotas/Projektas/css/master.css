@@ -7,6 +7,7 @@ h1 {
 
 .nav-link{
   border: solid 1px ;
+  color:rgb(110, 123, 142);
 }
 
 
@@ -18,9 +19,9 @@ footer{
   margin-top: 50px;
   border-top: solid  #dddddd 2px;
   background-color: #e6e6e6;
-  position: sticky;
+  position: fixed;
   bottom: 0px;
-  height: 15%;
+  height: 10%;
 }
 .aukstis-25{
     height: 25%;
