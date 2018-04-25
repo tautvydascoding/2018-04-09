@@ -4,5 +4,5 @@
 // 3. suprogramuoti f-jas:
 // 4. getDoctor($nr)
 
-//susikurti nauja prjekta ir issivesti daktara is DB naudojant getDOctor($nr) f-ja
+//susikurti nauja projekta ir issivesti daktara is DB naudojant getDOctor($nr) f-ja
  
