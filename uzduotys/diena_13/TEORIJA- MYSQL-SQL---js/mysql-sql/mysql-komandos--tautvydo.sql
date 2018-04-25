@@ -1,10 +1,11 @@
 ﻿mysql>
 
 show databases;
-use duomenuBazesPavadinimas;
-show tables;
+use duomenuBazesPavadinimas; --!!! nurodai su kuria DB nuo siol dirbsi !!!--
+show tables; -- parodo visas DB lenteles
 
-
+-- '*' yra stulpeliu pavadinimai
+-- 'user' yra Lenteles pavadinimams --
 SELECT USER, PASSWORD, password_expired FROM user;
 SELECT * FROM user;
 
