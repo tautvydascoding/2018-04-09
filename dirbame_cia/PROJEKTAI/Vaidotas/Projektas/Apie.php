@@ -50,8 +50,15 @@
             <footer class="container-fluid">
 
             <div class="row ">
-              <div class="col-md-12">
-                <p> Footeris</p>
+              <div class="col-md-4 float-kaire">
+                <ul class="nav">
+                  <li class="nav-item ml-1">facebook </li>
+                  <li class="nav-item ml-3">instagram </li>
+                </ul>
+              </div>
+              <div class="col-md-4 float-desine">
+                <p> Created by Pienburnis<br /> </p>
+                <p> 2018 </p>
               </div>
             </div>
           </footer> <!--uzdarau footeri containeri-->
