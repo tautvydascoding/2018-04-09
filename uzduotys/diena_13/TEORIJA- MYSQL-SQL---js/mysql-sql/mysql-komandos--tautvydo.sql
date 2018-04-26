@@ -1,15 +1,24 @@
 ﻿mysql>
 
 show databases;
+<<<<<<< HEAD
 use duomenuBazesPavadinimas; --!!! nurodai su kuria DB nuo siol dirbsi !!!--
 show tables; -- parodo visas DB lenteles
 
 -- '*' yra stulpeliu pavadinimai
 -- 'user' yra Lenteles pavadinimams --
-SELECT USER, PASSWORD, password_expired FROM user;
-SELECT * FROM user;
+=======
+use duomenuBazesPavadinimas; -- !!! nurodai su kuria DB nuo siol dirbsi !!!
+show tables;  -- parodo visas DB lenteles
 
- CREATE USER 'tautvydas10'@'localhost' IDENTIFIED BY 'tratata';  // tratata - spaltazodis
+-- '*' yra stulpeliu pavadinimai
+-- 'user' yra lenteles pavadinimas
+SELECT * FROM user;    -- issirenki duomenis, kuriuos nori surasti DB-je
+>>>>>>> 720cf64dad98f2fff622b3cb2a78025e13245e9d
+SELECT USER, PASSWORD, password_expired FROM user;
+
+ CREATE USER 'tautvydas10'@'localhost' IDENTIFIED BY 'tratata';
+ // tratata - spaltazodis
 
 " "
 ' '
@@ -25,7 +34,8 @@ SELECT * FROM user;
  CREATE USER 'tautvydasDelete'@'localhost' IDENTIFIED BY 'tratata';
 GRANT ALL PRIVILEGES ON * . * TO 'tautvydasDelete'@'localhost' WITH GRANT OPTION;
 
- CREATE DATABASE  `ligonine4`;
+ CREATE DATABASE  `hospital4`;
+
  CREATE DATABASE IF NOT EXISTS `ligonine4` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 
 

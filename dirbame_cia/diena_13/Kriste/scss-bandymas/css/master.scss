@@ -1,0 +1,33 @@
+
+
+$spalva: red;
+$dydis: 30px;
+$dydis2: 16px;
+$storis: 600;
+$storis2: 300;
+
+
+section {
+  h1 {
+    color: $spalva;
+    font-size: $dydis;
+    font-weight: $storis;
+    &:hover {background-color: orange;} }
+  p {
+    font-size: $dydis2;
+    font-weight: $storis2; }
+}
+
+aside {
+  h2 {
+    color: $spalva;
+    font: {
+      size: $dydis;
+      weight: $storis2;  }
+  }
+  p {
+    font: {
+      size: $dydis2;
+      weight: $storis;  }
+  }
+}
