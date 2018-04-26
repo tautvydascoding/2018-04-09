@@ -33,7 +33,9 @@ function getDoctor( $nr ) {
     //                             irodymas            SQL komandos
     $rezultatai = mysqli_query(  getPrisijungimas()  , $mano_sql);
     // var_dump($rezultatai); // test
-    if ($rezultatai) {
+
+    // mysqli_num_rows - suskaiciuoja kiek radai gydytoju
+    if (mysqli_num_rows($rezultatai)  > 0) {
         // mysqli_fetch_assoc  - apdoroje duomenis
         // is paduoto MYSQL objekto paima sekancia eilute ir pavercia i masyva
         $rezultatai = mysqli_fetch_assoc($rezultatai);
