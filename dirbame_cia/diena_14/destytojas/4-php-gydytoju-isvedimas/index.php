@@ -21,10 +21,17 @@
             //
             include_once('doctors_functions_DB.php');
 
-            $gyd = getDoctor(1000); // grista masyvas su id, name , lname
-            $gyd2 = getDoctor(2);
-            $gyd3 = getDoctor(3);
-            $gyd4 = getDoctor(4);
+            $gydytojas = getDoctor(1); // grista masyvas su id, name , lname
+            include( 'template_gydytojas.php');
+
+            $gydytojas = getDoctor(3); // grista masyvas su id, name , lname
+            include( 'template_gydytojas.php');
+
+            $gydytojas = getDoctor(2); // grista masyvas su id, name , lname
+            include( 'template_gydytojas.php');
+
+            $gydytojas = getDoctor(4); // grista masyvas su id, name , lname
+            include( 'template_gydytojas.php');
 
             // print_r( $gyd ); //test
 
