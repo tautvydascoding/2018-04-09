@@ -14,6 +14,13 @@
 
     <body>
             <h1> Isijunk   </h1>
+<?php
+
+            $vardas = 'Tomas';
+            $pavarde = ''
+
+
+?>
 
 
 
