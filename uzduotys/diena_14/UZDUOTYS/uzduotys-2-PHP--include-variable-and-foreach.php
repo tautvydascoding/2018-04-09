@@ -1,8 +1,12 @@
 // UZDUOTIS
+
 // 1. suskurti faila:  index.php
 // 1.1 index.php faile sukurti 2 kintamuosius $vardas, $pavarde
 // 1.2 index.php faile sukurti masyva: 'straipnis' = ['antraste', 'aprasymas', 'data'];
-//
+
+// 2. index.php faile  ideti:
+// include( './straipsnis.php');
+
 // pvz:   'BMW vel preleke saligatviu',   'Lorem lorem....', '2010-12-01'
 
 // 2. index.php faile  ideti:

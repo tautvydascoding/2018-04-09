@@ -1,12 +1,20 @@
 ﻿mysql>
 
 show databases;
+<<<<<<< HEAD
+use duomenuBazesPavadinimas; --!!! nurodai su kuria DB nuo siol dirbsi !!!--
+show tables; -- parodo visas DB lenteles
+
+-- '*' yra stulpeliu pavadinimai
+-- 'user' yra Lenteles pavadinimams --
+=======
 use duomenuBazesPavadinimas; -- !!! nurodai su kuria DB nuo siol dirbsi !!!
 show tables;  -- parodo visas DB lenteles
 
 -- '*' yra stulpeliu pavadinimai
 -- 'user' yra lenteles pavadinimas
 SELECT * FROM user;    -- issirenki duomenis, kuriuos nori surasti DB-je
+>>>>>>> 720cf64dad98f2fff622b3cb2a78025e13245e9d
 SELECT USER, PASSWORD, password_expired FROM user;
 
  CREATE USER 'tautvydas10'@'localhost' IDENTIFIED BY 'tratata';
