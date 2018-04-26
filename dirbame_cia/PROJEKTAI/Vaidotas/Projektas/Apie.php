@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
         <link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <!-- !!! mano CSS failas visada pats zemiausias -->
         <link rel="stylesheet" href="css/master.css">
     </head>
@@ -22,7 +22,7 @@
                 <div class="row">
 
                   <aside class="col-md-6">
-                    <img src="Images/etynga.jpg" class=" img-thumbnail aukstis-400 float-desine plotis-max-45" alt="portretas">
+                    <img src="Images/etynga.jpg" class=" img-thumbnail Contain float-desine" alt="portretas">
                   </aside>
 
                   <article class="col-md-6 d-flex flex-stretch">
@@ -49,18 +49,19 @@
 
             <footer class="container-fluid">
 
-            <div class="row ">
-              <div class="col-md-4 float-kaire">
-                <ul class="nav">
-                  <li class="nav-item ml-1">facebook </li>
-                  <li class="nav-item ml-3">instagram </li>
-                </ul>
+              <div class="row ">
+                <div class="col-md-4">
+                  <ul class="nav">
+                    <li class="nav-item ml-1">facebook </li>
+                    <li class="nav-item ml-3">instagram </li>
+                  </ul>
+                </div> <!-- kairys konteineris ikonam-->
+                <div class="col-md-4 d-flex justify-content-md-end">
+                  <ul class="nav">
+                    <li class="nav-item ml-1">Created by Pienburnis </li>
+                    <li class="nav-item ml-3">2018 </li>
+                </div><!-- desinys konteineris konteineris ikonam-->
               </div>
-              <div class="col-md-4 float-desine">
-                <p> Created by Pienburnis<br /> </p>
-                <p> 2018 </p>
-              </div>
-            </div>
           </footer> <!--uzdarau footeri containeri-->
 
 

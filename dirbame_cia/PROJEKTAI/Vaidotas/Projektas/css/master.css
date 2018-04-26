@@ -9,7 +9,11 @@ h1 {
   border: solid 1px ;
   color:rgb(110, 123, 142);
 }
-
+.plotis-max{
+  max-width: 500px;
+  margin-left: auto;
+  margin-right:auto;
+}
 
 .back{
   background-color: #e6e6e6;
@@ -38,33 +42,51 @@ overflow:hidden;
   max-width: 45%;
 }
 
+.Contain{
+  object-fit: scale-down;
+  }
+  
 body{
   position: relative;
   background-image: url("../Images/wool.jpg");
 }
 
 .centruotas_logo{
-  margin-bottom: -50%;
+  margin-bottom:-50%;
   width: 100px;
 }
 
-/* a.nav-link:link {
+.paskirstymas{
+  display:flex;
+  justify-content: center;
+}
+
+
+a:link {
    color: #474444;
 }
 
-a.nav-link:visited {
+a:visited {
    color: #474444;
 }
-a.nav-link:hover {
+a:hover {
    color: #474444;
    background-color: #606060
 }
 
-a.nav-link:active {
+a:active {
    color: #474444;
-} */
+}
 
+.viena-linija{
+  display:inline-block;
+}
 
+.centravimas{
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
 .plotis-45{
   width: 45%;
 }

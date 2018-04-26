@@ -15,7 +15,7 @@
     <body>
 
             <section>
-                <!-- h3 -->
+                <!-- cia bus prekes foto  -->
                 <h1>  1 Antraste </h1>
                 <h2>  2 Antraste </h2>
                 <h3>  3 Antraste </h3>

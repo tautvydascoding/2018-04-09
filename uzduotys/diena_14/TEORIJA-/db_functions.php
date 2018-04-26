@@ -50,6 +50,8 @@ $connection = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
     //           ";
 
     // pasalina spec. simbolius "  ' \n \t < >
+    // alternatyva: htmlentities()
+    // https://www.w3schools.com/php/func_string_htmlentities.asp
     $vardas = mysqli_real_escape_string(getConnection(), $vardas);
     $slaptazodis = mysqli_real_escape_string(getConnection(), $slaptazodis);
     $slaptazodis = password_hash($slaptazodis, PASSWORD_DEFAULT);
