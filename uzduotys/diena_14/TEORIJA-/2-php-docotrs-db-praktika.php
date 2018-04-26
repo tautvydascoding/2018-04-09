@@ -1,8 +1,6 @@
 isvesti daktaro info: vardas , pavarda, nr
 
-
-
-
+ 
 
             <?php
                 require_once('./docotrs_db.php');
