@@ -95,11 +95,11 @@ function updateDoctor($nr, $vardas, $pavarde) {
                   $nr
                  );
     // %s - s - string, f- (float) skaicius su kableliu
-    sprintf("Vakar %s isejo i %s" , $vardas, $vieta);
+    // sprintf("Vakar %s isejo i %s" , $vardas, $vieta);
 
     mysqli_query( getPrisijungimas(), $manoSQL);
 }
-updateDoctor(10, 'Petras', 'Lietuvis' );
+// updateDoctor(10, 'Petras', 'Lietuvis' );
 
 
 // atsijungiamm nuo DB, ideti i HTML failo apacia
@@ -109,7 +109,7 @@ updateDoctor(10, 'Petras', 'Lietuvis' );
 
 // "daug" gydytoju paemimas is DB
 function getDoctors($kiekis = 9999) { // = 9999 - default value, jeigu nenurodei
-    $manoSQL = "SELECT * FROM doctors LIMIT $kiekis ";
+    $manoSQL = "SELECT * FROM doctors  ORDER BY name  LIMIT $kiekis ";
     $rezultatai = mysqli_query( getPrisijungimas(),  $manoSQL);
 
     // tikriname ar radome nors viena gydytoja
@@ -120,10 +120,17 @@ function getDoctors($kiekis = 9999) { // = 9999 - default value, jeigu nenurodei
         echo "Gydytoju nepavyko rasti!!! <br>";
     }
 }
-$pirmi_4_gydytojai = getDoctors(4);
+// $pirmi_4_gydytojai = getDoctors(4);
 // $rezultatai = mysqli_fetch_assoc($rezultatai);
 
+//==========================panaudojimas====getDoctors==============
 
-
-
+// is 4 surastu gydytoju paimmae pirmaji/sekanti
+// $vienasGydytojas = mysqli_fetch_assoc( $pirmi_4_gydytojai    );
 //
+// //  Ar cia tiesa?
+// while ($vienasGydytojas) {
+//      echo $vienasGydytojas['name'] . " " . $vienasGydytojas['lname'] . "<br />";
+//      // !!! is 4 surastu gydytoju paimmae sekanti
+//      $vienasGydytojas = mysqli_fetch_assoc( $pirmi_4_gydytojai    );
+// }
