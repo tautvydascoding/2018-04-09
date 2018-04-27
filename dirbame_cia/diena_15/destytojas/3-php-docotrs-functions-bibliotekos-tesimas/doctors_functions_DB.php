@@ -54,24 +54,75 @@ function createDoctorMINI($vardas, $pavardas) {
                 ";
     mysqli_query(  getPrisijungimas() , $manoSQL);
 }
-function createDoctor($vardas, $pavardas) {
+function createDoctor($vardas, $pavarde) {
     $vardas = htmlspecialchars( $vardas, ENT_QUOTES, 'UTF-8' );
-    $pavardas = htmlspecialchars( $pavardas, ENT_QUOTES, 'UTF-8' );
+    $pavarde = htmlspecialchars( $pavarde, ENT_QUOTES, 'UTF-8' );
 
     $manoSQL = "INSERT INTO doctors
-                       VALUES ('', '$vardas', '$pavardas');
+                       VALUES ('', '$vardas', '$pavarde');
                 ";
     $x = mysqli_query(  getPrisijungimas() , $manoSQL);
     if ($x) {
         echo "Pavyko sukurti gydytoja <br>";
     }
 }
+// createDoctor($_GET['vardas'], $_GET['pavarde']);
 // createDoctor('Petars', ' Petrauskis\"s  ' );
 // echo "Petrauskis&quot;s";
+
+// gydytojo salinimas
+function deleteDoctor( $nr ) {
+    $manoSQL = "DELETE FROM doctors
+                       WHERE id=$nr
+                       LIMIT 1;
+                ";
+    mysqli_query( getPrisijungimas() , $manoSQL);
+}
+// deleteDoctor(12);
+
+// atnaujinti gydytoja
+function updateDoctor($nr, $vardas, $pavarde) {
+
+    // sprintf - % vietoj kiekvieno %s isves kintamuosius
+    $manoSQL = sprintf( "UPDATE doctors SET
+                                    name = '%s',
+                                    lname = '%s'
+                                    WHERE id = '%s'
+                                    LIMIT 1 ;
+                         ",
+                  htmlspecialchars( $vardas, ENT_QUOTES, 'UTF-8' ),
+                  htmlspecialchars( $pavarde, ENT_QUOTES, 'UTF-8' ),
+                  $nr
+                 );
+    // %s - s - string, f- (float) skaicius su kableliu
+    sprintf("Vakar %s isejo i %s" , $vardas, $vieta);
+
+    mysqli_query( getPrisijungimas(), $manoSQL);
+}
+updateDoctor(10, 'Petras', 'Lietuvis' );
 
 
 // atsijungiamm nuo DB, ideti i HTML failo apacia
 // mysqli_close( $connection );
+
+
+
+// "daug" gydytoju paemimas is DB
+function getDoctors($kiekis = 9999) { // = 9999 - default value, jeigu nenurodei
+    $manoSQL = "SELECT * FROM doctors LIMIT $kiekis ";
+    $rezultatai = mysqli_query( getPrisijungimas(),  $manoSQL);
+
+    // tikriname ar radome nors viena gydytoja
+    if ( mysqli_num_rows($rezultatai) > 0 ) {
+         // cia NENAUDOTI mysqli_fetch_assoc, NES  jis paima TIk VIENA eilute (gydytoja)
+         return $rezultatai;
+    } else {
+        echo "Gydytoju nepavyko rasti!!! <br>";
+    }
+}
+$pirmi_4_gydytojai = getDoctors(4);
+// $rezultatai = mysqli_fetch_assoc($rezultatai);
+
 
 
 
