@@ -27,6 +27,23 @@
 $connnection = mysqli_connect( DB_HOST, UNSER, PASSWORD, DB_NAME);
 // $connnection = mysqli_connect( DB_HOST, UNSER, PASSWORD, DB_NAME, 8888); su pakeistu PORTu
 
+//======================UTF-8=============================== 
+// // But, this will affect $mysqli->real_escape_string();
+ mysqli_set_charset($connection, 'utf8');
+// Note: Possible UTF-8 confusion
+// Because character set names in MySQL do not contain dashes, the string "utf8" is valid in MySQL to set the character set to UTF-8. The string "utf-8" is not valid, as using "utf-8" will fail to change the character set.
+
+// Tell PHP that we're using UTF-8 strings until the end of the script
+mb_internal_encoding('UTF-8');
+ 
+// Tell PHP that we'll be outputting UTF-8 to the browser
+mb_http_output('UTF-8');
+ 
+// Our UTF-8 test string
+$string = 'Êl síla erin lû e-govaned vîn.';
+//========================================================
+
+
 function getPrisijungimas() {
     global $connnection;
 
