@@ -15,8 +15,8 @@
 
     <body>
 
-
-            <header class="container-fluid">
+          <div class="container-fluid">
+              <header>
               <nav class="row back">
                 <div class="col-md-12 plotis-max">
                   <ul class="paskirstymas">
@@ -49,3 +49,4 @@
 
               </nav> <!-- uzdarau navigacija -->
             </header><!-- uzdarau header -->
+          </div>
