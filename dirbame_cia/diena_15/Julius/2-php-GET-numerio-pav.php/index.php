@@ -15,34 +15,21 @@
     <body>
             <h1> Isijunk   </h1>
 
+<?php
 
-        <?php
-            //
             include_once('doctors_functions_DB.php');
+            $gyd = getDoctor(1);
+            // print_r ($gyd)
 
-            $gydytojas = getDoctor(1); // grista masyvas su id, name , lname
-            include( 'template_gydytojas.php');
+?>
 
-            $gydytojas = getDoctor(3); // grista masyvas su id, name , lname
-            include( 'template_gydytojas.php');
-
-            $gydytojas = getDoctor(2); // grista masyvas su id, name , lname
-            include( 'template_gydytojas.php');
-
-            $gydytojas = getDoctor(4); // grista masyvas su id, name , lname
-            include( 'template_gydytojas.php');
-
-    // arba
-    for($i=1; $i < 5; $i++) {
-        $gydytojas = getDoctor( $i ); // grista masyvas su id, name , lname
-        include( 'template_gydytojas.php');
-    }
-
-            // print_r( $gyd ); //test
+          <h2>
+            <a href="template">
 
 
 
-         ?>
+
+
 
 
        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->

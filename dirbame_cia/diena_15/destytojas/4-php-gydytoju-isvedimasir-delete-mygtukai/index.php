@@ -15,34 +15,22 @@
     <body>
             <h1> Isijunk   </h1>
 
-
         <?php
-            //
             include_once('doctors_functions_DB.php');
+            $visiGydytojai = getDoctors();
 
-            $gydytojas = getDoctor(1); // grista masyvas su id, name , lname
-            include( 'template_gydytojas.php');
+            // print_r( $visiGydytojai ); // test
 
-            $gydytojas = getDoctor(3); // grista masyvas su id, name , lname
-            include( 'template_gydytojas.php');
+    while ( $vienasGYD = mysqli_fetch_assoc($visiGydytojai)  ) :
+?>
+ <h2>
+     <a class='btn btn-danger' href="delete_doctor.php?numeris=<?php echo $vienasGYD['id']; ?>  ">
+            DELETE
+     </a>
+     <?php echo $vienasGYD['name'];  ?>
+  </h2>
 
-            $gydytojas = getDoctor(2); // grista masyvas su id, name , lname
-            include( 'template_gydytojas.php');
-
-            $gydytojas = getDoctor(4); // grista masyvas su id, name , lname
-            include( 'template_gydytojas.php');
-
-    // arba
-    for($i=1; $i < 5; $i++) {
-        $gydytojas = getDoctor( $i ); // grista masyvas su id, name , lname
-        include( 'template_gydytojas.php');
-    }
-
-            // print_r( $gyd ); //test
-
-
-
-         ?>
+    <?php  endwhile;  ?>
 
 
        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
