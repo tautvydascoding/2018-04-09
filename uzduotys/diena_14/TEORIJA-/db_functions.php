@@ -61,8 +61,11 @@ $string = 'Êl síla erin lû e-govaned vîn.';
     //           ";
 
     // pasalina spec. simbolius "  ' \n \t < >
+<<<<<<< HEAD
+=======
     // alternatyva: htmlentities()
     // https://www.w3schools.com/php/func_string_htmlentities.asp
+>>>>>>> 720cf64dad98f2fff622b3cb2a78025e13245e9d
     $vardas = mysqli_real_escape_string(getConnection(), $vardas);
     $slaptazodis = mysqli_real_escape_string(getConnection(), $slaptazodis);
     $slaptazodis = password_hash($slaptazodis, PASSWORD_DEFAULT);
