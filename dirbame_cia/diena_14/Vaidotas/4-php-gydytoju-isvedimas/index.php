@@ -16,34 +16,34 @@
             <h1> Isijunk   </h1>
 
 
-<?php
-    $ = 100;
-    function printA() {
-      echo "a: $a <br>"; // ERROR - NEZINO KAS TAS $a
-    }
-    printA();
+        <?php
 
-    // kaip
-    function printA_22 ($x) {
-      echo "a: $x <br>"; // 100
-      $x = 9999
-    }
-    printA_22($a);
-    echo "a: $a <br>"; // ERROR - undefined
+            //
+            include_once('doctors_functions_DB.php');
 
-    function keiciamaA(){
-      global $a; $a;
-      echo "globalus a paketas: $a <br>";  // 9999
 
-    }
-    keiciamaA();
-    echo "globalus a pakeistas po f-ja: $a <br>"; // 9999
 
-    function keiciuA_22() {
-      echo "GLOBAL[a] ". $globals['a']; <br>
-    }
-?>
+            $gydytojas = getDoctor(1);
+            include('gydytojas.php'); // grista masyvas su id, name , lname
+            $gydytojas = getDoctor(2);
+            include('gydytojas.php');
+            $gydytojas = getDoctor(3);
+            include('gydytojas.php');
+            $gydytojas = getDoctor(4);
+            include('gydytojas.php');
+            // print_r( $gyd ); //test
 
+            //arba
+
+            for ($i=1; $i <6 ; $i++) {
+              $gydytojas = getDoctor($i);
+              include('gydytojas.php');
+
+            }
+
+
+
+         ?>
 
 
        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
