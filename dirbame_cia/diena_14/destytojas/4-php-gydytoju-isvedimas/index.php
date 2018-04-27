@@ -17,7 +17,6 @@
 
 
         <?php
-
             //
             include_once('doctors_functions_DB.php');
 
@@ -32,6 +31,12 @@
 
             $gydytojas = getDoctor(4); // grista masyvas su id, name , lname
             include( 'template_gydytojas.php');
+
+    // arba
+    for($i=1; $i < 5; $i++) {
+        $gydytojas = getDoctor( $i ); // grista masyvas su id, name , lname
+        include( 'template_gydytojas.php');
+    }
 
             // print_r( $gyd ); //test
 
