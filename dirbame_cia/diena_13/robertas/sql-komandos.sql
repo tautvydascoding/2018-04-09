@@ -67,3 +67,14 @@ SELECT patients.name, patients.lname
 FROM patients
 INNER JOIN img ON patients.id = img.patients_id
 WHERE img.id = 3
+
+-- uzduotis 4: gauti paciento "Mark" daktaro pavarde
+-- budas #1
+SELECT doctors.lname
+FROM doctors, patients
+WHERE patients.doctor_id = doctors.id AND patients.name = "Mark";
+
+-- budas #2
+SELECT doctors.lname
+FROM doctors
+WHERE doctors.id IN (SELECT doctor_id FROM patients WHERE name = "Mark");

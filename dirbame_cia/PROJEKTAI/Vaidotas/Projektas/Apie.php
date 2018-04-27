@@ -49,6 +49,18 @@
 
             <footer class="container-fluid">
 
+<<<<<<< HEAD
+            <div class="row ">
+              <div class="col-md-4 float-kaire">
+                <ul class="nav">
+                  <li class="nav-item ml-1">facebook </li>
+                  <li class="nav-item ml-3">instagram </li>
+                </ul>
+              </div>
+              <div class="col-md-4 float-desine">
+                <p> Created by Pienburnis<br /> </p>
+                <p> 2018 </p>
+=======
               <div class="row ">
                 <div class="col-md-4">
                   <ul class="nav">
@@ -61,6 +73,7 @@
                     <li class="nav-item ml-1">Created by Pienburnis </li>
                     <li class="nav-item ml-3">2018 </li>
                 </div><!-- desinys konteineris konteineris ikonam-->
+>>>>>>> 720cf64dad98f2fff622b3cb2a78025e13245e9d
               </div>
           </footer> <!--uzdarau footeri containeri-->
 

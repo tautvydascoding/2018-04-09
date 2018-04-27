@@ -8,11 +8,14 @@ h1 {
 .nav-link{
   border: solid 1px ;
   color:rgb(110, 123, 142);
+<<<<<<< HEAD
+=======
 }
 .plotis-max{
   max-width: 500px;
   margin-left: auto;
   margin-right:auto;
+>>>>>>> 720cf64dad98f2fff622b3cb2a78025e13245e9d
 }
 
 .back{
