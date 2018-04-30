@@ -2,10 +2,15 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>Namai</title>
+
+
         <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
         <link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
         <!-- !!! mano CSS failas visada pats zemiausias -->
         <link rel="stylesheet" href="css/master.css">
@@ -14,39 +19,33 @@
 
 
     <body>
+      <header class="container-fluid bg-info">
 
-          <div class="container-fluid">
-              <header>
-              <nav class="row back">
-                <div class="col-md-12 plotis-max">
-                  <ul class="paskirstymas">
-                      <li class="">
-                        <a class="" href="index.php">
-                                                Namai</a>
-                      </li>
-                      <li class="">
-                        <a class="" href="darbai.php">
-                          <!-- <i class="fa fa-briefcase mr-1"></i> -->
-                          Darbai</a>
-                      </li>
-                  </ul>
+        <div class="row bg-danger aukstis-100">
 
-                  <img src="Images\etynga.svg" alt="logo" class="centruotas_logo" />
+          <nav class="col-lg-12 plotis-max" id="navigacija-top">
+            
+            <a href="index.php">Pagrindinis</a>
+            <a href="darbai.php">Mano Darbai</a>
+            <a href="Apie.php">Apie mane</a>
+            <a href="Kontaktai.php">Klauskite!</a>
+          </nav> <!--uzdarau navigacija-->
 
-                  <ul class="">
-                    <li class="">
-                      <a class="" href="apie.php">
-                        <!-- <i class="fa fa-female mr-1"></i> -->
-                        Apie</a>
-                    </li>
-                    <li class="">
-                      <a class="" href="Kontaktai.php">
-                        <!-- <i class="fa fa-address-book mr-1">                        </i> -->
-                        Kontaktai</a>
-                    </li>
-                  </ul>
-                </div>
+        </div>
 
-              </nav> <!-- uzdarau navigacija -->
-            </header><!-- uzdarau header -->
+
+        <div class="row bg-alert plotis-max">
+          <div class="col-bg-12">
+              <img  src="Images\etynga.svg" class="logotipas" alt="Etynga logo" />
           </div>
+        </div>
+
+
+
+      </header> <!-- uzdarau headeri-->
+
+
+
+
+
+    </body>
