@@ -28,6 +28,9 @@
 	<input type="email" name="pastas" value="">
 </form>
 
+// var x = $('li').eq(0).text(); // paemimas
+//  $('li').eq(0).text(  "Raudonkepuraite "); // teksto pakeitimas/idejimas
+
 // UZDUOTIS 1
 // pakeisti visus h1 tekstus i "Antraste nr: XX" ( vietoj "xx" isvesti skaiciu, kelinta tai antrate)
 
