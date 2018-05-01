@@ -59,14 +59,18 @@ body{
   width: 100px;
 }
 
-#navigacija-top{
+/* #navigacija-top{
 display:flex;
 justify-content: space-around;
 align-items: center;
+} */
+
+.klase{
+  display:flex;
 }
 
-a{
-  font-size: 32px;
+nav a{
+  font-size: 100px;
   text-decoration: none;
 }
 
