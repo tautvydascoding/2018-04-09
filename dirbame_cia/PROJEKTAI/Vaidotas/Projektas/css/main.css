@@ -1,0 +1,434 @@
+* {
+    /* remeliu isskaiciavimas i ploti */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* karuseles  */
+
+/* -------------- */
+
+
+.plotis-max{
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.back{
+  background-color: #e6e6e6;
+  max-height: 15vh;
+  min-height: 15vh;
+}
+
+/* .back2{
+  background-color: #e6e6e6;
+  max-height: 10vh;
+  min-height: 10vh;
+} */
+.navigacijos-lenta{
+  position: relative;
+}
+
+.navigacijos-myg{
+  position: absolute;
+  right:0;
+  top:44%;
+  background-color: rgba(180, 238, 30, 0);
+  border: none;
+}
+
+
+.apgaule{
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+}
+
+.slapukas{
+overflow:hidden;
+}
+
+.plotis-max-45{
+  max-width: 45%;
+}
+
+.Contain{
+  object-fit: scale-down;
+  }
+
+body{
+  /* position: relative; */
+  /* font-size: 16px; */
+  /* font-family: 'Poppins', sans-serif; */
+  background-image: url("../Images/wool.jpg");
+}
+
+.main{
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+/* slider styles */
+.sl__slide{
+  position: relative;;
+}
+
+.sl__text{
+  position:absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(255, 0, 0, 0.5);
+  padding: 20px 0;
+}
+
+.sl__zag, .sl__dec{
+  margin:0;
+  padding:0 10px;
+}
+
+
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+p{
+  font-size: 1rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+.rel_poz{
+  position:relative;
+}
+
+#navigacija-top{
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+#navigacija-top > a{
+text-decoration: none;
+font-size: 2vw;
+font-family: 'Poppins', sans-serif;
+border:solid 0.25vw #474444;
+padding: 0.5vw;
+max-width: 20vw;
+}
+
+/* foooterio iconai */
+#footeris{
+  position: fixed;
+  bottom: 0px;
+  border-top: solid gray;
+  background-color: #e6e6e6;
+  max-height: 10vh;
+  min-height: 10vh;
+}
+
+
+
+.footerio-tekstas{
+text-align:right;
+margin-top: 1vw;
+font-size: 1.5vw;
+}
+/* font awesone skinai footeriui */
+.fa {
+  padding: 0.75vw;
+  font-size: 1.75vw;
+  width: 3.5vw;
+  text-align: center;
+  text-decoration: none;
+  margin: 1vw 0.5vw;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 1vw;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: 1vw;
+}
+
+.fa-instagram {
+  background: #3B5998;
+  color: white;
+  border-radius: 1vw;
+}
+
+.logotipas{
+  max-width: 12vw;
+  margin-bottom: -15vh;
+}
+
+.paskirstymas{
+  display:flex;
+  justify-content: center;
+}
+
+ #navigacija-top>a:link {
+   color: #474444;
+   border:solid 0.25vw #474444;
+   border-radius: 1vw;
+}
+
+#navigacija-top>a:visited {
+   color: #474444;
+   border:solid 0.25vw #474444;
+}
+
+#navigacija-top>a:hover {
+   color: #e6e6e6;
+   background-color: #474444;
+   border-radius: 1vw;
+}
+
+#navigacija-top>a:active {
+   color: #474444;
+   border:solid 0.25vw #474444;
+}
+
+.viena-linija{
+  display:inline-block;
+}
+
+.centravimas{
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.plotis-45{
+  width: 45%;
+}
+.float-kaire{
+  float:left;
+}
+.float-desine{
+  float:right;
+}
+.isjungiu_float{
+  clear:both;
+}
+.aukstis-10-proc {
+    height: 10%;
+}
+.aukstis-20-proc {
+    height: 20%;
+}
+.aukstis-30-proc {
+    height: 30%;
+}
+.aukstis-40-proc {
+    height: 40%;
+}
+.aukstis-50-proc {
+    height: 50%;
+}
+.aukstis-60-proc {
+    height: 60%;
+}
+.aukstis-70-proc {
+    height: 70%;
+}
+
+.aukstis-100 {
+    height: 100px;
+}
+.aukstis-200 {
+    height: 200px;
+}
+.aukstis-300 {
+    height: 300px;
+}
+.aukstis-400 {
+    height: 400px;
+}
+.aukstis-500 {
+    height: 500px;
+}
+iframe{
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+@media (max-width: 768px) {
+  #navigacija-top > a{
+  text-decoration: none;
+  font-size: 3.5vw;
+  font-family: 'Poppins', sans-serif;
+  border:solid 2vw #474444;
+  padding: 1vw;
+  max-width: 20vw;
+  }
+  #navigacija-top>a:link {
+    color: #474444;
+    border:solid 0.5vw #474444;
+    border-radius: 1vw;
+ }
+
+ #navigacija-top>a:visited {
+    color: #474444;
+    border:solid 1vw #474444;
+ }
+
+ #navigacija-top>a:hover {
+    color: #e6e6e6;
+    background-color: #474444;
+    border-radius: 1vw;
+ }
+
+ #navigacija-top>a:active {
+    color: #474444;
+    border:solid 0.5vw #474444;
+ }
+ /* foooterio iconai */
+ #footeris{
+   position: fixed;
+   bottom: 0px;
+   border-top: solid gray;
+   background-color: #e6e6e6;
+   max-height: 10vh;
+   min-height: 10vh;
+ }
+
+
+
+ .footerio-tekstas{
+ text-align:right;
+ margin-top: 3vw;
+ font-size: 3vw;
+ }
+ /* font awesone skinai footeriui */
+ .fa {
+   padding: 1vw;
+   font-size: 3.5vw;
+   width: 6vw;
+   text-align: center;
+   text-decoration: none;
+   margin: 2vw 1vw;
+ }
+
+ .fa:hover {
+     opacity: 0.7;
+ }
+
+ .fa-facebook {
+   background: #3B5998;
+   color: white;
+   border-radius: 1vw;
+ }
+ .fa-twitter {
+   background: #55ACEE;
+   color: white;
+   border-radius: 1vw;
+ }
+ .fa-instagram {
+   background: #3B5998;
+   color: white;
+   border-radius: 1vw;
+ }
+ .logotipas{
+   max-width: 18vw;
+   margin-bottom: -15vh;
+ }
+
+
+@media (max-width: 360px) {
+    #navigacija-top > a{
+    text-decoration: none;
+    font-size: 5vw;
+    font-family: 'Poppins', sans-serif;
+    border:solid 2vw #474444;
+    padding: 1vw;
+    max-width: 20vw;
+    }
+
+    #navigacija-top>a:link {
+      color: #474444;
+      border:solid 0.5vw #474444;
+      border-radius: 1vw;
+   }
+
+   #navigacija-top>a:visited {
+      color: #474444;
+      border:solid 0.5vw #474444;
+   }
+
+   #navigacija-top>a:hover {
+      color: #e6e6e6;
+      background-color: #474444;
+      border-radius: 1vw;
+   }
+
+   #navigacija-top>a:active {
+      color: #474444;
+      border:solid 0.5vw #474444;
+   }
+
+   /* foooterio iconai */
+   #footeris{
+     position: fixed;
+     bottom: 0px;
+     border-top: solid gray;
+     background-color: #e6e6e6;
+     max-height: 6vh;
+     min-height: 6vh;
+   }
+
+
+
+   .footerio-tekstas{
+   text-align:right;
+   margin-top: 4vw;
+   font-size: 3vw;
+   }
+   /* font awesone skinai footeriui */
+   .fa {
+     padding: 1vw;
+     font-size: 5vw;
+     width: 7vw;
+     text-align: center;
+     text-decoration: none;
+     margin: 4vw 2vw;
+   }
+
+   .fa:hover {
+       opacity: 0.7;
+   }
+
+   .fa-facebook {
+     background: #3B5998;
+     color: white;
+     border-radius: 2vw;
+   }
+   .fa-twitter {
+     background: #55ACEE;
+     color: white;
+     border-radius: 2vw;
+   }
+   .fa-instagram {
+     background: #3B5998;
+     color: white;
+     border-radius: 2vw;
+   }
+
+   .logotipas{
+     max-width: 20vw;
+     margin-bottom: -15vh;
+   }
