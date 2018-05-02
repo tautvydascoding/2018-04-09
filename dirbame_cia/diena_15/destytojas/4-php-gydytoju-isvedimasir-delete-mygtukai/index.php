@@ -20,9 +20,9 @@
             $visiGydytojai = getDoctors();
 
             // print_r( $visiGydytojai ); // test
-
     while ( $vienasGYD = mysqli_fetch_assoc($visiGydytojai)  ) :
 ?>
+aaaa
  <h2>
      <a class='btn btn-danger' href="delete_doctor.php?numeris=<?php echo $vienasGYD['id']; ?>  ">
             DELETE

@@ -5,7 +5,7 @@
 // 1.5 Atspasudinti visas datas nuo 3-cios (iskaitant 3-cia)
 
 
-// 2) sukurti matirca:
+// 2) sukurti matrica:
 // Tomas, 1981, Buhalteris
 // Ona 1980 Programuotoja
 // Petras, 1975, Direktorius
