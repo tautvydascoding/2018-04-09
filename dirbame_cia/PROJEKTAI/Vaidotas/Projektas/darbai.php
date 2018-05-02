@@ -18,6 +18,57 @@
     <body>
 
         <?php include('headeris2.php') ?>
+<div class="container">
+          <div class="row">
+            <nav class="col-md-2 aukstis-400 bg-danger navigacijos-lenta mr-3">
+              <ul>
+                <ul>Nerta
+                  <li>Rankines</li>
+                  <li>Kuprines</li>
+                  <li>Delninukes</li>
+                </ul>
+                <ul>Megzta
+                  <li>Megztiniai</li>
+                  <li>Liemenes</li>
+                  <li>Salikai ir kiti aksesuarai</li>
+                </ul>
+                <ul>Siuta
+                  <li>Sedmaisiai</li>
+                  <li>Sukneles</li>
+                </ul>
+              </ul>
+              <button type="button" name="navigacijos-meniu" class="navigacijos-myg"><i class="fa fa-arrow-circle-o-right"></i></button>
+            </nav>
+              <article class="col-md-9 bg-info aukstis-400" id="galerija">
+                <div class="row" id="nerta">
+                  <div class="col-md-12 mt-5 bg-warning">
+                    vieta nertiems paveikslams
+                  </div>
+                </div>
+                <div class="row" id="megzta">
+                  <div class="col-md-12 mt-5 bg-light">
+                    vieta megztiems paveikslams
+                  </div>
+                </div>
+                <div class="row" id="megzta">
+                  <div class="col-md-12 mt-5 bg-success">
+                    vieta siutiems paveikslams
+                  </div>
+                </div>
+
+              </article>
+
+
+
+
+
+
+
+
+
+          </div>
+</div>
+
 
 
 

@@ -45,7 +45,7 @@
                           </div>
                           <div class="card-body">
                             <blockquote class="blockquote mb-0">
-                              <p>Gebu savo letenėlėmis paimti gėri ir neriant, mezgant ar siūnant suteikti Jūsų gėriui norimą formą!</p>
+                              <p>Gebu savo letenėlėmis paimti gėrį ir neriant, mezgant ar siūnant suteikti Jūsų gėriui norimą formą!</p>
                             </blockquote>
                           </div>
                         </div>

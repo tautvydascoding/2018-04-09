@@ -17,35 +17,48 @@
     <body>
       <?php include('headeris2.php') ?>
 
-      <div class="container mb-5">
+      <div class="container mb-5 mt-5">
 
 
-        <wrapper class="row bg-info aukstis-400">
+        <wrapper class="row bg-info aukstis-400 my-5">
 
           <form class="col-md bg-danger mr-2 mb-2" action="index.html" method="post">
 
+            <h2> Nebijokit klausti!<hr /></h2>
+
             Vardas<br />
+            <input type="text" name="Vardas" value="" placeholder="Mau">
+            <br>
             Pavarde<br />
+            <input type="text" name="Pavarde" value="" placeholder="Mau">
+            <br>
             Pasto adresas <br />
+            <input type="" name="Vardas" value="" placeholder="Mau">
+            <br>
             Nerta/Megzta/Siuta <br />
-            Textarea <br>
-            <button type="button" name="button"> SUBMIT</button>
+            <input type="radio" name="Kategorija" value="megzta" checked> Megzta<br>
+            <input type="radio" name="Kategorija" value="nerta"> Nerta<br>
+            <input type="radio" name="Kategorija" value="siuta"> Siuta <br>
+            <input type="Textarea" name="Komentaras" value="" placeholder="Laukiamas jūsų komentaras" width="100" height="300"> <br>
+            <button type="submit" name="button"> SUBMIT</button>
+            <input type="reset" name="" value="Iš naujo">
 
           </form>
-          <aside class="col-md-6">
+
+          <aside class="col-md-6 mb-5">
             <div class="row">
               <nav class="col-md-12 bg-warning mb-2">
                 <h2>Mano draugai: <hr /></h2>
                 <ul>
                   <li> Siūlų dama </li>
                   <li> Siūlo galas </li>
-                  <li> </li>
+                  <li> Kitas saltinis</li>
                 </ul>
 
               </nav>
             </div>
             <div class="row">
-              <figure class="col-md-12 bg-danger" >
+              <figure class="col-md-12 bg-danger mb-5" >
                 <h2> Etyngos guolis Kaune:</h2>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d487.45461162299756!2d23.89884807823993!3d54.91506729637681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e718afc982d467%3A0x4fd43645ecdd8566!2sVarni%C5%B3+g.+37%2C+Kaunas+48416!5e1!3m2!1sen!2slt!4v1525167410338" width="360" height="400" frameborder="1" style="border:12" allowfullscreen></iframe>
               </figure>

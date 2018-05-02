@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
 }
+/* karuseles  */
 
 /* -------------- */
 
@@ -16,8 +17,8 @@
 
 .back{
   background-color: #e6e6e6;
-  max-height: 10vh;
-  min-height: 10vh;
+  max-height: 15vh;
+  min-height: 15vh;
 }
 
 /* .back2{
@@ -25,6 +26,17 @@
   max-height: 10vh;
   min-height: 10vh;
 } */
+.navigacijos-lenta{
+  position: relative;
+}
+
+.navigacijos-myg{
+  position: absolute;
+  right:0;
+  top:44%;
+  background-color: rgba(180, 238, 30, 0);
+  border: none;
+}
 
 
 .apgaule{
@@ -46,11 +58,43 @@ overflow:hidden;
 
 body{
   /* position: relative; */
-  font-size: 16px;
-  font-family: 'Poppins', sans-serif;
+  /* font-size: 16px; */
+  /* font-family: 'Poppins', sans-serif; */
   background-image: url("../Images/wool.jpg");
 }
 
+.main{
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+/* slider styles */
+.sl__slide{
+  position: relative;;
+}
+
+.sl__text{
+  position:absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(255, 0, 0, 0.5);
+  padding: 20px 0;
+}
+
+.sl__zag, .sl__dec{
+  margin:0;
+  padding:0 10px;
+}
+
+
+
+img{
+  max-width: 100%;
+  height: auto;
+}
 p{
   font-size: 1rem;
 }
@@ -128,7 +172,7 @@ font-size: 1.5vw;
 
 .logotipas{
   max-width: 12vw;
-  margin-bottom: -8vh;
+  margin-bottom: -15vh;
 }
 
 .paskirstymas{
@@ -216,6 +260,12 @@ font-size: 1.5vw;
 .aukstis-500 {
     height: 500px;
 }
+iframe{
+  max-width: 100%;
+  height: auto;
+}
+
+
 
 @media (max-width: 768px) {
   #navigacija-top > a{
@@ -261,7 +311,7 @@ font-size: 1.5vw;
 
  .footerio-tekstas{
  text-align:right;
- margin-top: 2vw;
+ margin-top: 3vw;
  font-size: 3vw;
  }
  /* font awesone skinai footeriui */
@@ -295,7 +345,7 @@ font-size: 1.5vw;
  }
  .logotipas{
    max-width: 18vw;
-   margin-bottom: -10vh;
+   margin-bottom: -15vh;
  }
 
 
@@ -380,5 +430,5 @@ font-size: 1.5vw;
 
    .logotipas{
      max-width: 20vw;
-     margin-bottom: -10vh;
+     margin-bottom: -15vh;
    }
