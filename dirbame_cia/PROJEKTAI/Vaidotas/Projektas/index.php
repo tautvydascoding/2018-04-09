@@ -25,35 +25,53 @@
 
         <div class="sl">
           <div class="sl__slide">
-            <img src="Images/1.jpg" alt="Slide picture 1" class="sl__img">
+            <img src="Images/megzta/karusele/1.jpg" alt="Slide picture 1" class="sl__img">
             <div class="sl__text">
-              <h3 class="sl__zag"> Kuprinės</h3>
-              <p class="slide__sec"> Nertos kuprinės</p>
+              <h3 class="sl__zag"> Skraistės</h3>
+              <p class="slide__sec"> Megztos skraistės</p>
             </div> <!-- slide text-->
           </div><!-- slide close-->
 
           <div class="sl__slide">
-            <img src="Images/2.jpg" alt="Slide picture 5" class="sl__img">
+            <img src="Images/megzta/karusele/2.jpg" alt="Slide picture 2" class="sl__img">
             <div class="sl__text">
-              <h3 class="sl__zag"> Delninukės</h3>
-              <p class="slide__sec"> Piniginės ar rankinės</p>
+              <h3 class="sl__zag"> Šlepetės</h3>
+              <p class="slide__sec"> Šaltoms žiemoms</p>
             </div> <!-- slide text-->
           </div><!-- slide close-->
 
           <div class="sl__slide">
-            <img src="Images/3.jpg" alt="Slide picture 3" class="sl__img">
+            <img src="Images/megzta/karusele/3.jpg" alt="Slide picture 3" class="sl__img">
             <div class="sl__text">
-              <h3 class="sl__zag"> Nerti krepšeliai</h3>
-              <p class="slide__sec"> Įvairių dydžių ar spalvų</p>
+              <h3 class="sl__zag"> Megzti tapukai</h3>
+              <p class="slide__sec"> Patiems mažiausiems</p>
             </div> <!-- slide text-->
           </div><!-- slide close-->
+
           <div class="sl__slide">
-            <img src="Images/4.jpg" alt="Slide picture 4" class="sl__img">
+            <img src="Images/megzta/karusele/4.jpg" alt="Slide picture 4" class="sl__img">
             <div class="sl__text">
-              <h3 class="sl__zag"> Nertos rankinės</h3>
-              <p class="slide__sec"> Dekoracijos ir priedai pagal jūsų poreikius</p>
+              <h3 class="sl__zag"> Megztos suknelės</h3>
+              <p class="slide__sec"> Šiltos ir stilingos</p>
             </div> <!-- slide text-->
           </div><!-- slide close-->
+
+          <div class="sl__slide">
+            <img src="Images/megzta/karusele/5.jpg" alt="Slide picture 5" class="sl__img">
+            <div class="sl__text">
+              <h3 class="sl__zag"> Megztiniai</h3>
+              <p class="slide__sec"> Kalėdoms ir kitoms progoms</p>
+            </div> <!-- slide text-->
+          </div><!-- slide close-->
+
+          <div class="sl__slide">
+            <img src="Images/megzta/karusele/6.jpg" alt="Slide picture 6" class="sl__img">
+            <div class="sl__text">
+              <h3 class="sl__zag"> Šalikai ir pirštinės</h3>
+              <p class="slide__sec"> Lietuviškoms žiemoms</p>
+            </div> <!-- slide text-->
+          </div><!-- slide close-->
+
         </div> <!--slider close-->
 </main>
 
@@ -61,36 +79,43 @@
 
         <div class="sl">
           <div class="sl__slide">
-            <img src="Images/6.jpg" alt="Slide picture 1" class="sl__img">
+            <img src="Images/nerta/karusele/1.jpg" alt="Slide picture 1" class="sl__img">
             <div class="sl__text">
-              <h3 class="sl__zag"> Pirštinės</h3>
-              <p class="slide__sec"> Megztos pirštinės ar riešinės</p>
+              <h3 class="sl__zag"> Kuprinės</h3>
+              <p class="slide__sec"> Kokių tik nori spalvų!</p>
             </div> <!-- slide text-->
           </div><!-- slide close-->
 
           <div class="sl__slide">
-            <img src="Images/7.jpg" alt="Slide picture 5" class="sl__img">
+            <img src="Images/nerta/karusele/2.jpg" alt="Slide picture 2" class="sl__img">
             <div class="sl__text">
-              <h3 class="sl__zag"> Šalikai</h3>
-              <p class="slide__sec"> Šalikai, kepurės ar movos</p>
+              <h3 class="sl__zag"> Krepšeliai</h3>
+              <p class="slide__sec"> Kasdien ir ne tik</p>
             </div> <!-- slide text-->
           </div><!-- slide close-->
 
           <div class="sl__slide">
-            <img src="Images/8.jpg" alt="Slide picture 3" class="sl__img">
+            <img src="Images/nerta/karusele/3.jpg" alt="Slide picture 3" class="sl__img">
             <div class="sl__text">
-              <h3 class="sl__zag"> Megztiniai</h3>
-              <p class="slide__sec"> Megztiniai ar skraistės</p>
+              <h3 class="sl__zag"> Rankinės</h3>
+              <p class="slide__sec"> Platus priedų ir spalvų pasirinkimas</p>
             </div> <!-- slide text-->
           </div><!-- slide close-->
+
           <div class="sl__slide">
-            <img src="Images/9.jpg" alt="Slide picture 4" class="sl__img">
+            <img src="Images/nerta/karusele/4.jpg" alt="Slide picture 4" class="sl__img">
+            <div class="sl__text">
+              <h3 class="sl__zag"> Delninukės</h3>
+              <p class="slide__sec"> Delninukės ar piniginės</p>
+            </div> <!-- slide text-->
+          </div><!-- slide close-->
+          div class="sl__slide">
+            <img src="Images/nerta/karusele/5.jpg" alt="Slide picture 5" class="sl__img">
             <div class="sl__text">
               <h3 class="sl__zag"> Šlepetės</h3>
               <p class="slide__sec"> Dekoracijos ir priedai pagal jūsų poreikius</p>
             </div> <!-- slide text-->
           </div><!-- slide close-->
-        </div><!-- slide close-->
 
         </div> <!--slider close-->
 </main>
@@ -99,44 +124,15 @@
 
         <div class="sl">
           <div class="sl__slide">
-            <img src="Images/1.jpg" alt="Slide picture 1" class="sl__img">
+            <img src="Images/siuta/karusele/1.jpg" alt="Slide picture 1" class="sl__img">
             <div class="sl__text">
-              <h3 class="sl__zag"> Kuprinės</h3>
-              <p class="slide__sec"> Nertos kuprinės</p>
+              <h3 class="sl__zag"> Sėdmaišiai</h3>
+              <p class="slide__sec"> Įvairių dydžių ir formų</p>
             </div> <!-- slide text-->
           </div><!-- slide close-->
 
-          <div class="sl__slide">
-            <img src="Images/5.jpg" alt="Slide picture 5" class="sl__img">
-            <div class="sl__text">
-              <h3 class="sl__zag"> Delninukės</h3>
-              <p class="slide__sec"> Piniginės ar rankinės</p>
-            </div> <!-- slide text-->
-          </div><!-- slide close-->
-
-          <div class="sl__slide">
-            <img src="Images/3.jpg" alt="Slide picture 3" class="sl__img">
-            <div class="sl__text">
-              <h3 class="sl__zag"> Nerti krepšeliai</h3>
-              <p class="slide__sec"> Įvairių dydžių ar spalvų</p>
-            </div> <!-- slide text-->
-          </div><!-- slide close-->
-          <div class="sl__slide">
-            <img src="Images/4.jpg" alt="Slide picture 4" class="sl__img">
-            <div class="sl__text">
-              <h3 class="sl__zag"> Nertos rankinės</h3>
-              <p class="slide__sec"> Dekoracijos ir priedai pagal jūsų poreikius</p>
-            </div> <!-- slide text-->
-          </div><!-- slide close-->
         </div> <!--slider close-->
 </main>
-
-
-
-
-
-
-
 
 
 
