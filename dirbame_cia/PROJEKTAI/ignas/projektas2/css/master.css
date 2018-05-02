@@ -1,0 +1,84 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #F8F9FA;
+}
+.veiksmas div {
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #F8F9FA;
+    background-color: #343A40;
+}
+
+                                /*aukscio nustatymai*/
+.aukstis-100 {
+    height: 100px;
+}
+.aukstis-150 {
+    height: 150px;
+}
+.aukstis-200 {
+    height: 200px;
+}
+.aukstis-250 {
+    height: 250px;
+}
+.aukstis-300 {
+    height: 300px;
+}
+.aukstis-400 {
+    height: 400px;
+}
+.aukstis-500 {
+    height: 500px;
+}
+.plotis-100 {
+  width: 100%;
+}
+.sveiki {
+    margin-bottom: 5em;
+    margin-top: 5em;
+}
+
+                            /*paslaugos image hover*/
+
+.paslaugos {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+}
+
+.paslaugosFoto {
+  display: block;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.paslaugos:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
