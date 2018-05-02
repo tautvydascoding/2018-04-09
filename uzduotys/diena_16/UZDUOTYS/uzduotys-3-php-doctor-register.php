@@ -1,2 +1,3 @@
-SUkurti gydytoju registracios  forma
-ir ivestus duomenis issaugoti DB panaudojant createDOctor() f-ja
+SUkurti gydytoju registracios  forma (pvz: template-registracija.php )
+Vartotojui paspaudus "registruotis" mygtuka - ivestus duomenis issaugoti DB.
+Tam panaudojant createDoctor(....) f-ja
