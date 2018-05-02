@@ -20,7 +20,7 @@
     <body>
 
     <!-- LOGOTIPAS -->
-    <img src="images/logo.jpg" id="logo" alt="zyles-debesy-logotipas">
+    <img src="images/2.png" id="logo" alt="zyles-debesy-logotipas">
 
 
       <!-- start 1 container -->
