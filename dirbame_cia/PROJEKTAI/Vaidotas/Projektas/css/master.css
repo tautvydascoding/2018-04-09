@@ -1,21 +1,20 @@
-
-
-/* -------------- */
-h1 {
-    color: orange;
+* {
+    /* remeliu isskaiciavimas i ploti */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
+/* -------------- */
 .nav-link{
   border: solid 1px ;
   color:rgb(110, 123, 142);
-<<<<<<< HEAD
-=======
+
 }
 .plotis-max{
-  max-width: 500px;
+  max-width: 700px;
   margin-left: auto;
   margin-right:auto;
->>>>>>> 720cf64dad98f2fff622b3cb2a78025e13245e9d
 }
 
 .back{
@@ -48,15 +47,40 @@ overflow:hidden;
 .Contain{
   object-fit: scale-down;
   }
-  
+
 body{
   position: relative;
-  background-image: url("../Images/wool.jpg");
+  font-size: 16px;
+  /* background-image: url("../Images/wool.jpg"); */
 }
 
 .centruotas_logo{
   margin-bottom:-50%;
   width: 100px;
+}
+
+/* #navigacija-top{
+display:flex;
+justify-content: space-around;
+align-items: center;
+} */
+
+.klase{
+  display:flex;
+}
+
+nav a{
+  font-size: 100px;
+  text-decoration: none;
+}
+
+.logotipas{
+  height: 100px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 1px;
 }
 
 .paskirstymas{
@@ -102,7 +126,25 @@ a:active {
 .isjungiu_float{
   clear:both;
 }
-.aukstis-20 {
+.aukstis-10-proc {
+    height: 10%;
+}
+.aukstis-20-proc {
+    height: 20%;
+}
+.aukstis-30-proc {
+    height: 30%;
+}
+.aukstis-40-proc {
+    height: 40%;
+}
+.aukstis-50-proc {
+    height: 50%;
+}
+.aukstis-60-proc {
+    height: 260%;
+}
+.aukstis-70-proc {
     height: 20%;
 }
 
