@@ -30,6 +30,7 @@
   position: relative;
 }
 
+
 .navigacijos-myg{
   position: absolute;
   right:0;
@@ -57,11 +58,20 @@ overflow:hidden;
   }
 
 body{
-  /* position: relative; */
+  position: relative;
   /* font-size: 16px; */
-  /* font-family: 'Poppins', sans-serif; */
-  background-image: url("../Images/wool.jpg");
+  font-family: 'Poppins', sans-serif;
+  background-image: url("../Images/zig_zag_wool.png");
 }
+
+ul.nav-pills {
+    top: 20vh;
+    position: fixed;
+  }
+  /* div.col-8 div {
+      height: 500px;
+    } */
+
 
 .main{
   max-width: 700px;
@@ -125,10 +135,12 @@ max-width: 20vw;
 #footeris{
   position: fixed;
   bottom: 0px;
+  left:0px;
   border-top: solid gray;
   background-color: #e6e6e6;
   max-height: 10vh;
   min-height: 10vh;
+  z-index: 9999;
 }
 
 
