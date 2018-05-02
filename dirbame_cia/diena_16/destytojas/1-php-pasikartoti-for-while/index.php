@@ -46,7 +46,7 @@ for ($i=0  ;       $i <  5 ; $i = $i + 2) {
 // 1.5 Atspasudinti visas datas nuo 3-cios (iskaitant 3-cia)
 echo "<h2>Nuo trecios</h2>";
 
-for ($i=2 ;    $i <  5 ; $i++) {  
+for ($i=2 ;    $i <  5 ; $i++) {
     echo $datos[$i] . "<br />";
 }
 // kam lygu $i
