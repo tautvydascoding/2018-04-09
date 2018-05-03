@@ -7,4 +7,5 @@ function work($times){
   return work($times - 1);
 }
 
-echo "Work: " . work(2000000);
+// @ $times ~ 2.000.000 -> Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes)
+echo "Work: " . work(100);
