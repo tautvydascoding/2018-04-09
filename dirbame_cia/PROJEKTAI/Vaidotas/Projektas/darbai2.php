@@ -37,37 +37,45 @@
 
 
         <div class="col-sm-9 col-8">
-              <div id="megzta" class="bg-success row">
+              <div id="megzta" class="row">
 
-                <div class="col-sm-12 mt-5 bg-warning">
+                <div class="col-sm-12 mt-5 bg-light">
                   <h2>Megztos gėrybės</h2>
                   <div class="fotorama" data-nav="thumbs" >
-                        <img src="http://s.fotorama.io/1.jpg" data-caption="Kuprinyte">
-                        <img src="http://s.fotorama.io/2.jpg" data-caption="Salikas">
+                        <img src="Images/megzta/1.jpg" data-caption="Skraistė">
+                        <img src="Images/megzta/2.jpg" data-caption="Šlepetės iki kauliuko">
+                        <img src="Images/megzta/3.jpg" data-caption="Tapukai-mašiniukai">
+                        <img src="Images/megzta/4.jpg" data-caption="Šalikas ir pirštinės">
+                        <img src="Images/megzta/5.jpg" data-caption="Pirštinės transformeriai">
+                        <img src="Images/megzta/6.jpg" data-caption="Komplektas žiemai">
                   </div>
                 </div>
               </div>
 
-              <div id="nerta" class="bg-warning row">
-                <div class="col-sm-12 mt-5 bg-warning">
+              <div id="nerta" class="row">
+                <div class="col-sm-12 mt-5 bg-light">
                   <h2>Nertos gėrybės</h2>
-                  <div class="fotorama" data-nav="thumbs" >
-                        <img src="http://s.fotorama.io/1.jpg" data-caption="Kuprinyte">
-                        <img src="http://s.fotorama.io/2.jpg" data-caption="Salikas">
-                        <img src="http://s.fotorama.io/4.jpg" data-caption="Preke">
-                        <img src="http://s.fotorama.io/5.jpg" data-caption="Pirstines">
+                  <div class="fotorama" data-nav="thumbs">
+                        <img src="Images/nerta/1.jpg" data-caption="Drąsi kuprinė">
+                        <img src="Images/nerta/2.jpg" data-caption="Krepšeliai">
+                        <img src="Images/nerta/3.jpg" data-caption="Rožinė rankinė">
+                        <img src="Images/nerta/4.jpg" data-caption="Delninukė">
+                        <img src="Images/nerta/5.jpg" data-caption="Spalvotosios šlepetės">
+                        <img src="Images/nerta/6.jpg" data-caption="Krepšeliai niekučiams">
+
                   </div>
                 </div>
             </div>
 
-            <div id="siuta" class="bg-info row">
-              <div class="col-sm-12 mt-5 bg-warning">
+            <div id="siuta" class="row">
+              <div class="col-sm-12 mt-5 bg-light">
                 <h2>Siūtos gėrybės</h2>
-                <div class="fotorama" data-nav="thumbs" >
-                      <img src="http://s.fotorama.io/1.jpg" data-caption="Kuprinyte">
-                      <img src="http://s.fotorama.io/2.jpg" data-caption="Salikas">
-                      <img src="http://s.fotorama.io/4.jpg" data-caption="Preke">
-                      <img src="http://s.fotorama.io/5.jpg" data-caption="Pirstines">
+                <div class="fotorama" data-nav="thumbs">
+                      <img src="Images/siuta/1.jpg" data-caption="Sėdmaišiai 1">
+                      <img src="Images/siuta/2.jpg" data-caption="Sėdmaišiai 2">
+                      <img src="Images/siuta/3.jpg" data-caption="Sėdmaišiai 3">
+                      <img src="Images/siuta/4.jpg" data-caption="Vasariškiausios suknelės">
+
                 </div>
               </div>
           </div>

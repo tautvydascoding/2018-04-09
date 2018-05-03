@@ -80,10 +80,10 @@
         <div class="sl">
           <div class="sl__slide">
             <img src="Images/nerta/karusele/1.jpg" alt="Slide picture 1" class="sl__img">
-            <div class="sl__text">
+            <a href="darbai2.php#nerta"><div class="sl__text">
               <h3 class="sl__zag"> Kuprinės</h3>
               <p class="slide__sec"> Kokių tik nori spalvų!</p>
-            </div> <!-- slide text-->
+            </div></a> <!-- slide text-->
           </div><!-- slide close-->
 
           <div class="sl__slide">
@@ -109,7 +109,7 @@
               <p class="slide__sec"> Delninukės ar piniginės</p>
             </div> <!-- slide text-->
           </div><!-- slide close-->
-          div class="sl__slide">
+          <div class="sl__slide">
             <img src="Images/nerta/karusele/5.jpg" alt="Slide picture 5" class="sl__img">
             <div class="sl__text">
               <h3 class="sl__zag"> Šlepetės</h3>
@@ -125,10 +125,10 @@
         <div class="sl">
           <div class="sl__slide">
             <img src="Images/siuta/karusele/1.jpg" alt="Slide picture 1" class="sl__img">
-            <div class="sl__text">
+            <a href="darbai2.php#siuta"><div class="sl__text">
               <h3 class="sl__zag"> Sėdmaišiai</h3>
               <p class="slide__sec"> Įvairių dydžių ir formų</p>
-            </div> <!-- slide text-->
+            </div></a> <!-- slide text-->
           </div><!-- slide close-->
 
         </div> <!--slider close-->

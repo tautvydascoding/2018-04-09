@@ -9,7 +9,7 @@
                         Namai</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link btn ml-1" href="darbai.php">
+                      <a class="nav-link btn ml-1" href="darbai2.php">
                         <!-- <i class="fa fa-briefcase mr-1"></i> -->
                         Darbai</a>
                     </li>
