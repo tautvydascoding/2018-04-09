@@ -6,7 +6,6 @@ class Zmogus {
 }
 class Vyras  extends Zmogus {
     private $testosteronas = 6122;
-
 }
 
 //
