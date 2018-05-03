@@ -8,8 +8,9 @@ $klientoVardas = $_POST['vardas'];
 $klientoKlausimas = $_POST['klausimas'];
 $klientoPastas = $_POST['pastas'];
 
-
-
+$klientoVardas    = htmlspecialchars(    $klientoVardas,   ENT_QUOTES, 'UTF-8');
+$klientoKlausimas = htmlspecialchars( $klientoKlausimas,   ENT_QUOTES, 'UTF-8');
+$klientoPastas    = htmlspecialchars(    $klientoPastas,   ENT_QUOTES, 'UTF-8');
 
 //Load Composer's autoloader
 require 'libs/PHPMailer-master/PHPMailerAutoload.php';
@@ -18,33 +19,30 @@ $mail = new PHPMailer(true);                              // Passing `true` enab
 try {
 
     //===============================
-        // papildomi PhpMailer nustatymia, jeigu neveikia su standartiniais
-        $mail->SMTPOptions = array(
-            'ssl' => array(
-            'verify_peer' => false,
-            'verify_peer_name' => false,
-            'allow_self_signed' => true
-            )
-        );
-        $mail->Host = 'tls://smtp.gmail.com:587';
-        $mail->SMTPSecure = 'ssl';                              // Enable TLS encryption, `ssl` also accepted
-        $mail->Port = 465;                                      // TCP port to connect to
+    // papildomi PhpMailer nustatymia, jeigu neveikia su standartiniais
+    $mail->SMTPOptions = array(
+        'ssl' => array(
+        'verify_peer' => false,
+        'verify_peer_name' => false,
+        'allow_self_signed' => true
+        )
+    );
+    $mail->Host = 'tls://smtp.gmail.com:587';
+    $mail->SMTPSecure = 'ssl';                              // Enable TLS encryption, `ssl` also accepted
+    $mail->Port = 465;                                      // TCP port to connect to
 
-        //Server settings
-        $mail->SMTPDebug = 3;                                 // Enable verbose debug output
-        $mail->isSMTP();                                      // Set mailer to use SMTP
-        $mail->SMTPAuth = true;                               // Enable SMTP authentication
-        $mail->Username = 'testascoding@gmail.com';                 // SMTP username
+    //Server settings
+    $mail->SMTPDebug = 3;                                 // Enable verbose debug output
+    $mail->isSMTP();                                      // Set mailer to use SMTP
+    $mail->SMTPAuth = true;                               // Enable SMTP authentication
+    $mail->Username = 'testascoding@gmail.com';                 // SMTP username
+    $mail->Password = 'slaptazodis';                           // SMTP password
         //=============================
-      $mail->Password = 'slaptazodis';                           // SMTP password
 
    //Recipients
    $mail->setFrom('testascoding@gmail.com', 'Mailer');
    $mail->addAddress('testascoding@gmail.com', 'Puslapiu kurejai');     // Add a recipient
    $mail->addReplyTo( $klientoPastas, $klientoVardas);
-
-   // $mail->addCC('cc@example.com');
-   // $mail->addBCC('bcc@example.com');
 
    //Content
    $mail->isHTML(true);                                  // Set email format to HTML
@@ -59,4 +57,7 @@ try {
 
 } catch (Exception $e) {
    echo 'eroro: NEPAVYKO ISISUSTI. Mailer Error: ', $mail->ErrorInfo;
+}
+finally {
+   echo "&copy 2018";
 }
