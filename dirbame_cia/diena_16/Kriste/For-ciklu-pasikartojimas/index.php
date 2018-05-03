@@ -115,7 +115,12 @@ echo "<br />";
 // 2.3) atspausdinti su dvigubu FOREACH-->
 // KAIP su situo? pasibandyti;
 
-
+foreach ($darbuotojai as $info) {
+  foreach ($info as $abc) {
+  }
+var_dump($info, $abc); // tik nemoku graziia atspausdinti;
+echo "<br />";
+}
 
  ?>
 

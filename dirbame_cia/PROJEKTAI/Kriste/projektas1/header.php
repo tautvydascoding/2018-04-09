@@ -39,11 +39,12 @@
                 <a class="nav-link" href="about.php">About</a>
               </li>
               <li class="dropdown">
-                  <a href="javascript:void(0)" class="dropbtn">Shop All</a>
+                  <a href="shop-all.php" class="dropbtn">Shop All</a>
                   <div class="dropdown-content">
-                    <a class="font-weight-light" href="#">Rings</a>
-                    <a class="font-weight-light" href="#">Earings</a>
-                    <a class="font-weight-light" href="#">Bracelets</a>
+                    <a class="font-weight-light" href="rings.php">Rings</a>
+                    <a class="font-weight-light" href="earings.php">Earings</a>
+                    <a class="font-weight-light" href="bracelets.php">Bracelets</a>
+                    <a class="font-weight-light" href="keychains.php">Keychains</a>
                   </div>
                 </li>
               <li class="nav-item">

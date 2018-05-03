@@ -47,7 +47,8 @@ include('header.php');
                   <div class="form-group">
                     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your name"> <br>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email" required> <br>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your message" rows="5" required> </textarea> <br>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" cols="50" required placeholder="Your message here..."></textarea>
+                    <br>
                     <button type="button" class="btn btn-outline-secondary siuntimo-mygtukas">Send message!</button>
                   </div>
                 </form>
