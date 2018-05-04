@@ -1,6 +1,6 @@
-<div class="container d-flex justify-content-center">
+<div class="container-fluid d-flex justify-content-center p-0">
 
-    <footer class="container row plotis-100 mp0">
+    <div class="row">
 
       <div class="col-md-4 bg-success">
         <div class="kontaktas1 row bg-secondary aukstis-200">
@@ -22,12 +22,12 @@
             "><i class="fab fa-google-plus-square fablack"></i></a>
             <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fablack"></i></a>
           </div>
-          <div class="zemelapis col-md-8 aukstis-300 pl-0">
+          <div class="zemelapis col-md-8 aukstis-300 p-0">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3635.4454434471986!2d23.89221341339147!3d54.91175671715596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e718a94f9dafad%3A0x840538a087b31a9d!2sS%C4%85jungos+a.+9%2C+Kaunas+48376!5e0!3m2!1sen!2slt!4v1523983879512"
-              width="480" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+              width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
         </div>
       </div>
 
-    </footer>
+    </div>
   </div>
