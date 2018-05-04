@@ -8,7 +8,7 @@ require_once('edit.php');
 
 class Admin extends User implements Edit {
     public function logout(){    /* code */    }
-    public function changeName($a) {    /* code */    }
+    public function changeName($a = 0 ) {    /* code */    }
     public function getName() {    /* code */    }
     public function isLogin() {    /* code */    }
 }
