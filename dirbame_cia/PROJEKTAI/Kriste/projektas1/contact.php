@@ -43,13 +43,13 @@ include('header.php');
             </article>
             <article>
               <h5>QUICK MESSAGE</h5>
-                <form class="d-flex justify-content-center">
+                <form class="d-flex justify-content-center" action="quick-message.php" method="post">
                   <div class="form-group">
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your name"> <br>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email" required> <br>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" cols="50" required placeholder="Your message here..."></textarea>
+                    <input type="text" name="vardas" value="" class="form-control" id="formGroupExampleInput" required placeholder="Your name"> <br>
+                    <input type="email" name="pastas" value="" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email" required> <br>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" cols="50" name="klausimas" required placeholder="Your message here..."></textarea>
                     <br>
-                    <button type="button" class="btn btn-outline-secondary siuntimo-mygtukas">Send message!</button>
+                    <button type="submit" name="" class="btn btn-outline-secondary siuntimo-mygtukas">Send message!</button>
                   </div>
                 </form>
             </article>
@@ -108,9 +108,9 @@ include('header.php');
               <br><br>
               <h5>NEWSLETTER</h5>
               <p> Sign up for our Newsletter:</p>  <br>
-              <form class="d-flex justify-content-center">
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email" required>
-                <button type="button" class="btn btn-outline-secondary">Sign up!</button>
+              <form class="d-flex justify-content-center" action="newsletter.php" method="get">
+                <input type="email" name="elPastas" value="" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email" required>
+                <button type="submit" name="button" class="btn btn-outline-secondary">Sign up!</button>
               </form>
             </article>
           </div>
@@ -181,24 +181,6 @@ include('header.php');
 
   </div>
   <!-- end 2 container -->
-
-
-  <!-- start 3 container -->
-      <div class="container-fluid aukstis-100">
-        <!-- start 1 row -->
-        <div class="row footer">
-
-          <!-- start 1 column -->
-          <div class="col-md aukstis-100 d-flex align-items-end justify-content-end teises">
-            <i class="fa fa-copyright"> 2018, Kriste Sia </i>
-          </div>
-          <!-- end 1 column -->
-
-        </div>
-        <!-- end 1 row -->
-      </div>
-    <!-- end 3 container -->
-
 
 
 
