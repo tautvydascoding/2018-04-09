@@ -14,4 +14,4 @@
         // A)  kuri panaudoja Edit ir User ~klases (implementuoti ir paveldeti)
 
 
-    NOTE: abstrakti kalse - NEGALI TURETI ABSTRAKCIU KINTAMUJU (BET PAPRASTUS GALI)
+    NOTE: abstrakti klase - NEGALI TURETI ABSTRAKCIU KINTAMUJU (BET PAPRASTUS GALI)
