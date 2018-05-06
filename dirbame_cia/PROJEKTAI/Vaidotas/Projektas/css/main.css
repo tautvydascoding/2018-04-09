@@ -6,6 +6,18 @@
 }
 /* karuseles  */
 
+img{
+  max-width: 100%;
+  height: auto;
+}
+p{
+  font-size: 1rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
 /* -------------- */
 
 /* .fotorama__caption{
@@ -43,13 +55,13 @@ margin: 0 auto; }
 }
 
 
-.navigacijos-myg{
+/* .navigacijos-myg{
   position: absolute;
   right:0;
   top:44%;
   background-color: rgba(180, 238, 30, 0);
   border: none;
-}
+} */
 
 
 .apgaule{
@@ -80,6 +92,7 @@ ul.nav-pills {
   position: fixed;
     top: 20vh;
     left: 10vh;
+    font-size: 3vh;
   }
   /* div.col-8 div {
       height: 500px;
@@ -114,17 +127,6 @@ ul.nav-pills {
 /* slider styles close */
 
 
-img{
-  max-width: 100%;
-  height: auto;
-}
-p{
-  font-size: 1rem;
-}
-
-h2 {
-  font-size: 1.5rem;
-}
 .rel_poz{
   position:relative;
 }
@@ -227,6 +229,38 @@ font-size: 1.5vw;
    border:solid 0.25vw #474444;
 }
 
+#forma, #draugai, #mepas{
+  border: solid 2px;
+  border-radius: 10px;
+  background-color: #e6e6e6;
+  opacity: 0.75;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+#forma h2, #draugai h2, #mepas h2{
+  padding-top: 2px;
+  margin-top: 16px;
+  text-align:center;
+  font-size: 1.5rem;
+
+
+}
+#forma .btn{
+  font-size:2rem;
+}
+
+#draugai ul{
+  list-style: none;
+}
+#draugai ul li a{
+  text-decoration: none;
+}
+
+iframe{
+  max-width: 100%;
+}
+
 .viena-linija{
   display:inline-block;
 }
@@ -285,10 +319,11 @@ font-size: 1.5vw;
 .aukstis-500 {
     height: 500px;
 }
-iframe{
-  max-width: 100%;
-  height: auto;
+.aukstis-600 {
+    height: 600px;
 }
+
+
 
 
 
@@ -373,6 +408,9 @@ iframe{
    margin-bottom: -15vh;
  }
 
+#myScrollspy{
+  display: none;
+}
 
 @media (max-width: 360px) {
     #navigacija-top > a{

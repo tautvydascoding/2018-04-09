@@ -42,12 +42,17 @@
                 <div class="col-sm-12 mt-5 bg-light rounded">
                   <h2>Megztos gėrybės</h2>
                   <div class="fotorama" data-nav="thumbs" >
-                        <img src="Images/megzta/1.jpg" data-caption="Skraistė">
-                        <img src="Images/megzta/2.jpg" data-caption="Šlepetės iki kauliuko">
-                        <img src="Images/megzta/3.jpg" data-caption="Tapukai-mašiniukai">
-                        <img src="Images/megzta/4.jpg" data-caption="Šalikas ir pirštinės">
-                        <img src="Images/megzta/5.jpg" data-caption="Pirštinės transformeriai">
-                        <img src="Images/megzta/6.jpg" data-caption="Komplektas žiemai">
+
+                  <?php  include_once('php_kodas.php');
+                        $megztosFoto = getDarbaiMegzta();
+                        while ( $mFoto = mysqli_fetch_assoc($megztosFoto)  ) :
+                                ?>
+
+                        <img src="<?php echo $mFoto['img_src'] ?>" data-caption="<?php echo $mFoto['description'] ?>">
+
+                        <?php  endwhile;  ?>
+
+
                   </div>
                 </div>
               </div> <!-- uzdarau fotoramos megzta row-->
@@ -56,12 +61,19 @@
                 <div class="col-sm-12 mt-5 bg-light rounded">
                   <h2>Nertos gėrybės</h2>
                   <div class="fotorama" data-nav="thumbs">
-                        <img src="Images/nerta/1.jpg" data-caption="Drąsi kuprinė">
-                        <img src="Images/nerta/2.jpg" data-caption="Krepšeliai">
-                        <img src="Images/nerta/3.jpg" data-caption="Rožinė rankinė">
-                        <img src="Images/nerta/4.jpg" data-caption="Delninukė">
-                        <img src="Images/nerta/5.jpg" data-caption="Spalvotosios šlepetės">
-                        <img src="Images/nerta/6.jpg" data-caption="Krepšeliai niekučiams">
+
+
+                    <?php  include_once('php_kodas.php');
+                          $nertosFoto = getDarbaiNerta();
+                          while ( $nFoto = mysqli_fetch_assoc($nertosFoto)  ) :
+                                  ?>
+
+                          <img src="<?php echo $nFoto['img_src'] ?>" data-caption="<?php echo $nFoto['description'] ?>">
+
+                          <?php  endwhile;  ?>
+
+
+
 
                   </div>
                 </div>
@@ -71,10 +83,15 @@
               <div class="col-sm-12 mt-5 bg-light rounded">
                 <h2>Siūtos gėrybės</h2>
                 <div class="fotorama" data-nav="thumbs">
-                      <img src="Images/siuta/1.jpg" data-caption="Sėdmaišiai 1">
-                      <img src="Images/siuta/2.jpg" data-caption="Sėdmaišiai 2">
-                      <img src="Images/siuta/3.jpg" data-caption="Sėdmaišiai 3">
-                      <img src="Images/siuta/4.jpg" data-caption="Vasariškiausios suknelės">
+
+                  <?php  include_once('php_kodas.php');
+                        $siutosFoto = getDarbaiSiuta();
+                        while ( $sFoto = mysqli_fetch_assoc($siutosFoto)  ) :
+                                ?>
+
+                        <img src="<?php echo $sFoto['img_src'] ?>" data-caption="<?php echo $sFoto['description'] ?>">
+
+                        <?php  endwhile;  ?>
 
                 </div>
               </div>

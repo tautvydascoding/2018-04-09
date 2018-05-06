@@ -49,10 +49,18 @@
             <div class="row">
               <nav class="col-md-12" id="draugai">
                 <h2>Mano draugai: <hr /></h2>
+
+
                 <ul>
-                  <li> <a href="https://siuludama.lt/"> Siūlų dama  </a> </li>
-                  <li> <a href="http://www.siulogalas.lt/en/"> Siūlo galas  </a> </li>
-                  <li> <a href="http://audiniai.com"> Šilko tekstilė </a></li>
+                  <?php
+                  include_once('php_kodas.php');
+                  $visiDraugai = getDraugai();
+
+                  // print_r( $visiGydytojai ); // test
+                  while ( $vienasDraugas = mysqli_fetch_assoc($visiDraugai)  ) :
+                    ?>
+                  <li> <a href="<?php echo $vienasDraugas['link'] ?>" target="_blank"> <?php echo $vienasDraugas['name'] ?>  </a> </li>
+              <?php  endwhile;  ?>
                 </ul>
 
               </nav>
