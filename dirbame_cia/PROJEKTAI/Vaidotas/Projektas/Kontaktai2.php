@@ -22,21 +22,23 @@
 
         <wrapper class="row mt-5">
 
-          <form class="col-md-6 mr-2 mb-2 aukstis-600" id="forma" target="_blank" action="uzklausa.php" method="post">
+          <form class="col-md-6 mr-2 mb-2 aukstis-600" id="forma" name="uzklausa" target="_blank" action="sveikiname.php" method="post" onsubmit="return validateForm1()">
+
+
 
             <h2> Nebijokit klausti!<hr /></h2>
 
             <h4>Vardas:</h4>
-            <input type="text" name="vardas" value="" placeholder="Vardenis" required>
+            <input type="text" name="vardas" value="" placeholder="Vardenis">
             <br>
             <h4>Pavardė:</h4>
-            <input type="text" name="pavarde" value="" placeholder="Pavardenis" required>
+            <input type="text" name="pavarde" value="" placeholder="Pavardenis">
             <br>
             <h4>Jūsų el. paštas:</h4>
-            <input type="email" name="elpastas" value="" placeholder="Mau@mau.lt" required>
+            <input type="email" name="elpastas" value="" placeholder="Mau@mau.lt">
             <br>
             <h4>Jūsų Telefono nr.</h4>
-            <input type="tel" name="tel" value="" placeholder="8 6-- -----">
+            <input type="tel" name="tel" value="" placeholder="8 888 88888">
             <br>
             <h4>Jūsų užklausa:</h4>
             <textarea name="komentaras" value="" placeholder="Kuo galėčiau jus nudžiuginti?" rows="4" cols="20"></textarea> <br>
@@ -86,6 +88,7 @@
      </div> <!--uzdarau wrapper-->
 
         <?php include("footeris.php") ?>
+        <script type="text/javascript" src="libs/jquery-3.2.1.min.js"></script>
         <script src="main.js">  </script>
     </body>
 </html>

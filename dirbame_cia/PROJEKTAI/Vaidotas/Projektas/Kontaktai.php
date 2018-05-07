@@ -22,7 +22,7 @@
 
         <wrapper class="row mt-5">
 
-          <form class="col-md-6 mr-2 mb-2 aukstis-600" id="forma" target="_blank" action="uzklausa.php" method="post">
+          <form class="col-md-6 mr-2 mb-2 aukstis-600" id="forma" target="_blank" action="sveikiname.php" method="post">
 
             <h2> Nebijokit klausti!<hr /></h2>
 
@@ -78,6 +78,7 @@
      </div> <!--uzdarau wrapper-->
 
         <?php include("footeris.php") ?>
+        <script type="text/javascript" src="libs/jquery-3.2.1.min.js"></script>
         <script src="main.js">  </script>
     </body>
 </html>

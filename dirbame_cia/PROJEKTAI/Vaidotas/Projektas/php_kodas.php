@@ -143,11 +143,11 @@ function getDarbaiSiuta($kiekis = 9999) { // = 9999 - default value, jeigu nenur
 
 function createUser($nickname, $password, $email) {
     $vardas = htmlspecialchars( $vardas, ENT_QUOTES, 'UTF-8' );
-    $pavarde = htmlspecialchars( $pavarde, ENT_QUOTES, 'UTF-8' );
-    $email = htmlspecialchars( $pavarde, ENT_QUOTES, 'UTF-8' );
+    $password = htmlspecialchars( $user, ENT_QUOTES, 'UTF-8' );
+    $email = htmlspecialchars( $email, ENT_QUOTES, 'UTF-8' );
 
-    $manoSQL = "INSERT INTO vartotojai (nickname,password,email,)
-                       VALUES ('', '$vardas', '$pavarde');
+    $manoSQL = "INSERT INTO vartotojai (nickname, password, email,)
+                       VALUES ('$vardas', '$pavarde');
                 ";
     $x = mysqli_query(  getPrisijungimas() , $manoSQL);
     if ($x) {
@@ -161,16 +161,16 @@ function createUser($nickname, $password, $email) {
 function createRequest($vardas, $pavarde, $elpastas, $tel, $komentaras) {
     $vardas = htmlspecialchars( $vardas, ENT_QUOTES, 'UTF-8' );
     $pavarde = htmlspecialchars( $pavarde, ENT_QUOTES, 'UTF-8' );
-    $elpastas = htmlspecialchars( $pavarde, ENT_QUOTES, 'UTF-8' );
-    $tel = htmlspecialchars( $pavarde, ENT_QUOTES, 'UTF-8' );
+    $elpastas = htmlspecialchars( $elpastas, ENT_QUOTES, 'UTF-8' );
+    $tel = htmlspecialchars( $tel, ENT_QUOTES, 'UTF-8' );
 
 
     $manoSQL = "INSERT INTO uzklausa (vardas, pavarde, elpastas, tel_nr, komentaras)
-                       VALUES ('', '$vardas', '$pavarde',$elpastas, $tel, $komentaras);
+                       VALUES ('$vardas', '$pavarde','$elpastas', '$tel', '$komentaras');
                       ";
     $x = mysqli_query(  getPrisijungimas() , $manoSQL);
     if ($x) {
-        echo "jūsų komentaras primtas! <br>";
+        echo "Jūsų užklausa užregistruota duomenų bazėje!<br />";
     }
 }
 

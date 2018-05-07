@@ -8,6 +8,7 @@
       </div>
 
       <div class="col-md-7 float-desine plotis-max-45">
-        <p class="footerio-tekstas"> &copy; 2018 by  me </p>
+        <a class="viena-linija footerio-tekstas" href="prisijungimas.php">Login</a>
+        <p class="footerio-tekstas float-desine"> &copy; 2018 by  me </p>
       </div>
 </footer> <!--uzdarau footeri containeri-->

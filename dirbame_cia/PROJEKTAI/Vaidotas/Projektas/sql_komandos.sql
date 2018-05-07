@@ -88,45 +88,37 @@ VALUES (1,'Images/megzta/1.jpg','megzta','Skraistės','Stilinga skraistė',35,8)
     (5,'Images/nerta/karusele/5.jpg','Slide picture 5','nerta','Šlepetės','Dekoracijos ir priedai pagal jūsų poreikius'),
     (1,'Images/siuta/karusele/1.jpg','Slide picture 1','siuta','Sėdmaišiai','Įvairių dydžių ir formų');
 
-  CREATE TABLE img(
-    id int(6) NOT NULL AUTO_INCREMENT,
-    name varchar(30),
-    patients_id int(6),
-    PRIMARY KEY (id),
-    UNIQUE(id));
-
-  -- duomenu idejimas i duombaze
-  INSERT INTO doctors (name, lname)
-  VALUES ("Tim", "Logan"), ("Paul", "Leo"), ("Ona", "Onutaite"),("Lita", "Rene"),("Koris", "Pita");
-
-  INSERT INTO patients (name, lname, doctor_id)
-  VALUES ("Mark", "John", "2"),
-         ("Tom", "Karlos","2"),
-         ("Aris", "Tiedo", "1"),
-         ("Tom", "Koli", "3"),
-         ("Co", "Jo", "1"),
-         ("Tom", "Noro", "5"),
-         ("Jili", "Jato", "4");
-
-  INSERT INTO img (name, patients_id)
-  VALUES ("foto.jpg","3"),
-        ("3.png","1"),
-        ("1.jpg.jpg","1"),
-        ("3.gif.jpg","3");
-
-  SELECT * from doctors WHERE id =2;
-
-  WHERE NOT --
-
-  SELECT COUNT(name) FROM patients WHERE doctor_id=2;
-
-  UPDATE doctors SET name="Paulius" where name = "Paul";
 
 
-  SELECT TOP number|percent FROM Table
-  ORDER BY column ASC;
 
 
-  SELECT MAX(price) FROM customers AS Kainele;
 
-  SELECT * FROM Products WHERE price BETWEEN 10 AND 30;
+    -- kuriu uzklausos lentele:
+
+    CREATE TABLE uzklausa(
+      id int(6) NOT NULL AUTO_INCREMENT,
+      vardas varchar(15),
+      pavarde varchar(30),
+      elpastas varchar(50),
+      tel_nr varchar(50),
+      komentaras varchar(200),
+      perziureta boolean,
+      PRIMARY KEY (id));
+
+
+      -- pildau draugu Lenteles
+      INSERT INTO uzklausa (vardas, pavarde, elpastas, tel_nr, Komentaras)
+      VALUES ("Petras", "Petraitis", "lol@lol.lt", "864355555", "Po kiek ridikai?");
+
+      CREATE TABLE users(
+        id int(6) NOT NULL AUTO_INCREMENT,
+        name varchar(30),
+        password varchar(30),
+        email varchar(100),
+        type varchar(10),
+        PRIMARY KEY (id));
+
+    INSERT INTO users (name, password, email, type)
+    VALUES ("etynga", "agnyte123", "etynga.mezga@gmail.com","admin");
+    INSERT INTO users (name, password, email, type)
+    VALUES ("admin", "admin", "etynga.mezga@gmail.com","admin");

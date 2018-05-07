@@ -41,8 +41,10 @@ margin: 0 auto; }
 
 .back{
   background-color: #e6e6e6;
-  max-height: 15vh;
-  min-height: 15vh;
+  height: 100px;
+
+  /* max-height: 15vh;
+  min-height: 15vh; */
 }
 
 /* .back2{
@@ -139,11 +141,12 @@ align-items: center;
 
 #navigacija-top > a{
 text-decoration: none;
-font-size: 2vw;
+/* font-size: 2vw; */
+font-size: 2rem;
 font-family: 'Poppins', sans-serif;
-border:solid 0.25vw #474444;
-padding: 0.5vw;
-max-width: 20vw;
+border:solid 0.5rem #474444;
+padding: 0.5rem;
+max-width: 15rem;
 }
 
 /* foooterio iconai */
@@ -153,26 +156,28 @@ max-width: 20vw;
   left:0px;
   border-top: solid gray;
   background-color: #e6e6e6;
-  max-height: 10vh;
-  min-height: 10vh;
+  height: 75px;
   z-index: 9999;
+}
+#navigacija-top > a{
+text-decoration: none;
 }
 
 
 
 .footerio-tekstas{
 text-align:right;
-margin-top: 1vw;
-font-size: 1.5vw;
+margin-top: 1rem;
+font-size: 2rem;
 }
 /* font awesone skinai footeriui */
 .fa {
-  padding: 0.75vw;
-  font-size: 1.75vw;
-  width: 3.5vw;
+  padding: 0.75rem;
+  font-size: 1.75rem;
+  width: 3.25rem;
   text-align: center;
   text-decoration: none;
-  margin: 1vw 0.5vw;
+  margin: 1rem 0.5rem;
 }
 
 .fa:hover {
@@ -182,24 +187,24 @@ font-size: 1.5vw;
 .fa-facebook {
   background: #3B5998;
   color: white;
-  border-radius: 1vw;
+  border-radius: 1rem;
 }
 
 .fa-twitter {
   background: #55ACEE;
   color: white;
-  border-radius: 1vw;
+  border-radius: 1rem;
 }
 
 .fa-instagram {
   background: #3B5998;
   color: white;
-  border-radius: 1vw;
+  border-radius: 1rem;
 }
 
 .logotipas{
-  max-width: 12vw;
-  margin-bottom: -15vh;
+  width: 12rem;
+  margin-bottom: -5rem;
 }
 
 .paskirstymas{
@@ -209,24 +214,24 @@ font-size: 1.5vw;
 
  #navigacija-top>a:link {
    color: #474444;
-   border:solid 0.25vw #474444;
-   border-radius: 1vw;
+   border:solid 0.25rem #474444;
+   border-radius: 1rem;
 }
 
 #navigacija-top>a:visited {
    color: #474444;
-   border:solid 0.25vw #474444;
+   border:solid 0.25rem #474444;
 }
 
 #navigacija-top>a:hover {
    color: #e6e6e6;
    background-color: #474444;
-   border-radius: 1vw;
+   border-radius: 1rem;
 }
 
 #navigacija-top>a:active {
    color: #474444;
-   border:solid 0.25vw #474444;
+   border:solid 0.25rem #474444;
 }
 
 #forma, #draugai, #mepas{
@@ -323,6 +328,65 @@ iframe{
     height: 600px;
 }
 
+.header {
+  width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background: #5F9EA0;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+#prisijungimas, .content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #5F9EA0;
+  border: none;
+  border-radius: 5px;
+}
+.error {
+  width: 92%;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+}
+.success {
+  color: #3c763d;
+  background: #dff0d8;
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
 
 
 
@@ -330,32 +394,32 @@ iframe{
 @media (max-width: 768px) {
   #navigacija-top > a{
   text-decoration: none;
-  font-size: 3.5vw;
+  font-size: 1.5rem;
   font-family: 'Poppins', sans-serif;
-  border:solid 2vw #474444;
-  padding: 1vw;
-  max-width: 20vw;
+  border:solid 0.15rem #474444;
+  padding: 0.25rem;
+  max-width: 6rem;
   }
   #navigacija-top>a:link {
     color: #474444;
-    border:solid 0.5vw #474444;
-    border-radius: 1vw;
+    border:solid 0.15rem #474444;
+    border-radius: 0.5rem;
  }
 
  #navigacija-top>a:visited {
     color: #474444;
-    border:solid 1vw #474444;
+    border:solid 0.15rem #474444;
  }
 
  #navigacija-top>a:hover {
     color: #e6e6e6;
     background-color: #474444;
-    border-radius: 1vw;
+    border-radius: 0.5rem;
  }
 
  #navigacija-top>a:active {
     color: #474444;
-    border:solid 0.5vw #474444;
+    border:solid 0.15rem #474444;
  }
  /* foooterio iconai */
  #footeris{
@@ -363,25 +427,27 @@ iframe{
    bottom: 0px;
    border-top: solid gray;
    background-color: #e6e6e6;
-   max-height: 10vh;
-   min-height: 10vh;
+   height: 75px;
+
  }
-
-
+ .back{
+   background-color: #e6e6e6;
+   height: 75px;
+}
 
  .footerio-tekstas{
  text-align:right;
- margin-top: 3vw;
- font-size: 3vw;
+ margin-top: 1rem;
+ font-size: 1rem;
  }
  /* font awesone skinai footeriui */
  .fa {
-   padding: 1vw;
-   font-size: 3.5vw;
-   width: 6vw;
+   padding: 0.5rem;
+   font-size: 1rem;
+   width: 2rem;
    text-align: center;
    text-decoration: none;
-   margin: 2vw 1vw;
+   margin: 1rem 0.2rem;
  }
 
  .fa:hover {
@@ -391,21 +457,21 @@ iframe{
  .fa-facebook {
    background: #3B5998;
    color: white;
-   border-radius: 1vw;
+   border-radius: 0.25rem;
  }
  .fa-twitter {
    background: #55ACEE;
    color: white;
-   border-radius: 1vw;
+   border-radius: 0.25rem;
  }
  .fa-instagram {
    background: #3B5998;
    color: white;
-   border-radius: 1vw;
+   border-radius: 0.25rem;
  }
  .logotipas{
-   max-width: 18vw;
-   margin-bottom: -15vh;
+   width: 8rem;
+   margin-bottom: -5rem;
  }
 
 #myScrollspy{
@@ -415,33 +481,33 @@ iframe{
 @media (max-width: 360px) {
     #navigacija-top > a{
     text-decoration: none;
-    font-size: 5vw;
+    font-size: 1rem;
     font-family: 'Poppins', sans-serif;
-    border:solid 2vw #474444;
-    padding: 1vw;
-    max-width: 20vw;
+    border:solid 0.1rem #474444;
+    padding: 0.25rem;
+    max-width: 5rem;
     }
 
     #navigacija-top>a:link {
       color: #474444;
-      border:solid 0.5vw #474444;
-      border-radius: 1vw;
+      border:solid 0.1rem #474444;
+      border-radius: 0.25rem;
    }
 
    #navigacija-top>a:visited {
       color: #474444;
-      border:solid 0.5vw #474444;
+      border:solid 0.1rem #474444;
    }
 
    #navigacija-top>a:hover {
       color: #e6e6e6;
       background-color: #474444;
-      border-radius: 1vw;
+      border-radius: 0.25rem;
    }
 
    #navigacija-top>a:active {
       color: #474444;
-      border:solid 0.5vw #474444;
+      border:solid 0.1rem #474444;
    }
 
    /* foooterio iconai */
@@ -450,25 +516,25 @@ iframe{
      bottom: 0px;
      border-top: solid gray;
      background-color: #e6e6e6;
-     max-height: 6vh;
-     min-height: 6vh;
+     height: 50px;
+
    }
 
 
 
    .footerio-tekstas{
    text-align:right;
-   margin-top: 4vw;
-   font-size: 3vw;
+   margin-top: 0.75rem;
+   font-size: 0.75rem;
    }
    /* font awesone skinai footeriui */
    .fa {
-     padding: 1vw;
-     font-size: 5vw;
-     width: 7vw;
+     padding: 0.3rem;
+     font-size: 1rem;
+     width: 1.6rem;
      text-align: center;
      text-decoration: none;
-     margin: 4vw 2vw;
+     margin: 0.75rem 0.25rem;
    }
 
    .fa:hover {
@@ -478,20 +544,20 @@ iframe{
    .fa-facebook {
      background: #3B5998;
      color: white;
-     border-radius: 2vw;
+     border-radius: 0.25rem;
    }
    .fa-twitter {
      background: #55ACEE;
      color: white;
-     border-radius: 2vw;
+     border-radius: 0.25rem;
    }
    .fa-instagram {
      background: #3B5998;
      color: white;
-     border-radius: 2vw;
+     border-radius: 0.25rem;
    }
 
    .logotipas{
-     max-width: 20vw;
-     margin-bottom: -15vh;
+     width: 6rem;
+     margin-bottom: -4.5rem;
    }
