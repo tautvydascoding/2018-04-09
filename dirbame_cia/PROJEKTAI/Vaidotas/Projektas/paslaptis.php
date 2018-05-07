@@ -30,7 +30,7 @@
       <?php include('headeris2.php') ?>
 <main class="container">
   <div class="row">
-    <article class="col-md-12">
+    <article class="col-md-3">
 
 
       <div class="header">
@@ -53,13 +53,25 @@
 
           <!-- logged in user information -->
           <?php  if (isset($_SESSION['username'])) : ?>
-          	<p>Sveiki atvykę <strong><?php echo $_SESSION['username']; ?></strong></p>
+          	<p>Jūs prisijungėte <strong><?php echo $_SESSION['username']; ?></strong></p>
           	<p> <a href="index2.php" >logout</a> </p>
           <?php  endif ?>
       </div>
 
     </article>
-  </div>
+    lalalla
+    <article class="col-md-3">
+
+
+    </article>
+    allalallalla
+    <article class="col-md-3">
+
+
+
+
+    </article>
+  </div> <!--uždarau row-->
 
 </main>
 
