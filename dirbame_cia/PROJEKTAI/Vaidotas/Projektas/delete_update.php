@@ -38,7 +38,7 @@
                 $ID = $_GET['numeris'];
                 deleteDraugas( $ID );
 
-                echo "<h3> Istrynem drauga nr: $ID </h3><br />";
+                echo "<h3> Ištrynėm draugą nr: $ID </h3><br />";
               }
                 ?>
 
@@ -52,7 +52,7 @@
                  $draugoDesc = $_POST['description'];
 
                  updateDraugas2($draugoId, $draugoLink, $draugoName, $draugoDesc);
-                 echo "<h3> Pakeitėm draugo:  $draugoId  duomenis sėkmingai </h3><br />";
+                 echo "<h3> Pakeitėm draugo:  $draugoId  duomenis sėkmingai :) </h3><br />";
 
                }
 
@@ -62,7 +62,7 @@
 
 
             echo   "</br/>";
-            echo "<a class='btn btn-success' href='paslaptis.php'>Grįžti atgal</a>";
+            echo "<a class='btn btn-success m-1 p-1' href='paslaptis.php'>Grįžti atgal</a>";
                 ?>
 
 

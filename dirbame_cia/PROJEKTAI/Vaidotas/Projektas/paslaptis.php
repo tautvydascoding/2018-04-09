@@ -37,7 +37,7 @@
         	         <h2>Sveiki atvykę</h2>
               </div>
 
-              <div class="content">
+              <div class="content py-5">
                 	<!-- notification message -->
                 	<?php if (isset($_SESSION['success'])) : ?>
                     <div class="error success" >
@@ -62,7 +62,7 @@
 
 
               <article class="col-md-8 mt-4" id="draugai">
-                <h2 class="text-align-center">Draugai duombazeje: <hr /></h2>
+                <h2 class="text-align-center">Draugai duombazėje: <hr /></h2>
 
                 <ul>
                   <li> ID * LINK * NAME * DESCRIPTION </li>
@@ -72,11 +72,11 @@
 
                   while ( $vienasDraugas = mysqli_fetch_assoc($visiDraugai)  ) :
                     ?>
-                  <li> <?php echo $vienasDraugas['id'] ?>*
+                  <li class="pb-1"> <?php echo $vienasDraugas['id'] ?>*
                         <?php echo $vienasDraugas['link'] ?>*
                         <?php echo $vienasDraugas['name'] ?>*
                         <?php echo $vienasDraugas['description'] ?>*
-                        <a class='btn btn-danger' href="delete_update.php?numeris=<?php echo $vienasDraugas['id']; ?>">Trinti</a>
+                        <a class='btn btn-danger ml-1' href="delete_update.php?numeris=<?php echo $vienasDraugas['id']; ?>">Trinti</a>
 
                    </li>
                  <?php  endwhile;  ?>
@@ -88,9 +88,9 @@
 
 
 <div class="row mb-5">
-  <article class="col-md-3 rounded bg-light mb-5">
+  <article class="col-md-3 rounded bg-light mb-5 pt-1">
     <h3>Pakeiskit draugų info!</h3><br>
-    <form name="update" class="" action="delete_update.php" method="post">
+    <form name="update" class="" action="delete_update.php" method="post" onsubmit="return validateForm2()">
       Keičiamas ID <br/>
       <input type="number" name="id" value=""> <br/>
       Keičiamas Name<br/>
@@ -99,7 +99,7 @@
       <input type="text" name="link" value=""><br/>
       Keičiamas Description<br/>
       <input type="text" name="description" value=""><br/>
-      <button class="btn btn-info" type="submit" name="submitas">KEISTI</button>
+      <button class="btn btn-info my-1 mx-auto" type="submit" name="submitas">KEISTI</button>
 
     </form>
 
