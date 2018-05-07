@@ -1,3 +1,9 @@
+console.log( "labas as cia" );
+
+
+$('h1').css('color', 'green');
+
+
 try {
     var x = -2;
     // console.log(x);
