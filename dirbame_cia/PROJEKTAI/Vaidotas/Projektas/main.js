@@ -1,5 +1,15 @@
 console.log( "labas as cia" );
 
+$('.card1').hover(function() {
+	$('.card1Text').toggle();
+});
+
+$('.card2').hover(function() {
+	$('.card2Text').toggle();
+});
+$('.card3').hover(function() {
+	$('.card3Text').toggle();
+});
 
 
 function validateForm1() {

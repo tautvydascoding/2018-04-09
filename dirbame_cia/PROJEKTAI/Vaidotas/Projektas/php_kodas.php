@@ -48,21 +48,16 @@ function deleteDraugas( $nr ) {
     mysqli_query( getPrisijungimas() , $manoSQL);
 }
 
-function updateDraugas($nr, $link, $name, $description) {
 
-    // sprintf - % vietoj kiekvieno %s isves kintamuosius
-    $manoSQL = sprintf( "UPDATE draugai SET
-                                    link = '%s',
-                                    name = '%s',
-                                    description = '%s'
-                                    WHERE id = '%s'
-                                    LIMIT 1 ;
-                         ",
-                  htmlspecialchars( $link, ENT_QUOTES, 'UTF-8' ),
-                  htmlspecialchars( $name, ENT_QUOTES, 'UTF-8' ),
-                  htmlspecialchars( $description, ENT_QUOTES, 'UTF-8' ),
-                  $nr
-                 );
+
+function updateDraugas2($nr, $link, $name, $description) {
+        $link = htmlspecialchars( $link, ENT_QUOTES, 'UTF-8' );
+        $name = htmlspecialchars( $name, ENT_QUOTES, 'UTF-8' );
+        $description = htmlspecialchars( $description, ENT_QUOTES, 'UTF-8' );
+        $nr = htmlspecialchars( $nr, ENT_QUOTES, 'UTF-8' );
+        $manoSQL = "UPDATE draugai SET link = '$link', name = '$name', description = '$description' WHERE id = '$nr' LIMIT 1 ;";
+
+        mysqli_query( getPrisijungimas(), $manoSQL);
 }
 
 

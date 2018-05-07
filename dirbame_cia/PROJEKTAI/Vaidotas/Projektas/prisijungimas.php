@@ -1,4 +1,9 @@
-<?php include('server.php') ?>
+<?php include('server.php'); ?>
+<?php   if (isset($_GET['logout'])) {
+  session_destroy();
+  unset($_SESSION['username']);
+
+}?>
 
 
 <!DOCTYPE html>
@@ -36,7 +41,7 @@
   	      </div>
 
   	        <div class="input-group">
-  		      <label>Slaptazodis</label>
+  		      <label>Slaptažodis</label>
   		    <input type="password" name="password">
   	     </div>
 

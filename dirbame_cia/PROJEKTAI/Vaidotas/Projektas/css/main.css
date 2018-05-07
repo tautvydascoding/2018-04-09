@@ -5,7 +5,9 @@
     padding: 0;
 }
 /* karuseles  */
-
+.card1Text, .card2Text, .card3Text{
+  display:none;
+}
 img{
   max-width: 100%;
   height: auto;
@@ -341,8 +343,8 @@ iframe{
 }
 #prisijungimas, .content {
   width: 100%;
-  margin: 0px auto;
-  padding: 20px;
+  margin: 5px auto;
+  padding: 15px;
   border: 1px solid #B0C4DE;
   background: white;
   border-radius: 0px 0px 10px 10px;
@@ -385,7 +387,7 @@ iframe{
   color: #3c763d;
   background: #dff0d8;
   border: 1px solid #3c763d;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 

@@ -1,5 +1,3 @@
-<?php session_unset() ?>
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -35,7 +33,7 @@
 
           <div class="sl__slide">
             <img src="<?php echo $vienasMegzta['img_src'] ?>" alt="<?php echo $vienasMegzta['alt_text'] ?>" class="sl__img">
-            <a href="darbai2.php#<?php echo $vienasMegzta['cat'] ?>">
+            <a href="darbai3.php#<?php echo $vienasMegzta['cat'] ?>">
               <div class="sl__text">
               <h3 class="sl__zag"> <?php echo $vienasMegzta['sub_cat'] ?></h3>
               <p class="slide__sec"> <?php echo $vienasMegzta['description'] ?></p>
@@ -60,7 +58,7 @@
 
           <div class="sl__slide">
             <img src="<?php echo $vienasNerta['img_src'] ?>" alt="<?php echo $vienasNerta['alt_text'] ?>" class="sl__img">
-            <a href="darbai2.php#<?php echo $vienasNerta['cat'] ?>">
+            <a href="darbai3.php#<?php echo $vienasNerta['cat'] ?>">
               <div class="sl__text">
               <h3 class="sl__zag"> <?php echo $vienasNerta['sub_cat'] ?></h3>
               <p class="slide__sec"> <?php echo $vienasNerta['description'] ?></p>
@@ -76,7 +74,7 @@
 
 <main class="container main mb-5">
 
-        <div class="sl">
+        <div class="sl mb-5">
           <?php
           $viskasSiuta = getKaruseleSiuta();
 
@@ -86,7 +84,7 @@
 
           <div class="sl__slide">
             <img src="<?php echo $vienasSiuta['img_src'] ?>" alt="<?php echo $vienasSiuta['alt_text'] ?>" class="sl__img">
-            <a href="darbai2.php#<?php echo $vienasSiuta['cat'] ?>">
+            <a href="darbai3.php#<?php echo $vienasSiuta['cat'] ?>">
               <div class="sl__text">
               <h3 class="sl__zag"> <?php echo $vienasSiuta['sub_cat'] ?></h3>
               <p class="slide__sec"> <?php echo $vienasSiuta['description'] ?></p>
