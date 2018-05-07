@@ -329,8 +329,8 @@ iframe{
 }
 
 .header {
-  width: 30%;
-  margin: 50px auto 0px;
+  width: 100%;
+  margin: 25px auto 0px;
   color: white;
   background: #5F9EA0;
   text-align: center;
@@ -340,7 +340,7 @@ iframe{
   padding: 20px;
 }
 #prisijungimas, .content {
-  width: 30%;
+  width: 100%;
   margin: 0px auto;
   padding: 20px;
   border: 1px solid #B0C4DE;

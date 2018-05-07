@@ -16,7 +16,7 @@
 
 <?php include('headeris2.php') ?>
 
-            <main class="container mt-5 pt-5">
+            <main class="container mt-5 pt-5 mb-5">
               <div class="row">
               <div class="col-md-12 mb-5 aukstis-400">
 

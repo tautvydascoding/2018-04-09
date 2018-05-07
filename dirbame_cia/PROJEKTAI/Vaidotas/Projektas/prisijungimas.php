@@ -19,11 +19,11 @@
       <?php include('headeris2.php') ?>
 
 
-<div class="container">
+<div class="container mb-5">
   <main class="row">
 
 
-    <div class="col-md-12 plotis-45">
+    <div class="col-md-6 plotis-45 mx-auto">
 
 
       <form id="prisijungimas" name="prisijungimas" action="prisijungimas.php" method="post">

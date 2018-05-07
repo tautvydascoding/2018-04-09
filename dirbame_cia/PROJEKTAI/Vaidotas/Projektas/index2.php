@@ -1,3 +1,5 @@
+<?php session_unset() ?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -72,7 +74,7 @@
   </div> <!--slider of Nerta close-->
 </main>
 
-<main class="container main">
+<main class="container main mb-5">
 
         <div class="sl">
           <?php

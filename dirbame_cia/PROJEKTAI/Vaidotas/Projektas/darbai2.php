@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -68,7 +69,7 @@
             </div>  <!-- uzdarau fotoramos nerta row-->
 
             <div id="siuta" class="row">
-              <div class="col-sm-12 mt-5 bg-light rounded">
+              <div class="col-sm-12 mt-5 bg-light rounded mb-5">
                 <h2>Siūtos gėrybės</h2>
                 <div class="fotorama" data-nav="thumbs">
                       <img src="Images/siuta/1.jpg" data-caption="Sėdmaišiai 1">

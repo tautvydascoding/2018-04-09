@@ -9,6 +9,7 @@ function validateForm1() {
     var tel = document.forms["uzklausa"]["tel"].value;
     var komentaras = document.forms["uzklausa"]["komentaras"].value;
 
+
     var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
 
     var numbers = /^[0-9]+$/;
@@ -55,10 +56,15 @@ function validateForm1() {
       alert("Telefono nr naudokite tik skaičius!");
       return false;
     }
+    if (komentaras=="") {
+      alert("Pamiršote užklausą, visgi norėjote kažko paklausti");
+      return false;
+    }
     if (komentaras.length>225) {
       alert("Komentaras per ilgas, klauskite konkrečiau!(max 225 simboliai)");
       return false;
     }
+
 }
 
 
