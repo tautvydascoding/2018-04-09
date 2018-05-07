@@ -30,6 +30,8 @@ iki 0.5 Email siuntimas, redirect i page, isvesti zinute
 0.5  MYGTUKAS EDIT   
 
 
+//-------------
+1 jeigu savo projekto (viena page) paleisi ant wordpress pvz: kontaktai arba  about arba gallery ...
  
 
  

@@ -22,51 +22,48 @@
 
         <wrapper class="row mt-5">
 
-          <form class="col-md bg-danger mr-2 mb-2 border border-light" action="index.html" method="post">
+          <form class="col-md-6 mr-2 mb-2 aukstis-600" id="forma" target="_blank" action="sveikiname.php" method="post">
 
             <h2> Nebijokit klausti!<hr /></h2>
 
-            Vardas<br />
-            <input type="text" name="vardas" value="" placeholder="Mau">
+            <h4>Vardas:</h4>
+            <input type="text" name="vardas" value="" placeholder="Vardenis" required>
             <br>
-            Pavarde<br />
-            <input type="text" name="pavarde" value="" placeholder="Mau">
+            <h4>Pavardė:</h4>
+            <input type="text" name="pavarde" value="" placeholder="Pavardenis" required>
             <br>
-            Pasto adresas <br />
-            <input type="" name="elpastas" value="" placeholder="Mau@mau.lt">
+            <h4>Jūsų el. paštas:</h4>
+            <input type="email" name="elpastas" value="" placeholder="Mau@mau.lt" required>
             <br>
-            Telefono nr. <br />
-            <input type="" name="tel" value="" placeholder="8 6-- -----">
+            <h4>Jūsų Telefono nr.</h4>
+            <input type="tel" name="tel" value="" placeholder="8 6-- -----">
             <br>
-            Gaminio kateorija: Nerta/Megzta/Siuta <br />
-            <input type="radio" name="Kategorija" value="megzta" checked> Megzta<br>
-            <input type="radio" name="Kategorija" value="nerta"> Nerta<br>
-            <input type="radio" name="Kategorija" value="siuta"> Siuta <br>
-            <input type="Textarea" name="Komentaras" value="" placeholder="Laukiamas jūsų komentaras"> <br>
-            <button type="submit" name="button"> SUBMIT</button>
-            <input type="reset" name="" value="Iš naujo">
+            <h4>Jūsų užklausa:</h4>
+            <textarea name="komentaras" value="" placeholder="Kuo galėčiau jus nudžiuginti?" rows="4" cols="20"></textarea> <br>
+            <button type="submit" class="btn btn-secondary mt-2" name="button"> Klausti</button>
+            <input type="reset" class="btn btn-secondary mt-2" name="" value="Iš naujo">
 
           </form>
 
-          <aside class="col-md-6 mb-5">
+          <aside class="col-md-4 mb-5">
             <div class="row">
-              <nav class="col-md-12 bg-warning mb-2">
+              <nav class="col-md-12" id="draugai">
                 <h2>Mano draugai: <hr /></h2>
                 <ul>
-                  <li> Siūlų dama </li>
-                  <li> Siūlo galas </li>
-                  <li> Kitas saltinis</li>
+                  <li> <a href="https://siuludama.lt/"> Siūlų dama  </a> </li>
+                  <li> <a href="http://www.siulogalas.lt/en/"> Siūlo galas  </a> </li>
+                  <li> <a href="http://audiniai.com"> Šilko tekstilė </a></li>
                 </ul>
 
               </nav>
             </div>
-            <div class="row">
-              <figure class="col-md-12 bg-danger mb-5 aukstis-200 border-light" >
-                <h2> Etyngos guolis Kaune:</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d487.45461162299756!2d23.89884807823993!3d54.91506729637681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e718afc982d467%3A0x4fd43645ecdd8566!2sVarni%C5%B3+g.+37%2C+Kaunas+48416!5e1!3m2!1sen!2slt!4v1525167410338" width="360" height="400" frameborder="1" style="border:12" allowfullscreen></iframe>
-              </figure>
 
-            </div>
+            <div class="row">
+              <figure class="col-md-12 mb-5" id="mepas" >
+                <h2> Etyngos guolis Kaune:</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d487.45461162299756!2d23.89884807823993!3d54.91506729637681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e718afc982d467%3A0x4fd43645ecdd8566!2sVarni%C5%B3+g.+37%2C+Kaunas+48416!5e1!3m2!1sen!2slt!4v1525167410338" width="300" height="300" frameborder="1" style="border:1" allowfullscreen class="mx-auto"></iframe>
+              </figure>
+            </div> <!--uždarau figūros row-->
 
           </aside>
 
@@ -81,6 +78,7 @@
      </div> <!--uzdarau wrapper-->
 
         <?php include("footeris.php") ?>
+        <script type="text/javascript" src="libs/jquery-3.2.1.min.js"></script>
         <script src="main.js">  </script>
     </body>
 </html>

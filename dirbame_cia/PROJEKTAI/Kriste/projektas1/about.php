@@ -68,32 +68,6 @@ include('header.php');
 <!-- end 2 container -->
 
 
-<!-- start 3 container -->
-<div class="container-fluid aukstis-100">
-
-  <!-- start 1 row -->
-  <div class="row footer">
-
-    <!-- start 1 column -->
-    <div class="col-md-10 socialiniai-tinklai">
-        <a href="https://www.facebook.com/profile.php?id=100016758968877" target="blank" class="fa fa-facebook-square"> Facebook </a>
-        <i class="fa fa-instagram"> Instagram </i>
-        <i class="fa fa-pinterest"> Pinterest </i>
-    </div>
-    <!-- end 1 column -->
-
-    <!-- start 2 column -->
-    <div class="col-md-2 aukstis-100 d-flex align-items-end justify-content-end teises">
-        <i class="fa fa-copyright"> 2018, Kriste Sia </i>
-    </div>
-    <!-- end 2 column -->
-
-  </div>
-  <!-- end 1 row -->
-
-</div>
-<!-- end 3 container -->
-
 
 
 
