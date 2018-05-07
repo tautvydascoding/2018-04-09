@@ -43,8 +43,8 @@ try {
     //Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'kliento klausimas';
-    $mail->Body    = $klientoKlausimas . 'This is the HTML message body <b>in bold!</b>';
-    $mail->AltBody = $klientoKlausimas . 'This is the body in plain text for non-HTML mail clients';
+    $mail->Body    = $klientoKlausimas;
+    $mail->AltBody = $klientoKlausimas;
 
     $mail->send();
     echo 'Message has been sent';

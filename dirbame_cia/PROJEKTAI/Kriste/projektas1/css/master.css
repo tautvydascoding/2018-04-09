@@ -9,6 +9,7 @@
 
 body {
   position: relative;
+  background-color: #f9f9f9;
 }
 
 #logo {
@@ -36,8 +37,16 @@ body {
   height: 466px;
 }
 
+.aukstis-350 {
+  height: 350px;
+}
+
 .aukstis-300 {
   height: 300px;
+}
+
+.aukstis-250 {
+  height: 250px;
 }
 
 .aukstis-30 {
@@ -171,4 +180,36 @@ h5 {
 
 .form-group, .siuntimo-mygtukas {
   width: 350px;
+}
+
+.bracelets {
+  background-image: url("../images/3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.earings {
+  background-image: url("../images/7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.rings {
+  background-image: url("../images/9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.keychains {
+  background-image: url("../images/6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.bracelets:hover, .earings:hover, .rings:hover, .keychains:hover {
+  opacity: 1;
 }

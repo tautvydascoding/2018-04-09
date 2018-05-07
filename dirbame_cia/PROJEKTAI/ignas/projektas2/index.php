@@ -12,7 +12,7 @@
 
     <title>Hello, world!</title>
   </head>
-  <body> 
+  <body>  
     
     <!-- navbar -->
 
@@ -26,7 +26,7 @@
           <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#">Sveiki!<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="sveiki">Sveiki!<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Paslaugos</a>
@@ -98,7 +98,7 @@
       <main class="container-fluid bg-light">
 
         <!-- sveiki (about us) -->
-        <div class="row sveiki p-5">
+        <div class="row sveiki p-5"  target="sveiki">
 
           <div class="col-md-7">
             <p><h2 class="pb-3">sveiki!</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -180,23 +180,25 @@
 
         <!-- footer -->
 
-      <footer class="container-fluid bg-light">
+      <footer class="container-fluid bg-light footeris">
             <div class="row">
-              <div class="col-md-4 bg-success">
-                <div class="kontaktas1 row bg-secondary aukstis-200">
-                  kontaktas1
-                </div>
-                <div class="kontaktas2 row bg-success aukstis-200">
-                  kontaktas2
+              <div class="col-md-4">
+                <div class="kontaktas1 row aukstis-200">
+                            <form action="email-siuntimas.php" method="post">
+                                <input type="text" name="vardas" placeholder="Jūsų vardas" ><br />
+                                <textarea name="klausimas" rows="6" cols="50" required placeholder="Klauskite"></textarea><br />
+                                <input type="email" name="pastas"  required placeholder="El. paštas"><br />
+                                <input type="submit" name="submit" value="Klausti">
+                            </form>
                 </div>
               </div>
 
               <div class="col-md-8">
-                <div class="adresas row bg-danger aukstis-100">
+                <div class="adresas row aukstis-100">
                   adresas
                 </div>
                 <div class="socTinklaiZemelapis row">
-                  <div class="socTinklai col-md-4 bg-warning aukstis-300 d-flex justify-content-around align-items-center flex-column fa-3x py-4 ">
+                  <div class="socTinklai col-md-4 aukstis-300 d-flex justify-content-around align-items-center flex-column fa-3x py-4 ">
                     <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook fablack"></i></a>
                     <a href="https://plus.google.com" target="
                     "><i class="fab fa-google-plus-square fablack"></i></a>
