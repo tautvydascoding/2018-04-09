@@ -472,15 +472,15 @@ iframe{
    border-radius: 0.25rem;
  }
  .logotipas{
-   width: 8rem;
-   margin-bottom: -5rem;
+   width: 6rem;
+   margin-bottom: -4rem;
  }
 
 #myScrollspy{
   display: none;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 420px) {
     #navigacija-top > a{
     text-decoration: none;
     font-size: 1rem;
@@ -560,6 +560,6 @@ iframe{
    }
 
    .logotipas{
-     width: 6rem;
+     width: 4rem;
      margin-bottom: -4.5rem;
    }
