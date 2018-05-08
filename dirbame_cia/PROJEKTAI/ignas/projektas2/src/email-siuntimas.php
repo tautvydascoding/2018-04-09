@@ -1,26 +1,26 @@
-<?php 
+<?php
 
-print_r($_POST);
-var_dump($_POST);
+
+// print_r( $_POST );
+var_dump(  $_POST  );
 
 $klientoVardas = $_POST['vardas'];
 $klientoKlausimas = $_POST['klausimas'];
 $klientoPastas = $_POST['pastas'];
 
-$klientoVardas = htmlspecialchars( $klientoVardas, ENT_QUOTES, 'UTF-8');
-$klientoKlausimas = htmlspecialchars( $klientoKlausimas, ENT_QUOTES, 'UTF-8');
-$klientoPastas = htmlspecialchars( $klientoPastas, ENT_QUOTES, 'UTF-8');
-
-
+$klientoVardas    = htmlspecialchars(    $klientoVardas,   ENT_QUOTES, 'UTF-8');
+$klientoKlausimas = htmlspecialchars( $klientoKlausimas,   ENT_QUOTES, 'UTF-8');
+$klientoPastas    = htmlspecialchars(    $klientoPastas,   ENT_QUOTES, 'UTF-8');
 
 //Load Composer's autoloader
-require 'libs/PHPMailer-master/PHPMailerAutoload.php';
+require '../assets/scripts/libs/PHPMailer-master/PHPMailerAutoload.php';
+
 
 $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
 try {
 
     //Server settings
-    $mail->SMTPDebug = 3;                                 // Enable verbose debug output
+    $mail->SMTPDebug = 0;                                 // Enable verbose debug output
     $mail->isSMTP();                                      // Set mailer to use SMTP
     $mail->Host = 'smtp.mailtrap.io';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
@@ -43,13 +43,23 @@ try {
     //Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'kliento klausimas';
-    $mail->Body    = $klientoKlausimas . 'This is the HTML message body <b>in bold!</b>';
-    $mail->AltBody = $klientoKlausimas . 'This is the body in plain text for non-HTML mail clients';
+    $mail->Body    = $klientoKlausimas;
+    $mail->AltBody = $klientoKlausimas;
 
-    $mail->send();
-    echo 'Message has been sent';
+
+   // !!!! laisko siuntimas
+   $msg = 'Success';
+    return json_encode($msg);
+   
+
 } catch (Exception $e) {
-    echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
-} finally  {
-    echo "visada kzkas suveiks";
+   $msg = 'Error';
+       return json_encode($msg);
 }
+
+ //    $mail->send();
+ // echo send($to, $subject, $message) ? '{"sended":true}':'{"sended":false}';
+ //      die();
+
+?>
+
