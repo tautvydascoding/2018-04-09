@@ -1,5 +1,4 @@
--- komentarai
--- kursime bloga, kuriam bus laikomi straipsniai
+-- komentarai kursime bloga, kuriam bus laikomi straipsniai
 CREATE DATABASE blogas;
 show databases;
 use blogas; -- nurodome su kuria DB dirbsime

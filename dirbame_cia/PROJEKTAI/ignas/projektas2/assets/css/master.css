@@ -1,0 +1,178 @@
+html, body { 
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #F8F9FA;
+}
+
+.veiksmas div {
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #F8F9FA;
+    background-color: #343A40;
+}
+.divpic {
+  overflow: hidden;
+}
+
+.object-fit-contain { 
+  object-fit: cover; 
+}
+
+.pic {
+  object-fit: cover;
+  width: 100%;
+}
+
+
+
+
+                                /*aukscio nustatymai*/
+.aukstis-100 {
+    height: 100px;
+}
+.aukstis-150 {
+    height: 150px;
+}
+.aukstis-200 {
+    height: 200px;
+}
+.aukstis-250 {
+    height: 250px;
+}
+.aukstis-300 {
+    height: 300px;
+}
+.aukstis-400 {
+    height: 400px;
+}
+.aukstis-500 {
+    height: 500px;
+}
+.plotis-100 {
+  width: 100%;
+}
+.sveiki {
+    margin-bottom: 5em;
+    margin-top: 5em;
+}
+.fablack {
+  color: #212529;
+}
+.copyright {
+  background-color: #D0D0D0;
+}
+form {
+  object-fit: contain;
+}
+
+                            /*paslaugos image hover*/
+
+.paslaugos {
+  position: relative;
+  width: 100%;
+  max-height: 100%;
+
+}
+
+.paslaugosFoto {
+  display: block;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #D0D0D0;
+}
+
+.paslaugos:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #4F4E4E;
+  font-size: 1.5vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+@media (max-width:  425px  ) {
+  .fas, .profile {
+    font-size: 20vw;
+  }
+}
+
+/*---stroke*/
+
+/* stroke */
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #fff;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+nav.fill ul li a {
+  transition: all 2s;
+}
+
+nav.fill ul li a:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+nav.fill ul li a:hover {
+  color: #aaa;
+  z-index: 1;
+}
+nav.fill ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
+/* Keyframes */
+@-webkit-keyframes fill {
+  0% {
+    width: 0%;
+    height: 1px;
+  }
+  50% {
+    width: 100%;
+    height: 1px;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    background: #D0D0D0;
+  }
+}
