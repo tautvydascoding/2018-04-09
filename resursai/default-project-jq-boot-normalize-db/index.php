@@ -13,14 +13,9 @@
 
 
     <body>
-        <h1> Isijunk   </h1>
- 
-        <div>
-            Paulius
-            <a class="btn btn-success"  href="template-edit.php?numeris=2">
-                Edite
-            </a>
-        </div>
+            <h1> Isijunk   </h1>
+
+
 
        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
         <script src="libs/jquery-3.2.1.min.js">     </script>

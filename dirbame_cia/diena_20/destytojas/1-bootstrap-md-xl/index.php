@@ -2,7 +2,8 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>iki 75 chars   </title>
+        <meta name="twitter:" content="">
         <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
         <link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.css">
 
@@ -13,14 +14,9 @@
 
 
     <body>
-        <h1> Isijunk   </h1>
- 
-        <div>
-            Paulius
-            <a class="btn btn-success"  href="template-edit.php?numeris=2">
-                Edite
-            </a>
-        </div>
+            <h1> Isijunk   </h1>
+
+
 
        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
         <script src="libs/jquery-3.2.1.min.js">     </script>

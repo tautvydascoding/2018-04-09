@@ -5,6 +5,9 @@ ant to failiuko, kuri nusiuntem mysql.exe
 spaudzima DPK - > Properties
 ....exe -u root -p
 
+// better, kad console ivesti LT galima butu
+-u root -p --default-character-set=utf8mb4
+
 pasisitkrinti:
 !!!
 1) isijungti MAMP

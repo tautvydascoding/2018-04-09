@@ -13,6 +13,11 @@ define( 'DB_VARDAS', 'hospital4' );
 // jungiames pr. DB  'hospital4'
  $connection = mysqli_connect( HOST, MYSQL_VARTOTOJAS, MYSQL_SLAPTAZODIS, DB_VARDAS);   // !!! jeigu pas jus pakeistas MYSQL PORT pvz:8889, reik nurodyt
 
+mysqli_set_charset($connection, 'utf8');
+// mysqli ini
+// character-set-server=utf8
+// collation-server=utf8_general_ci
+
  // f-ja
  function getPrisijungimas() {
      global $connection; // sioje f-joje naudosime blobalu kintamaji
@@ -92,7 +97,8 @@ function updateDoctor($nr, $vardas, $pavarde) {
                          ",
                   htmlspecialchars( $vardas, ENT_QUOTES, 'UTF-8' ),
                   htmlspecialchars( $pavarde, ENT_QUOTES, 'UTF-8' ),
-                  $nr
+                  htmlspecialchars( $nr, ENT_QUOTES, 'UTF-8' )
+
                  );
     // %s - s - string, f- (float) skaicius su kableliu
     // sprintf("Vakar %s isejo i %s" , $vardas, $vieta);

@@ -13,9 +13,7 @@ define( 'DB_VARDAS', 'hospital4' );
 // jungiames pr. DB  'hospital4'
  $connection = mysqli_connect( HOST, MYSQL_VARTOTOJAS, MYSQL_SLAPTAZODIS, DB_VARDAS);   // !!! jeigu pas jus pakeistas MYSQL PORT pvz:8889, reik nurodyt
 
-mysqli_set_charset($connection, 'utf8'); //!!! "utf8" be bruksnelio!!!
-// mysqli_set_charset($connection, 'utf8mb4'); //!!! "utf8" be bruksnelio!!!
-
+mysqli_set_charset($connection, 'utf8');
 // mysqli ini
 // character-set-server=utf8
 // collation-server=utf8_general_ci
