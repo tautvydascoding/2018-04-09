@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title> Kristes projektas Nr 1</title>
+        <title> Kristes projektas </title>
         <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
         <link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.css">
 
@@ -26,12 +26,12 @@
       <!-- start 1 container -->
       <div class="container-fluid">
         <!-- start 1 row -->
-        <div class="row header aukstis-100 bg-info">
+        <div class="row header aukstis-100">
 
           <!-- start 1 column -->
           <div class="col-md-11 d-flex align-items-center justify-content-center meniu">
             <!-- start Navigation -->
-            <ul class="nav bg-warning">
+            <ul class="nav">
               <li class="nav-item">
                 <a class="nav-link" href="index.php">Home</a>
               </li>

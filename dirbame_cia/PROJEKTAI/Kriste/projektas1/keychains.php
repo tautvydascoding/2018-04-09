@@ -10,8 +10,8 @@
   <!-- start 1 row -->
   <div class="row aukstis-100 d-flex align-items-center">
     <!-- start 1 column -->
-    <div class="col-md bg-info">
-      <h5>KEYCHAINS (suskaiciuoti automatiskai kieki ziedu ir isvesti skaiciu)</h5>
+    <div class="col-md">
+      <h5>KEYCHAINS</h5>
     </div>
     <!-- end 1 column -->
   </div>
@@ -25,11 +25,13 @@
   <!-- start 1 row -->
   <div class="row">
     <!-- start 1 column -->
-    <div class="col-md bg-danger">
+    <div class="col-md">
       <!-- kkaip apskaiciuoti automatiskai i pradzia ir igli, kad nereiktu ranka rasyti; -->
       <?php
-        for ($i=14; $i < 16; $i++) {
-          $keychains = getKeychains($i);
+        $keychains = getKeychains(); // matrica, kuri saugo skirtinguose stalciuose kiekvieno objekto info;
+        // var_dump($keychains);
+        for ($i=0; $i < count($keychains); $i++) {
+          $oneKeychain = $keychains[$i];
           include('template-category-keychains.php');
         }
       ?>

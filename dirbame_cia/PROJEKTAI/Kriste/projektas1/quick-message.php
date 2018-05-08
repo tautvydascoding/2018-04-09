@@ -1,6 +1,6 @@
 <?php
 
-var_dump($_POST);
+// var_dump($_POST);
 
 $klientoVardas = $_POST['vardas'];
 $klientoPastas = $_POST['pastas'];
@@ -31,7 +31,8 @@ try {
         $mail->Port = 465;                                      // TCP port to connect to
 
         //Server settings
-        $mail->SMTPDebug = 3;                                 // Enable verbose debug output
+        $mail->SMTPDebug = 0;                                 // Enable verbose debug output
+        // jeigu padarau 3 , tai isveda visa kelia;
         $mail->isSMTP();                                      // Set mailer to use SMTP
 
         $mail->SMTPAuth = true;                               // Enable SMTP authentication
@@ -51,10 +52,12 @@ try {
     $mail->AltBody = $klientoKlausimas;
 
 
+
 // !!!!!! sita eilute atsakinga uz laisko siuntima!!!!!!!
     $mail->send();
+// echo 'Laiskas issiustas!';
 
-    echo 'Laiskas issiustas!';
+
 } catch (Exception $e) {
     echo 'Nepavyko: ', $mail->ErrorInfo;
 }
@@ -62,15 +65,33 @@ try {
 // catch suveikia tik tada kai try dalyje ivyksta klaidu.
 // finally ivyksta bet kokiu atveju, kad ir kas nutiktu try dalyje;
 // finally {
-//   echo "Geros dienos!";
+//  code...
 // }
 
 
 include_once('functions.php');
 
-print_r( $_POST );
+// print_r( $_POST );
 
 $vard = $_POST['vardas'];
 $past = $_POST['pastas'];
 $klaus = $_POST['klausimas'];
 createQuickMessage($vard, $past, $klaus);
+
+// include_once('thank-you-qm.php');
+
+// header('Location:  thank-you.php');
+// exit();
+
+
+// !!!!!! issiaiskinti kaip cia veikia!!!!!!!
+    function redirect($url,$permanent = false)
+    {
+    	if($permanent)
+    	{
+    		header('HTTP/1.1 301 Moved Permanently');
+    	}
+    	header('Location: '.$url);
+    	exit();
+    }
+    redirect('thank-you-qm.php');

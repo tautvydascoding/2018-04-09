@@ -10,8 +10,8 @@
   <!-- start 1 row -->
   <div class="row aukstis-100 d-flex align-items-center">
     <!-- start 1 column -->
-    <div class="col-md bg-info">
-      <h5>BRACELETS (suskaiciuoti automatiskai kieki ziedu ir isvesti skaiciu)</h5>
+    <div class="col-md">
+      <h5>BRACELETS</h5>
     </div>
     <!-- end 1 column -->
   </div>
@@ -25,11 +25,12 @@
   <!-- start 1 row -->
   <div class="row">
     <!-- start 1 column -->
-    <div class="col-md bg-danger">
-      <!-- kaip apskaiciuoti automatiskai i pradzia ir igli, kad nereiktu ranka rasyti; -->
+    <div class="col-md">
       <?php
-        for ($i=4; $i < 14; $i++) {
-          $bracelets = getBracelets($i);
+        $bracelets = getBracelets(); // matrica, kuri saugo skirtinguose stalciuose kiekvieno obj info;
+        // var_dump($bracelets);
+        for ($i=0; $i < count($bracelets); $i++) {
+          $oneBracelet = $bracelets[$i];
           include('template-category-bracelets.php');
         }
       ?>

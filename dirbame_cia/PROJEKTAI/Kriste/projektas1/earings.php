@@ -10,8 +10,8 @@
   <!-- start 1 row -->
   <div class="row aukstis-100 d-flex align-items-center">
     <!-- start 1 column -->
-    <div class="col-md bg-info">
-      <h5>EARINGS (suskaiciuoti automatiskai kieki ziedu ir isvesti skaiciu)</h5>
+    <div class="col-md">
+      <h5>EARINGS</h5>
     </div>
     <!-- end 1 column -->
   </div>
@@ -25,11 +25,12 @@
   <!-- start 1 row -->
   <div class="row">
     <!-- start 1 column -->
-    <div class="col-md bg-danger">
-      <!-- kkaip apskaiciuoti automatiskai i pradzia ir igli, kad nereiktu ranka rasyti; -->
+    <div class="col-md">
       <?php
-        for ($i=16; $i < 18; $i++) {
-          $earings = getEarings($i);
+        $earings = getEarings(); // matrica, kuri saugo skirtinguose stalciuose kiekvieno objekto info;
+        // var_dump($earings);
+        for ($i=0; $i < count($earings); $i++) {
+          $oneEaring = $earings[$i];
           include('template-category-earings.php');
         }
       ?>
