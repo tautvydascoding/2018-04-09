@@ -24,112 +24,76 @@
 <main class="container main">
 
         <div class="sl">
-          <div class="sl__slide">
-            <img src="Images/megzta/karusele/1.jpg" alt="Slide picture 1" class="sl__img">
-            <div class="sl__text">
-              <h3 class="sl__zag"> Skraistės</h3>
-              <p class="slide__sec"> Megztos skraistės</p>
-            </div> <!-- slide text-->
-          </div><!-- slide close-->
+          <?php include_once('php_kodas.php');
+          $viskasMegzta = getKaruseleMegzta();
+
+          while ( $vienasMegzta = mysqli_fetch_assoc($viskasMegzta)  ) :
+            ?>
+
 
           <div class="sl__slide">
-            <img src="Images/megzta/karusele/2.jpg" alt="Slide picture 2" class="sl__img">
-            <div class="sl__text">
-              <h3 class="sl__zag"> Šlepetės</h3>
-              <p class="slide__sec"> Šaltoms žiemoms</p>
-            </div> <!-- slide text-->
+            <img src="<?php echo $vienasMegzta['img_src'] ?>" alt="<?php echo $vienasMegzta['alt_text'] ?>" class="sl__img">
+            <a href="darbai3.php#<?php echo $vienasMegzta['cat'] ?>">
+              <div class="sl__text">
+              <h3 class="sl__zag"> <?php echo $vienasMegzta['sub_cat'] ?></h3>
+              <p class="slide__sec"> <?php echo $vienasMegzta['description'] ?></p>
+              </div>
+            </a> <!-- slide text-->
           </div><!-- slide close-->
 
-          <div class="sl__slide">
-            <img src="Images/megzta/karusele/3.jpg" alt="Slide picture 3" class="sl__img">
-            <div class="sl__text">
-              <h3 class="sl__zag"> Megzti tapukai</h3>
-              <p class="slide__sec"> Patiems mažiausiems</p>
-            </div> <!-- slide text-->
-          </div><!-- slide close-->
 
-          <div class="sl__slide">
-            <img src="Images/megzta/karusele/4.jpg" alt="Slide picture 4" class="sl__img">
-            <div class="sl__text">
-              <h3 class="sl__zag"> Megztos suknelės</h3>
-              <p class="slide__sec"> Šiltos ir stilingos</p>
-            </div> <!-- slide text-->
-          </div><!-- slide close-->
-
-          <div class="sl__slide">
-            <img src="Images/megzta/karusele/5.jpg" alt="Slide picture 5" class="sl__img">
-            <div class="sl__text">
-              <h3 class="sl__zag"> Megztiniai</h3>
-              <p class="slide__sec"> Kalėdoms ir kitoms progoms</p>
-            </div> <!-- slide text-->
-          </div><!-- slide close-->
-
-          <div class="sl__slide">
-            <img src="Images/megzta/karusele/6.jpg" alt="Slide picture 6" class="sl__img">
-            <div class="sl__text">
-              <h3 class="sl__zag"> Šalikai ir pirštinės</h3>
-              <p class="slide__sec"> Lietuviškoms žiemoms</p>
-            </div> <!-- slide text-->
-          </div><!-- slide close-->
-
+          <?php  endwhile;  ?>
         </div> <!--slider close-->
 </main>
 
 <main class="container main mt-3">
 
         <div class="sl">
-          <div class="sl__slide">
-            <img src="Images/nerta/karusele/1.jpg" alt="Slide picture 1" class="sl__img">
-            <a href="darbai2.php#nerta"><div class="sl__text">
-              <h3 class="sl__zag"> Kuprinės</h3>
-              <p class="slide__sec"> Kokių tik nori spalvų!</p>
-            </div></a> <!-- slide text-->
-          </div><!-- slide close-->
+
+          <?php //include_once('php_kodas.php');
+          $viskasNerta = getKaruseleNerta();
+
+          while ( $vienasNerta = mysqli_fetch_assoc($viskasNerta)  ) :
+            ?>
 
           <div class="sl__slide">
-            <img src="Images/nerta/karusele/2.jpg" alt="Slide picture 2" class="sl__img">
-            <div class="sl__text">
-              <h3 class="sl__zag"> Krepšeliai</h3>
-              <p class="slide__sec"> Kasdien ir ne tik</p>
-            </div> <!-- slide text-->
+            <img src="<?php echo $vienasNerta['img_src'] ?>" alt="<?php echo $vienasNerta['alt_text'] ?>" class="sl__img">
+            <a href="darbai3.php#<?php echo $vienasNerta['cat'] ?>">
+              <div class="sl__text">
+              <h3 class="sl__zag"> <?php echo $vienasNerta['sub_cat'] ?></h3>
+              <p class="slide__sec"> <?php echo $vienasNerta['description'] ?></p>
+              </div>
+            </a> <!-- slide text-->
           </div><!-- slide close-->
 
-          <div class="sl__slide">
-            <img src="Images/nerta/karusele/3.jpg" alt="Slide picture 3" class="sl__img">
-            <div class="sl__text">
-              <h3 class="sl__zag"> Rankinės</h3>
-              <p class="slide__sec"> Platus priedų ir spalvų pasirinkimas</p>
-            </div> <!-- slide text-->
-          </div><!-- slide close-->
+    <?php  endwhile;  ?>
 
-          <div class="sl__slide">
-            <img src="Images/nerta/karusele/4.jpg" alt="Slide picture 4" class="sl__img">
-            <div class="sl__text">
-              <h3 class="sl__zag"> Delninukės</h3>
-              <p class="slide__sec"> Delninukės ar piniginės</p>
-            </div> <!-- slide text-->
-          </div><!-- slide close-->
-          <div class="sl__slide">
-            <img src="Images/nerta/karusele/5.jpg" alt="Slide picture 5" class="sl__img">
-            <div class="sl__text">
-              <h3 class="sl__zag"> Šlepetės</h3>
-              <p class="slide__sec"> Dekoracijos ir priedai pagal jūsų poreikius</p>
-            </div> <!-- slide text-->
-          </div><!-- slide close-->
 
-        </div> <!--slider close-->
+  </div> <!--slider of Nerta close-->
 </main>
 
-<main class="container main">
+<main class="container main mb-5">
 
-        <div class="sl">
+        <div class="sl mb-5">
+          <?php
+          $viskasSiuta = getKaruseleSiuta();
+
+          while ( $vienasSiuta = mysqli_fetch_assoc($viskasSiuta)  ) :
+            ?>
+
+
           <div class="sl__slide">
-            <img src="Images/siuta/karusele/1.jpg" alt="Slide picture 1" class="sl__img">
-            <a href="darbai2.php#siuta"><div class="sl__text">
-              <h3 class="sl__zag"> Sėdmaišiai</h3>
-              <p class="slide__sec"> Įvairių dydžių ir formų</p>
-            </div></a> <!-- slide text-->
+            <img src="<?php echo $vienasSiuta['img_src'] ?>" alt="<?php echo $vienasSiuta['alt_text'] ?>" class="sl__img">
+            <a href="darbai3.php#<?php echo $vienasSiuta['cat'] ?>">
+              <div class="sl__text">
+              <h3 class="sl__zag"> <?php echo $vienasSiuta['sub_cat'] ?></h3>
+              <p class="slide__sec"> <?php echo $vienasSiuta['description'] ?></p>
+              </div>
+            </a> <!-- slide text-->
           </div><!-- slide close-->
+
+
+          <?php  endwhile;  ?>
 
         </div> <!--slider close-->
 </main>

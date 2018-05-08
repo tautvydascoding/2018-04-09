@@ -1,5 +1,15 @@
 console.log( "labas as cia" );
 
+$('.card1').hover(function() {
+	$('.card1Text').toggle();
+});
+
+$('.card2').hover(function() {
+	$('.card2Text').toggle();
+});
+$('.card3').hover(function() {
+	$('.card3Text').toggle();
+});
 
 
 function validateForm1() {
@@ -68,6 +78,50 @@ function validateForm1() {
 }
 
 
+function validateForm2() {
+    var id = document.forms["update"]["id"].value;
+    var link = document.forms["update"]["link"].value;
+    var name = document.forms["update"]["name"].value;
+    var description = document.forms["update"]["description"].value;
+
+
+    var numbers = /^[0-9]+$/;
+    var letters = /^[A-Za-z]+$/;
+
+		if (id.value=="") {
+			alert("Irašykite id!");
+			return false;
+		}
+		if (id>100) {
+			alert("Id per didelis!");
+			return false;
+		}
+		if (id<0) {
+			alert("Id negali būt neigiamas!");
+			return false;
+		}
+		if (!id.match(numbers)) {
+			alert("Id naudokite tik skaičius!");
+			return false;
+		}
+		if (name=="") {
+			alert("įrašykite name!");
+			return false;
+		}
+
+    if (link == "") {
+      alert("Įrašykite link!");
+      return false;
+    }
+
+
+    if (description=="") {
+      alert("Įrašykite description");
+      return false;
+    }
+
+
+}
 
 
 

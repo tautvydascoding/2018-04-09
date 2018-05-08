@@ -80,7 +80,7 @@
             </div>  <!-- uzdarau fotoramos nerta row-->
 
             <div id="siuta" class="row">
-              <div class="col-sm-12 mt-5 bg-light rounded">
+              <div class="col-sm-12 mt-5 mb-5 bg-light rounded">
                 <h2>Siūtos gėrybės</h2>
                 <div class="fotorama" data-nav="thumbs">
 

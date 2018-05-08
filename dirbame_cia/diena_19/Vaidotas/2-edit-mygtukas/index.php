@@ -14,6 +14,12 @@
 
     <body>
             <h1> Isijunk   </h1>
+            <div class="">
+              Paulius
+              <a class="btn btn-secondary" href="template-edit.php?numeris=2">
+              EDIT</a>
+
+            </div>
 
 
 
