@@ -122,3 +122,6 @@ VALUES (1,'Images/megzta/1.jpg','megzta','Skraistės','Stilinga skraistė',35,8)
     VALUES ("etynga", "agnyte123", "etynga.mezga@gmail.com","admin");
     INSERT INTO users (name, password, email, type)
     VALUES ("admin", "admin", "etynga.mezga@gmail.com","admin");
+
+
+    UPDATE draugai SET link = 'linkas', name = 'vardux', description = 'aprašas' WHERE id = '8' LIMIT 1;

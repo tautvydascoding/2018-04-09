@@ -1,4 +1,9 @@
-<?php include('server.php') ?>
+<?php include('server.php'); ?>
+<?php   if (isset($_GET['logout'])) {
+  session_destroy();
+  unset($_SESSION['username']);
+
+}?>
 
 
 <!DOCTYPE html>
@@ -19,11 +24,11 @@
       <?php include('headeris2.php') ?>
 
 
-<div class="container">
+<div class="container mb-5">
   <main class="row">
 
 
-    <div class="col-md-12 plotis-45">
+    <div class="col-md-6 plotis-45 mx-auto">
 
 
       <form id="prisijungimas" name="prisijungimas" action="prisijungimas.php" method="post">
@@ -36,7 +41,7 @@
   	      </div>
 
   	        <div class="input-group">
-  		      <label>Slaptazodis</label>
+  		      <label>Slaptažodis</label>
   		    <input type="password" name="password">
   	     </div>
 

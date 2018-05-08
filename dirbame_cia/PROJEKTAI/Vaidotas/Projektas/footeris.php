@@ -2,9 +2,9 @@
     <div class="row">
 
       <div class="col-md-5 float-kaire plotis-max-45">
-        <a href="https://www.facebook.com" class="fa fa-facebook"></a>
-        <a href="https://www.twitter.com" class="fa fa-twitter"></a>
-        <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+        <a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a>
+        <a href="https://www.twitter.com" class="fa fa-twitter" target="_blank"></a>
+        <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a>
       </div>
 
       <div class="col-md-7 float-desine plotis-max-45">

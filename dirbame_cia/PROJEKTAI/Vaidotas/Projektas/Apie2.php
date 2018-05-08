@@ -16,7 +16,7 @@
 
 <?php include('headeris2.php') ?>
 
-            <main class="container mt-5 pt-5">
+            <main class="container mt-5 pt-5 mb-5">
               <div class="row">
               <div class="col-md-12 mb-5 aukstis-400">
 
@@ -28,10 +28,10 @@
 
                   <article class="col-lg-3">
                     <div class="card mb-2">
-                          <div class="card-header">
+                          <div class="card-header card1">
                             <h2>Kas Aš?</h2>
                           </div>
-                          <div class="card-body">
+                          <div class="card-body card1Text">
                             <blockquote class="blockquote mb-0">
                               <p>Aš Etynga! </p>
                             </blockquote>
@@ -40,10 +40,10 @@
                   </article>
                   <article class="col-lg-3 ">
                     <div class="card mb-2">
-                          <div class="card-header">
+                          <div class="card-header card2">
                             <h2>Ką Aš darau?</h2>
                           </div>
-                          <div class="card-body">
+                          <div class="card-body card2Text">
                             <blockquote class="blockquote mb-0">
                               <p>Gebu savo letenėlėmis paimti gėrį ir neriant, mezgant ar siūnant suteikti Jūsų gėriui norimą formą!</p>
                             </blockquote>
@@ -53,9 +53,9 @@
                   <article class="col-lg-3 mb-5">
                     <div class="card mb-2">
 
-                          <h2 class="card-header">Kodėl Aš tai darau?</h2>
+                          <h2 class="card-header card3">Kodėl Aš tai darau?</h2>
 
-                          <div class="card-body">
+                          <div class="card-body card3Text">
                             <blockquote class="blockquote mb-0">
                               <p>Nes man teikia džiaugsmą žmonių šypsenos, kai jie pamato šiltą, mano rankomis kurtą daiktą, kuris buvo pagamintas būtent <strong> JAM </strong> <br /> </p>
                             </blockquote>

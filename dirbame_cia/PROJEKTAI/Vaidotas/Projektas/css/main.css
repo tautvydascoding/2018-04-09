@@ -5,7 +5,9 @@
     padding: 0;
 }
 /* karuseles  */
-
+.card1Text, .card2Text, .card3Text{
+  display:none;
+}
 img{
   max-width: 100%;
   height: auto;
@@ -329,8 +331,8 @@ iframe{
 }
 
 .header {
-  width: 30%;
-  margin: 50px auto 0px;
+  width: 100%;
+  margin: 25px auto 0px;
   color: white;
   background: #5F9EA0;
   text-align: center;
@@ -340,9 +342,9 @@ iframe{
   padding: 20px;
 }
 #prisijungimas, .content {
-  width: 30%;
-  margin: 0px auto;
-  padding: 20px;
+  width: 100%;
+  margin: 5px auto;
+  padding: 15px;
   border: 1px solid #B0C4DE;
   background: white;
   border-radius: 0px 0px 10px 10px;
@@ -385,7 +387,7 @@ iframe{
   color: #3c763d;
   background: #dff0d8;
   border: 1px solid #3c763d;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 
@@ -470,15 +472,15 @@ iframe{
    border-radius: 0.25rem;
  }
  .logotipas{
-   width: 8rem;
-   margin-bottom: -5rem;
+   width: 6rem;
+   margin-bottom: -4rem;
  }
 
 #myScrollspy{
   display: none;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 420px) {
     #navigacija-top > a{
     text-decoration: none;
     font-size: 1rem;
@@ -558,6 +560,6 @@ iframe{
    }
 
    .logotipas{
-     width: 6rem;
+     width: 4rem;
      margin-bottom: -4.5rem;
    }

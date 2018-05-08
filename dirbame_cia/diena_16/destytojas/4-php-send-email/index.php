@@ -26,7 +26,7 @@
             <input type="email" name="pastas"  required>  <br />
 
             <input type="submit" name="" value="Klausti">
-        </form>
+        </form> 
 
 
 
