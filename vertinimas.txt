@@ -16,7 +16,7 @@ Baigiamasis:
 0.2 vector icons
 0.3 js efektai (max. 1.5)
 
- iki 0.8 js formos tikrinimas )validator)  
+ iki 0.8 js formos tikrinimas (validation)  
  
 //——————Back End  (PHP)——————————————————
 0.5 ajax (gauti duomenis, pvz: “Load more”) !naudojant jQuery ! Nenaudjant Load f-jos

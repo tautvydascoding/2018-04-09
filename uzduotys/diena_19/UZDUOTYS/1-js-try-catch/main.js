@@ -1,5 +1,6 @@
 try {
     var x = -2;
+    // console.log(x);
     if( x <= 0 ) {
     	throw "vartotojas bando pirkti minus prekiu";
     }
