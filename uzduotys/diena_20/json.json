@@ -1,0 +1,8 @@
+{
+    name: "tomas",
+    age: 21,
+    vaikas: {
+            vardas: "jurgis",
+            klase: '7b'
+        }
+}
